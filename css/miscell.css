@@ -1,0 +1,1836 @@
+@charset "utf-8";
+/***************男子个人全能***************/
+.go_all{ overflow: hidden; width: 16rem; margin: 0 auto;}
+.go_all dl{
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+}
+.go_all .go_all_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.go_all dl:nth-child(3){
+    background: #b6dfff;
+    border-bottom: 1px solid #cacaca;
+}
+
+.go_all dt span{
+    overflow: hidden;
+   display: block;
+    float: left;
+    height: 1.4rem;
+}
+.go_all .go_all_span01{
+    width: 1rem;
+    margin-left: .55rem;
+    font: .9rem/1.4rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.go_all .go_all_span02{
+    width: 1rem;
+    margin-left: .55rem;
+    font: .9rem/1.4rem 'Microsoft YaHei'; color: #333;
+}
+
+.go_all dt img:nth-child(2){
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .25rem 0 0 .2rem;
+}
+.go_all dt span:nth-child(3){
+    width: 10rem;
+    margin-left: .6rem;
+    font: .45rem/1.4rem 'Microsoft YaHei'; color: #333;
+}
+.go_all dt span:nth-child(4){
+    float: right;
+    width: 1rem;
+    margin-right: .75rem;
+    font: .7rem/1.4rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: right;
+}
+.go_all dd{
+    clear: both;
+}
+.go_all_dd01{ padding-left: 1.7rem;}
+.go_all_dd01 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2.05rem;
+    font: .5rem/1rem 'Microsoft YaHei'; color: #333;
+    text-indent: .1rem;
+}
+.go_all_dd01 span:last-child{
+    float: right;
+    width: 1.2rem;
+    margin-right: .75rem;
+    text-align: right;
+}
+.go_all_dd02{ padding-left: .55rem}
+.go_all_dd02 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #666;
+}
+.go_all_dd02 span:nth-child(1){
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 1.2rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #666;
+}
+.go_all_dd03{ padding-left: .55rem}
+.go_all_dd03 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.go_all_dd03 span:nth-child(1){
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 1.2rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.go_all_dd04{
+    float: right;
+    margin: -0.5rem .75rem 0 0;
+    font: .5rem/.9rem 'Microsoft YaHei'; color: #ff7003;
+}
+
+/*************体操女子团体**************/
+.teshu_title{
+    position: relative;
+    width: 12.75rem;
+    padding: 0  .9rem 0 1rem;
+    height: 1.3rem;
+    float: left;
+    margin: -.35rem 0 0 1.1rem;
+    background: url(../images/title_bg02.png) center top no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.teshu_title p{ float: left; max-width: 7.4rem; max-height: 1.4rem;}
+.teshu_title p span{
+    font: .6rem/1.4rem 'Microsoft YaHei'; color: #00a1ec;
+
+}
+.teshu_title div{ float: right; max-width: 7.4rem; max-height: 1.4rem;}
+.teshu_title div span{
+    font: .45rem/1.4rem 'Microsoft YaHei'; color: #333;
+}
+.teshu_title div img{
+    display: inline-block;
+    width: .65rem;
+    height: .65rem;
+    margin: .55rem 0.05rem 0 .15rem;
+}
+.posi{
+    position: absolute;
+    width: .85rem;
+    height: .9rem;
+    left: 1.5rem;
+    top: -0.9rem;
+    z-index: 999;
+}
+.doing03{
+    overflow: hidden;
+    width: 14.9rem;
+    height: 1.35rem;
+    margin: 0 auto;
+}
+.doing03 img{
+    width: 14.9rem;
+    height: 1.35rem;
+}
+.go_allGirl{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.go_allGirl dl{
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: .25rem;
+}
+.go_allGirl dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.go_allGirl .go_allGirl_hover{
+    overflow: hidden;
+    background: #b6dfff;
+    margin-bottom: 1px;
+    border-bottom: none;
+    padding-bottom: .25rem;
+}
+.go_allGirl dt img:nth-child(1){
+    float: left;
+    width: .95rem;
+    height: .95rem;
+    margin: .2rem .25rem 0 .55rem;
+}
+.go_allGirl dt img:nth-child(2){
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin-top: .25rem;
+}
+.go_allGirl dt span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 1.4rem;
+}
+.go_allGirl dt span:nth-child(3){
+    width: 10rem;
+    margin-left: .6rem;
+    font: .45rem/1.4rem 'Microsoft YaHei'; color: #333;
+}
+.go_allGirl dt span:nth-child(4){
+    float: right;
+    width: 1rem;
+    margin-right: .75rem;
+    font: .7rem/1.4rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: right;
+}
+.go_allGirl dd{
+    clear: both;
+}
+.go_allGirl_dd01 span{
+    display: block;
+    float: left;
+    width: 3.05rem;
+    font: .5rem/.7rem 'Microsoft YaHei'; color: #666;
+    text-align: center;
+}
+.go_allGirl_dd01 span:nth-child(1){
+   margin-left: 2rem;
+}
+.go_allGirl_dd01 span:last-child{
+   width: 1.25rem;
+}
+.go_allGirl_dd02 span{
+    display: block;
+    float: left;
+    width: 2.925rem;
+    font: .5rem/.7rem 'Microsoft YaHei'; color: #333;
+    text-align: center;
+}
+.go_allGirl_dd02 .go_allGirl_span01{
+    color: #00a1ec;
+}
+
+.go_allGirl_dd02 .go_allGirl_span01{
+    color: #00a1ec;
+}
+.go_allGirl_dd02 span:nth-child(1){
+    margin-left: 2rem;
+}
+.go_allGirl_dd03{
+    width: 16rem;
+    height: .1rem;
+    padding: .15rem 0 .25rem 0;
+}
+.go_allGirl_dd03 img{
+    width: 16rem;
+    height: .1rem;
+}
+.go_allGirl ul{
+    float: left;
+    width: 13rem;
+}
+.go_allGirl li{
+    clear: both;
+}
+.go_allGirl_li01 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 3.25rem;
+    height: 1rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #333;
+}
+.go_allGirl_li01 span:nth-child(1){
+  width: 3.2rem;
+    text-indent: .55rem;
+}
+.go_allGirl_li02 span{
+    font: .45rem/1rem 'Microsoft YaHei'; color: #666;
+}
+.go_allGirl_li03 span{
+    font: .45rem/1rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.go_allGirl p{
+    overflow: hidden;
+    width: 2.25rem;
+    height: 3rem;
+    float: right;
+    margin-right: .75rem;
+    font: .5rem/3rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: right;
+}
+.go_allGirl .go_all_span02{
+    display: block;
+    float: left;
+    width: 1.8rem;
+    font: .9rem/1.4rem 'Microsoft YaHei'; color: #333;
+    text-indent: .55rem;
+}
+
+/****************皮划艇*****************/
+.canoeing{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.canoeing_title{
+    height: 1rem;
+}
+.canoeing_title span{
+    display: block;
+    float: left;
+    font: .65rem/1rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.canoeing_title span:nth-child(1){
+  margin-left: 6.85rem;
+}
+.canoeing_title span:nth-child(2){
+    margin-left: 2.15rem;
+}
+
+.canoeing dl{
+    overflow: hidden;
+    height: 2rem;
+    background: #fff;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+}
+.canoeing dl:nth-child(4){
+    border-bottom: 1px solid #cacaca;
+}
+.canoeing .canoeing_hover{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.canoeing dt{
+    float: left;
+    width: 3.1rem;
+}
+.canoeing dt span{
+    display: block;
+    float: left;
+    margin-left: .7rem;
+    font: .9rem/2rem 'Microsoft YaHei'; color: #333;
+}
+.canoeing .canoeing_hover dt span{
+    display: block;
+    float: left;
+    margin-left: .7rem;
+    font: .9rem/2rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.canoeing dt img{
+    display: block;
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .55rem 0 0 .4rem;
+    font: .9rem/2rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.canoeing dd{
+    float: left;
+}
+.canoeing dd p{
+    float: left;
+    width: 3.2rem;
+    height: 2rem;
+}
+.canoeing dd p:nth-child(1){
+    float: left;
+    width: 3.25rem;
+    height: 2rem;
+}
+
+.canoeing dd p span:nth-child(1){
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 1rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #333333;
+}
+.canoeing dd p span:nth-child(2){
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 1rem;
+    font: .5rem/1rem 'Microsoft YaHei'; color: #666666;
+}
+.canoeing dd .canoeing_p span:nth-child(2){
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 1rem;
+    font: .5rem/1rem 'Microsoft YaHei'; color: #ff7003;
+}
+
+/***************女子三米跳板***************/
+.diving{ overflow: hidden; width: 16rem; margin: 0 auto;}
+.diving dl{
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: .2rem;
+}
+.diving dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+
+.diving .diving_hover{
+   background: #b6dfff;
+    border-bottom: none;
+}
+.diving .go_all_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.diving dl:nth-child(3){
+    background: #b6dfff;
+    border-bottom: 1px solid #cacaca;
+}
+
+.diving dt span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 1.25rem;
+}
+.diving .diving_span01{
+    width: 1rem;
+    margin-left: .55rem;
+    font: .9rem/1.25rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.diving .diving_span02{
+    width: 1rem;
+    margin-left: .55rem;
+    font: .9rem/1.25rem 'Microsoft YaHei'; color: #333;
+}
+
+.diving dt img:nth-child(2){
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .1rem 0 0 .2rem;
+}
+.diving dt span:nth-child(3){
+    width: 10rem;
+    margin-left: .6rem;
+    font: .45rem/1.25rem 'Microsoft YaHei'; color: #333;
+}
+.diving dt span:nth-child(4){
+    float: right;
+    width: 1rem;
+    margin-right: .75rem;
+    font: .7rem/1.25rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: right;
+}
+.diving dd{
+    clear: both;
+}
+.diving_dd01{ padding-left: .6rem;}
+.diving_dd01 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2.225rem;
+    font: .5rem/.8rem 'Microsoft YaHei'; color: #666;
+}
+.diving_dd01 span:last-child{
+    width: 1.2rem;
+    float: right;
+    margin-right: .75rem;
+   text-align: center;
+}
+.diving_dd02{ padding-left: .55rem}
+.diving_dd02 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2.225rem;
+    font: .45rem/.7rem 'Microsoft YaHei'; color: #333;
+}
+
+.diving_dd03{ padding-left: .55rem}
+.diving_dd03 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2.225rem;
+    font: .45rem/.8rem 'Microsoft YaHei'; color: #ff7003;
+}
+.diving_dd03 span:last-child{
+    overflow: hidden;
+    display: block;
+    float: right;
+    width: 2.3rem;
+    font: .45rem/.8rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: center;
+}
+
+/************男子花剑***************/
+.foil{
+    overflow: hidden;
+    width: 16rem;
+    margin: .6rem auto 0 auto;
+    border-bottom: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+    background: #fff;
+}
+.foil01{
+    float: left;
+    width: 6.1rem;
+    text-align: center;
+}
+.foil01 dd span{
+    font: .45rem/1rem 'Microsoft YaHei'; color: #333333;
+}
+.foil01 dd{
+    line-height: 1rem;
+}
+.foil01 dd em{
+    font: .45rem/1rem 'Microsoft YaHei'; color: #ff7003;
+}
+.foil01 dt img{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.foil01 .foil_dd04
+{
+    font: .6rem/.8rem 'Microsoft YaHei'; color: #00a1ec;
+    margin: .8rem 0 .8rem 0;
+
+}
+.foil01 .foil_dd03
+{
+    font: .55rem/.7rem 'Microsoft YaHei'; color: #333333;
+    margin: .6rem 0 .9rem 0;
+}
+
+.Boxing_dl02{
+    overflow: hidden;
+    float: left;
+    width: 3.8rem;
+    margin:  0 .0rem;
+}
+.Boxing_dl02 dt{
+    font: .75rem/1.8rem 'Microsoft YaHei';
+    color: #ff6d00;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.foil_box{
+    margin: 0 1.15rem 0 1.15rem;
+}
+.foil_box dt{
+    margin-bottom: .15rem;
+}
+.scores_boxing{
+    width: 3.5rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    background: url(../images/scores.png) center top no-repeat;
+    background-size: 3.5rem 1.3rem;
+    text-align: center;
+    line-height: 1.3rem;
+    font: .9rem/1.3rem 'Microsoft YaHei';
+}
+.scores_boxing span{
+    font: .9rem/1.3rem 'Microsoft YaHei';
+    text-align: center;
+    color: #fff;
+}
+.Boxing_dl04_dd{ text-align: center;}
+.Boxing_dl04_dd span{
+    font: .6rem/2.3rem 'Microsoft YaHei';
+    color: #19b6ff;
+}
+.foil_x{
+    clear: both;
+    overflow:hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.foil_x p{
+    font: .7rem/1rem 'Microsoft YaHei';
+    color: #19b6ff;
+    text-align: center;
+    margin: .65rem 0 .5rem 0;
+}
+.foil_x dl{
+    overflow: hidden;
+}
+.foil_x dt{
+    overflow: hidden;
+    padding-left: 4rem;
+    margin-bottom: .05rem;
+}
+.foil_x dt span{
+    display: block;
+    float: left;
+    width: 2.5rem;
+    height: 1rem;
+    text-align: center;
+    font: .7rem/ 1rem 'Microsoft YaHei';
+    color: #333;
+}
+.foil_x dt .foil_x_span01{
+    font: .6rem/ 1rem 'Microsoft YaHei';
+    color: #19b6ff;
+}
+.foil_x dt .foil_x_span02{
+    width: .75rem;
+    height: 1rem;
+    margin: 0 .875rem;
+    background: #ffa800;
+    border-radius: .1rem;
+}
+.foil_x dt .foil_x_span03{
+    width: .75rem;
+    height: 1rem;
+    margin: 0 .875rem;
+    background: #de2910;
+    border-radius: .1rem;
+}
+.foil_x dt .foil_x_span04{
+    width: .75rem;
+    height: 1rem;
+    margin: 0 .875rem;
+    background: #333333;
+    border-radius: .1rem;
+}
+.foil_x dd{
+    clear: both;
+}
+.foil_x dd img{
+    float: left;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.35rem 2.05rem 0 2rem;
+    border-radius: 50%;
+}
+.foil_x dd span{
+    float: left;
+    display: block;
+    width: 2.5rem;
+    height: 1.7rem;
+    font: .7rem/ 1.7rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.foil_x .line_dl {
+    width: 16rem;
+    height: .1rem;
+    background: url(../images/lione04.png) center top no-repeat;
+    background-size: 100% 100%;
+}
+.foil_x_dl{
+    margin-top: 1rem;
+}
+
+/***************男子花剑团体***************/
+.foil_all{
+    overflow: hidden;
+    width: 16rem;
+    margin: .75rem auto 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+}
+.foil_Dl01{
+    float: left;
+    width: 4.2rem;
+    margin-left: .75rem;
+}
+.foil_all_dd01{
+    overflow: hidden;
+    width: 100%;
+    height: .6rem;
+    margin-bottom: .4rem;
+    font: .55rem/ .6rem 'Microsoft YaHei';
+}
+.foil_all_dd01 span{
+    font: .55rem/ .6rem 'Microsoft YaHei';
+    color: #333;
+}
+.foil_all_dd01 em{
+    font: .55rem/ .6rem 'Microsoft YaHei';
+    color: #ff6d00;
+    margin-left: .4rem;
+}
+.foil_all_dd02{
+    overflow: hidden;
+   width: 4rem;
+    height: 1.2rem;
+    padding-right: .2rem;
+     font: .55rem/ 1.2rem 'Microsoft YaHei';
+    color: #333;
+    text-align: right;
+}
+.foil_Dl01 dt{
+    height: 1.1rem;
+    margin-top: .25rem;
+}
+.foil_Dl01 dt img{
+   width: 1.1rem;
+    height: 1.1rem;
+    float: right;
+    margin: 0 .2rem 0 0;
+}
+.foil_all_dd03{
+    overflow: hidden;
+    width: 4rem;
+    height: 1.2rem;
+    padding-left: .2rem;
+    font: .55rem/ 1.2rem 'Microsoft YaHei';
+    color: #333;
+    text-align: left;
+}
+.foil_Dl02{
+    margin: 0;
+}
+.foil_Dl02 dt img{
+    width: 1.1rem;
+    height: 1.1rem;
+    float: left;
+    margin: 0 0 0 .2rem;
+}
+.foil_x li{
+    overflow: hidden;
+    width: 100%;
+    float: left;
+}
+.foil_x_li01{
+    height: 1.1rem;
+    padding-top: .3rem;
+}
+.foil_x_li01 img{
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+}
+.foil_x_li01 img:nth-child(1){
+    float: left;
+    margin-left: 2.15rem;
+}
+.foil_x_li01 img:nth-child(2){
+    float: right;
+    margin-right: 2.15rem;
+}
+.foil_x_li02{
+    height: 1.25rem;
+    margin-top: -.4rem;
+    font: .7rem/ 1.25rem 'Microsoft YaHei';
+    color: #00a1ec;
+    border-bottom: 1px solid #cacaca;
+    text-align: center;
+}
+.foil_x_li04{
+    height: 1.25rem;
+    font: .7rem/ 1.25rem 'Microsoft YaHei';
+    color: #00a1ec;
+    border-bottom: 1px solid #cacaca;
+    text-align: center;
+}
+
+.foil_x_li03{
+    background: #fff;
+    height: 1.5rem;
+    border-bottom: 1px solid #cacaca;
+}
+.foil_x_li03 span:nth-child(1)
+{
+    overflow: hidden;
+    float: left;
+    width: 5rem;
+    height: 1.5rem;
+    margin-left: 1.25rem;
+    font: .6rem/ 1.5rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.foil_x_li03 span:nth-child(3)
+{
+    overflow: hidden;
+    float: left;
+    width: 6.35rem;
+    height: 1.5rem;
+    font: .6rem/ 1.5rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: center;
+}
+
+.foil_x_li03 div{
+    float: left;
+    width: 3.4rem;
+    font: .75rem/ 1.5rem 'Microsoft YaHei';
+    text-align: center;
+}
+.foil_x_li03 div font{
+    font: .75rem/ 1.5rem 'Microsoft YaHei'; color: #ff6d00;
+}
+.foil_x_li03 div font:nth-child(2){
+   margin: 0 .2rem;
+}
+.foil_x_dl02{
+    margin-top: .5rem;
+}
+
+/****************马术个人三项比赛******************/
+.Equestrian{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.Equestrian_p{
+    padding-left: 3.5rem;
+    font: .45rem/ 1rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.Equestrian_p span{
+    margin-left: .75rem;
+    font: .45rem/ 1rem 'Microsoft YaHei'; color: #00a1ec;
+
+}
+.Equestrian dl{
+    overflow: hidden;
+    width: 100%;
+    height: 2.5rem;
+    background: #fff;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+}
+.Equestrian dl:nth-child(4){
+    border-bottom: 1px solid #cacaca;
+}
+
+.Equestrian .Equestrian_hover{
+    background: #b6dfff;
+    border: none;
+}
+.Equestrian dt{
+    float: left;
+    overflow: hidden;
+    height: 1.5rem;
+    font: .6rem/ 1.5rem 'Microsoft YaHei';
+}
+.Equestrian dt span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 1.5rem;
+}
+.Equestrian dt span:nth-child(1){
+   width: 1.8rem;
+    font: .9rem/ 1.5rem 'Microsoft YaHei'; color: #333;
+    text-align:center;
+}
+.Equestrian .Equestrian_hover dt span:nth-child(1){
+    width: 1.8rem;
+    font: .9rem/ 1.5rem 'Microsoft YaHei'; color: #00a1ec;
+    text-align:center;
+}
+
+.Equestrian dt img:nth-child(2){
+    float: left;
+  width: .9rem;
+  height: .9rem;
+  margin: .3rem .275rem 0 0;
+}
+.Equestrian dt span:nth-child(3){
+    width: 3.05rem;
+    font: .45rem/ 1.5rem 'Microsoft YaHei'; color: #333;
+}
+.Equestrian dt span:nth-child(4){
+    width: 8rem;
+    font: .45rem/ 1.5rem 'Microsoft YaHei'; color: #666;
+}
+.Equestrian dt span:nth-child(5){
+    float: right;
+    width: 1rem;
+    margin-right: .8rem;
+    font: .7rem/ 1.5rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: right;
+}
+.Equestrian dd{
+    float: left;
+    overflow: hidden;
+    height: .9rem;
+    margin-top: -0.1rem;
+    font: .45rem/ .9rem 'Microsoft YaHei';
+}
+.Equestrian dd span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2.05rem;
+    height: .9rem;
+    margin-left: .45rem;
+    font: .4rem/ .9rem 'Microsoft YaHei'; color: #666;
+}
+.Equestrian dd span:nth-child(1){
+    width: 3.85rem;
+    text-align: right;
+    margin-left: 0;
+}
+.Equestrian dd span:last-child{
+    margin-left: 0;
+    float: right;
+    font: .45rem/ .9rem 'Microsoft YaHei'; color: #00a1ec;
+    text-align: center;
+}
+
+/****************马术个人场地障碍赛****************/
+.ath_boy02 span{
+    display: block;
+    width: 6.6rem;
+    height: 1.25rem;
+    padding-right: .9rem;
+    margin: .65rem auto 0 auto;
+    background:url(../images/cilick.png) 5.4rem .475rem no-repeat;
+    background-size: .5rem .3rem;
+    font: .6rem/1.25rem 'Microsoft YaHei';
+    color: #00a1ec;
+    cursor: pointer;
+    text-align: center;
+    border: .075rem solid #00a1ec;
+    border-radius: 0.2rem;
+}
+.ath_boy02 a{
+    display: none;
+    width: 6.6rem;
+    height: 1.25rem;
+    padding-top: .1rem;
+    margin: -0.2rem auto 0 auto;
+    border: .075rem solid #00a1ec;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    border-top: none;
+    font: .6rem/1.25rem 'Microsoft YaHei'; color: #ff6d00;
+    text-indent: .6rem;
+}
+.equ_sec{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.equ_sec dl{
+    overflow: hidden;
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+}
+.equ_sec dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+
+.equ_sec .equ_sec_hover{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.equ_sec_dd01{
+    float: left;
+    width: 2.3rem;
+    font: .75rem/2rem 'Microsoft YaHei'; color: #333;
+    text-align: center;
+}
+.equ_sec_hover .equ_sec_dd01{
+   color: #19b6ff;
+}
+
+.equ_sec dt{
+    float: left;
+    width: 6.8rem;
+}
+.equ_sec dt img{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .55rem .4rem 0 0;
+}
+.equ_sec dt div{
+    overflow: hidden;
+    float: left;
+    width: 5.5rem;
+}
+.equ_sec dt div span:nth-child(1){
+    overflow: hidden;
+    display: block;
+    width: 5.5rem;
+    height: .6rem;
+    font: .45rem/.6rem 'Microsoft YaHei'; color: #333;
+    margin-top: .4rem;
+}
+.equ_sec dt div span:nth-child(2){
+    overflow: hidden;
+    display: block;
+    width: 5.5rem;
+    height: 1rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #666;
+}
+.equ_sec_dd02{
+    float: left;
+    width: 2.6rem;
+    font: .6rem/2rem 'Microsoft YaHei'; color: #19b6ff;
+    text-align: left;
+}
+.equ_sec_dd03{
+    float: left;
+    width: 4.3rem;
+    font: .6rem/2rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: center;
+}
+.ath_taking02 a:nth-child(1){
+    margin-left: .3rem;
+    margin-right: 2rem;
+}
+.ath_taking02 a:nth-child(2){
+    margin-right: 2.1rem;
+}
+
+/*************马术三项团体*****************/
+.equ_pub{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.equ_pub ul{
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    padding-top: .25rem;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+}
+.equ_pub ul:nth-child(4){
+    border-bottom: 1px solid #cacaca;
+}
+
+.equ_pub .equ_pub_hover{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.equ_pub li{
+    clear: both;
+}
+.equ_pub_li01 span:nth-child(1)
+{
+    display: block;
+    float: left;
+    width: .85rem;
+    height: 1rem;
+    margin-left: .85rem;
+    font: .9rem/1rem 'Microsoft YaHei'; color: #333333;
+}
+.equ_pub_hover .equ_pub_li01 span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.equ_pub_li01 img:nth-child(2)
+{
+    display: block;
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin:.05rem .4rem 0 0;
+}
+.equ_pub_li01 span:nth-child(3)
+{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 12.5rem;
+    height: 1rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #333;
+}
+.equ_pub_li01 span:nth-child(5)
+{
+	display:block;
+	float:left;
+	font: .7rem/1rem 'Microsoft YaHei';
+    color:#f26b1a;
+    margin-left:1.25rem;
+}
+
+.equ_pub_li02 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2.05rem;
+    margin-left: .45rem;
+    font: .4rem/.9rem 'Microsoft YaHei'; color: #666;
+}
+.equ_pub_li02 span:nth-child(1){
+    width: 3.6rem;
+    text-align: center;
+    margin: 0 .4rem 0 0;
+    font: .45rem/.9rem 'Microsoft YaHei'; color: #666;
+}
+
+.equ_pub_li02 span:last-child{
+    margin-left: 0;
+    float: right;
+    width: 1.8rem;
+    font: .7rem/ .9rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: left;
+}
+.equ_pub_li03{
+    width: 13rem;
+    padding-left: 3rem;
+    font: .45rem/.6rem 'Microsoft YaHei'; color: #333;
+    text-align: left;
+}
+
+/*****************团体障碍赛第二轮*********************/
+.Equestrian_p02{
+    width: 11rem;
+    padding-left: 4.55rem;
+    font: .45rem/ 1rem 'Microsoft YaHei';
+}
+.Equestrian_p02 span {
+    margin-left: .45rem;
+    font: .45rem/ 1rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.Equestrian_p03 span {
+    margin-left: .45rem;
+    font: .45rem/ 1rem 'Microsoft YaHei';
+    color: #00a1ec;
+    display:block;
+    float:left;
+}
+.Equestrian_p03 span:nth-child(3) {
+    margin-left:.8rem;
+}
+.Equestrian_p03 span:nth-child(5) {
+    margin-left:.75rem;
+}
+
+.Equestrian_p02 span:nth-child(1){
+    margin-right: .45rem;
+    font: .45rem/ 1rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.obstacle{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.obstacle ul{
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    padding-bottom: .35rem;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #cacaca;
+}
+.obstacle ul:nth-child(4){
+    border-bottom: 1px solid #cacaca;
+}
+
+.obstacle .obstacle_hover{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.obstacle li{
+    clear: both;
+}
+.obstacle_li01 span:nth-child(1)
+{
+    display: block;
+    float: left;
+    width: 1.9rem;
+    height: 1.4rem;
+    font: .9rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+    text-align: center;
+}
+.obstacle_hover .obstacle_li01 span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.obstacle_li01 img:nth-child(2)
+{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+   margin: .25rem .5rem 0 0;
+}
+.obstacle_li01 span:nth-child(3)
+{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 11.2rem;
+    height: 1.4rem;
+    font: .6rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+}
+.obstacle_li01 span:nth-child(4)
+{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 1.5rem;
+    height: 1.4rem;
+    font: .75rem/ 1.4rem 'Microsoft YaHei';
+    color: #ff7003;
+    text-align: center;
+}
+.obstacle_li02 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2rem;
+    height: 1.2rem;
+    font: .45rem/ 1.2rem 'Microsoft YaHei';
+    color: #333;
+    text-align: center;
+}
+.obstacle_li03 span{
+    color: #00a1ec;
+}
+.obstacle_li02 span:nth-child(1){
+   width: 4.15rem;
+    text-align: right;
+}
+.obstacle_li02 span:nth-child(2){
+    width: 1.7rem;
+    padding-left: .45rem;
+    text-align: center;
+}
+.obstacle_li02 span:nth-child(3){
+    width: 2.75rem;
+    text-align: center;
+}
+.obstacle_li02 span:last-child{
+    width: 2.7rem;
+    text-align: center;
+}
+
+/***********铁人三项************/
+.Triathlon{ overflow: hidden; width: 16rem; margin: .65rem auto 0 auto;}
+.Triathlon dl{background: #fff; margin-bottom: 1px; border-bottom: 1px solid #cacaca;}
+.Triathlon .Triathlon_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.Triathlon dl:nth-child(3){border-bottom: 1px solid #cacaca;}
+
+.Triathlon dt{ float: left; width: 100%;}
+.Triathlon dd{ float: left; width: 100%; clear: both;}
+.Triathlon dt span{display: block; float: left; height: 1.5rem;}
+.Triathlon .Triathlon_dl dt span:nth-child(1){
+    font: .9rem/ 1.5rem 'Microsoft YaHei';
+    color: #00a1ec;
+    margin: 0 .45rem 0 .8rem;
+}
+
+.Triathlon dt span:nth-child(1){
+    font: .9rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+    margin: 0 .45rem 0 .8rem;
+}
+.Triathlon dt img{
+   float: left;
+   width: 1.1rem;
+    height: 1.1rem;
+    margin: .2rem .55rem 0 0;
+    border-radius: 50%;
+}
+.Triathlon dt span:nth-child(3){
+    overflow: hidden;
+    font: .45rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+    width: 12.5rem;
+}
+.Triathlon_dd01{ line-height: 1.1rem;}
+.Triathlon_dd01 span{ display: block; float: left; height: .8rem;}
+.Triathlon_dd01 em{ display: block; float: left; height: .8rem;}
+.Triathlon_dd01 span:nth-child(1)
+{
+    font: .6rem/ .8rem 'Microsoft YaHei';
+    color: #00a1ec;
+    margin-left: 4.35rem;
+}
+.Triathlon_dd01 em:nth-child(2)
+{
+    font: .75rem/ .8rem 'Microsoft YaHei';
+    color: #333;
+}
+.Triathlon_dd01 span:nth-child(3)
+{
+    font: .6rem/ .8rem 'Microsoft YaHei';
+    color: #00a1ec;
+    margin-left: 2.25rem;
+}
+.Triathlon_dd01 em:nth-child(4)
+{
+    font: .7rem/ .8rem 'Microsoft YaHei';
+    color: #fa6e05;
+}
+.Triathlon_dd02{ line-height: 1.3rem; margin-top: .2rem;}
+.Triathlon_dd02 span{ display: block; float: left; margin-left: .9rem;
+    font: .45rem/ 1.3rem 'Microsoft YaHei';
+    color: #333;
+}
+.Triathlon_dd02 span:nth-child(1){
+    margin-left: 2.3rem;
+}
+.Triathlon_dd03{ line-height: 1.25rem;}
+.Triathlon_dd03 span{
+    overflow: hidden;
+    display: block; float: left;
+    height: 1.25rem;
+    font: .45rem/ 1.25rem 'Microsoft YaHei';
+    color: #666;
+    margin-right: .45rem;
+}
+.Triathlon_dd03 .T_span{
+    color: #999;
+}
+.Triathlon_dd03 span:nth-child(1)
+{
+    color: #00a1ec;
+    margin-right: .5rem;
+}
+.Triathlon_dd03 span:nth-child(2) {
+    width: 2.5rem;
+    text-align: center;
+    margin-right: .4rem;
+}
+.Triathlon_dd03 span:nth-child(3) {
+    width: 2rem;
+    text-align: center;
+    margin-right: .3rem;
+}
+.Triathlon_dd03 span:nth-child(4) {
+    width: 2.8rem;
+    text-align: center;
+}
+.Triathlon_dd03 span:nth-child(5) {
+    width: 2rem;
+    text-align: center;
+}
+
+.Triathlon_dd03 span:last-child
+{
+    margin-right: 0;
+}
+
+/***************马拉松男子*****************/
+
+.world_rank_M p{
+    height: .7rem;
+    float: left;
+    margin-top: .65rem;
+    font: .45rem/.7rem 'Microsoft YaHei'; color: #333;
+}
+.world_rank_M p:nth-child(1)
+{
+    margin-left: .8rem;
+}
+.world_rank_M p:nth-child(2) {
+    float: right;
+    margin-right: .8rem;
+}
+.world_rank_M span{
+    font: .45rem/.7rem 'Microsoft YaHei'; color: #333;
+}
+.world_rank_M em{
+    font: .45rem/.7rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.Marathon{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.Marathon dl{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.Marathon dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.Marathon .Marathon_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.Marathon dt{
+    width: 100%;
+   float: left;
+}
+.Marathon dt span{
+    overflow: hidden;
+    height: 1.4rem;
+    display: block;
+    float: left;
+}
+.Marathon dt span:nth-child(1)
+{
+    width: .95rem;
+    font: .9rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .85rem;
+}
+.Marathon .Marathon_dl dt span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.Marathon dt img:nth-child(2)
+{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .25rem .7rem 0 0;
+}
+.Marathon dt span:nth-child(3)
+{
+    width: 8.5rem;
+    font: .45rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+}
+.Marathon dt span:nth-child(4)
+{
+    width: 4.05rem;
+    font: .55rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+}
+.Marathon dd{ float: left; clear: both; width: 100%;}
+.Marathon_dd01{ margin-top: -0.2rem;}
+.Marathon_dd01 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: .6rem;
+    font: .55rem/ .6rem 'Microsoft YaHei';
+    color: #666;
+}
+.Marathon_dd01 span:nth-child(1){
+    width: 2.8rem;
+    margin: 0 .2rem 0 2.7rem;
+    text-align: center;
+}
+.Marathon_dd01 span:nth-child(2){
+    width: 6.15rem;
+    text-align: center;
+}
+.Marathon_dd01 span:nth-child(3){
+    float: right;
+    width: 3.75rem;
+    text-align: center;
+}
+
+.Marathon_dd02 span{
+    display: block;
+    float: left;
+    font: .55rem/ 1rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.Marathon_dd02 span:nth-child(1){
+    width: 2.8rem;
+    margin: 0 .2rem 0 2.7rem;
+    text-align: center;
+}
+.Marathon_dd02 span:nth-child(2){
+    width: 6.15rem;
+    text-align: center;
+}
+.Marathon_dd02 span:nth-child(3){
+    float: right;
+    width: 3.75rem;
+    text-align: center;
+}
+
+/*************女子双人游泳*************/
+.swim{
+    overflow: hidden;
+    width: 16rem;
+    margin: .65rem auto 0 auto;
+}
+.swim dl{
+    width: 100%;
+    height: 4.5rem;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.swim dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.swim .swim_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.swim dt{
+    width: 100%;
+    float: left;
+}
+.swim dt span{
+    overflow: hidden;
+    height: 1.5rem;
+    display: block;
+    float: left;
+}
+.swim dt span:nth-child(1)
+{
+    width: .8rem;
+    font: .9rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .85rem;
+}
+.swim .swim_dl dt span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.swim dt img:nth-child(2)
+{
+    float: left;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: .2rem .55rem 0 0;
+}
+.swim dt span:nth-child(3)
+{
+    width: 2.25rem;
+    font: .5rem/ 1.4rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.swim dt span:nth-child(4)
+{
+    width: 10.25rem;
+    font: .45rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+}
+.swim dd{ width: 100%; float: left; clear: both;}
+.swim dd div{
+    float: left;
+    width: 2.8rem;
+}
+.swim dd div:nth-child(1){
+    float: left;
+    width: 2.8rem;
+    margin-left: 1.2rem;
+}
+
+.swim dd div span{
+    float: left;
+    width: 100%;
+    display: block;
+    font: .55rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+   text-align: center;
+}
+.swim dd div span:nth-child(2){
+  color: #666;
+    margin-top: -0.25rem;
+}
+.swim dd .swim_dl_z span{
+    color: #fb6900;
+}
+.swim dd .swim_dl_z span:nth-child(2){
+    color: #fb6900;
+}
+
+/****************花样游泳女子团体技术自选*****************/
+.swim_two{
+    overflow: hidden;
+    width: 16rem;
+    margin: .65rem auto 0 auto;
+}
+.swim_two dl{
+    width: 100%;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+    padding-bottom: .1rem;
+}
+.swim_two dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.swim_two .swim_two_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.swim_two dt{
+    width: 100%;
+    float: left;
+}
+.swim_two dt span{
+    overflow: hidden;
+    height: 1.5rem;
+    display: block;
+    float: left;
+}
+.swim_two dt span:nth-child(1)
+{
+    width: .8rem;
+    font: .9rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .85rem;
+}
+.swim_two .swim_two_dl dt span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.swim_two dt img:nth-child(2)
+{
+    float: left;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: .2rem .55rem 0 0;
+    border-radius: 50%;
+}
+.swim_two dt span:nth-child(3)
+{
+    width: 9rem;
+    font: .45rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+}
+.swim_two dt span:nth-child(4)
+{
+    width: 3.5rem;
+    font: .55rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+}
+
+.swim_two dd{
+    float: left;
+    width: 100%;
+}
+.swim_two_dd01{
+    margin-top: -0.1rem;
+}
+.swim_two_dd01 em{
+    width: 1.8rem;
+    display: block;
+    float: left;
+    font: .6rem/ 1rem 'Microsoft YaHei';
+    color: #00a1ec;
+    margin-left: .55rem;
+   text-indent: .375rem;
+}
+.swim_two_dd01 div{
+    float: left;
+    width: 13.6rem;
+}
+.swim_two_dd01 span{
+    display: block;
+    float: left;
+    font: .5rem/ 1rem 'Microsoft YaHei';
+    color: #666;
+    margin:0  1.2rem 0 .2rem;
+}
+.swim_two_dd02{
+    margin: .1rem 0;
+}
+.swim_two_dd02 img{
+    width: 16rem;
+    height: .1rem;
+}
+.swim_two_dd03 div{
+    float: left;
+    width: 2.4rem;
+}
+.swim_two_dd03 div:nth-child(1){
+  margin-left: 1.4rem;
+}
+
+.swim_two_dd03 div span{
+    display: block;
+    width: 100%;
+    font: .55rem/ 1rem 'Microsoft YaHei';
+    color: #333;
+    text-align: center;
+}
+.swim_two_dd03 div span:nth-child(2){
+    display: block;
+    width: 100%;
+    font: .55rem/ 1rem 'Microsoft YaHei';
+    color: #666;
+}
+.swim_two_dd03 .swim_two_div01 span{
+    color: #fb6900;
+}
+.swim_two_dd03 。swim_two_div01 span:nth-child(2){
+    color: #fb6900;
+}
+.swim_two_div02{
+    padding-top: 1rem;
+    font: .5rem/ 1rem 'Microsoft YaHei';
+    color: #19b6ff;
+
+}
+
+/***********20160616新加体操修改*******************/
+.go_allGirl dt img:nth-child(2){
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin-top: .25rem;
+}
+.go_allGirl dt span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 1.4rem;
+}
+.go_allGirl dt span:nth-child(3){
+    width: 7.1rem;
+    margin-left: .35rem;
+    font: .6rem/1.4rem 'Microsoft YaHei'; color: #333;
+}
+.go_allGirl dt span:nth-child(4){
+    width: 1.7rem;
+    font: .5rem/1.4rem 'Microsoft YaHei'; color: #ff7003;
+}
+.go_allGirl dt span:nth-child(5){
+    width: 2.1rem;
+	height:1.4rem;
+	overflow:hidden;
+    font: .5rem/1.4rem 'Microsoft YaHei'; color: #ff7003;
+}
+
+.go_allGirl dt span:nth-child(6){
+    float: right;
+    width: 1rem;
+    margin-right: .25rem;
+    font: .7rem/1.4rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: right;
+}
+.go_allGirl dd{
+    clear: both;
+}
+.go_allGirl_dd01 span{
+    display: block;
+    float: left;
+    width: 3.05rem;
+    font: .5rem/.7rem 'Microsoft YaHei'; color: #666;
+    text-align: center;
+}
+.go_allGirl_dd01 span:nth-child(1){
+   margin-left: 1.8rem;
+}
+.go_allGirl_dd02 span{
+    display: block;
+    float: left;
+    width: 3.05rem;
+    font: .5rem/1.2rem 'Microsoft YaHei'; color: #333;
+    text-align: center;
+}
+.go_allGirl_dd02 .go_allGirl_span01{
+    color: #00a1ec;
+}
+
+.go_allGirl_dd02 .go_allGirl_span01{
+    color: #00a1ec;
+}
+.go_allGirl_dd02 span:nth-child(1){
+    margin-left: 1.8rem;
+}
+.go_allGirl_dd03{
+    width: 16rem;
+    height: .1rem;
+    padding: .15rem 0 .25rem 0;
+}
+.go_allGirl_dd03 img{
+    width: 16rem;
+    height: .1rem;
+}
+.go_allGirl ul{
+    float: left;
+    width: 13rem;
+}
+.go_allGirl li{
+    clear: both;
+}
+.go_allGirl_li01 span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    width: 2.55rem;
+    height: 1rem;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #333;
+	text-align:center;
+}
+.go_allGirl_li01 span:nth-child(1){
+}
+.go_allGirl_li02 span{
+    font: .45rem/1rem 'Microsoft YaHei'; color: #666;
+}
+.go_allGirl_li03 span{
+    font: .45rem/1rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.go_allGirl p{
+    overflow: hidden;
+    width: 2.25rem;
+    height: 3rem;
+    float: right;
+    margin-right: .75rem;
+    font: .5rem/3rem 'Microsoft YaHei'; color: #ff7003;
+    text-align: right;
+}
+.go_allGirl .go_all_span02{
+    display: block;
+    float: left;
+    width: 1.6rem;
+    font: .9rem/1.4rem 'Microsoft YaHei'; color: #333;
+    text-indent: .55rem;
+}
+.go_allGirl .go_all_span01{
+    display: block;
+    float: left;
+    width: 1.6rem;
+    font: .9rem/1.4rem 'Microsoft YaHei'; color: #19b6ff;
+    text-indent: .55rem;
+}
+.go_allGirl_dd04{ position:relative; width:12.25rem; margin:0 auto;}
+.go_allGirl_dd04 ul{ display:none;position:relative;  width:100%; box-sizing:border-box; border:1px solid #00a1ec; border-radius:.25rem;}
+.go_allGirl_dd04 .zhishi{ position:absolute; left:2.55rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #b6dfff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi02{ position:absolute; left:4.15rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #b6dfff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi03{ position:absolute; left:7.2rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #b6dfff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi04{ position:absolute; left:10.2rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #b6dfff; background-size:.8rem .3rem;}
+
+.go_allGirl_dd04 .zhishi05{ position:absolute; left:2.55rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi06{ position:absolute; left:5.55rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi07{ position:absolute; left:8.55rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi08{ position:absolute; left:11rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+
+.go_allGirl_dd04 .zhishi10{ position:absolute; left:0.55rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi11{ position:absolute; left:2.55rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi12{ position:absolute; left:5.55rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi13{ position:absolute; left:9rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi14{ position:absolute; left:12rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+.go_allGirl_dd04 .zhishi15{ position:absolute; left:14rem; top:-0.3rem; width:.8rem; height:.3rem; background:url(../images/ticao_icon.png) center top no-repeat #fff; background-size:.8rem .3rem;}
+
+
+

@@ -1,0 +1,629 @@
+@charset "utf-8";
+/******************************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{ font-weight: normal;}
+li { list-style: none; }
+img { border: none; }
+input,
+select,
+textarea { outline: none; border: none; background: none; border-radius: 0;
+    -webkit-border-radius: 0;
+    background-image: -webkit-linear-gradient(transparent, transparent);
+    background-image: linear-gradient(transparent, transparent);
+}
+textarea { resize: none; }
+html { -webkit-text-size-adjust: none;}
+article， aside， details， figcaption， figure， footer， header， hgroup， menu， nav， section { display: block; }
+img { display: block; max-width: 100%; height:auto; width: auto\9; /* ie8 */ vertical-align:top; }
+.video embed， .video object， .video iframe { width: 100%; height: auto; }
+a { text-decoration: none; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a{
+	color: #00a1ec;
+    text-decoration: none;
+    font-family: monospace;
+}
+.clearfix:after,
+.clearfix:before { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+body{min-width:320px; font-family:"Microsoft YaHei", "Arial Black"; background-color: #ffffff;padding-top: 44px;}
+.colororge{ color: #ef754b;}
+
+.screen{ position: relative; overflow: hidden; width: 16rem; margin: 0 auto; padding-bottom: 6.1rem;}
+.screen_jp{ position: relative; overflow: hidden; width: 16rem; margin: 0 auto; padding-bottom: 2.65rem;}
+main{ width: 16rem; margin: 0 auto; background: #ffffff;}
+.ath{ background: #fff;}
+/*----奥运会整站页底菜单----*/
+.menu_footer{ position:fixed; bottom: 0; width: 16rem; height: 45px; margin: 0 auto; box-sizing:border-box; background-color: #ffffff;border-top: 1px solid #d8d8d8;}
+.menu_footer:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 1px;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.menu_footer dl{ display: block; float: left; width: 25%; text-align: center;}
+.menu_footer dl dt,.menu_footer dl dd{ display: block; overflow: hidden; width: 100%;}
+.menu_footer dl dt{ height: 20px; margin-top: 4px;margin-bottom:4px;}
+
+.menu_footer dl:nth-child(1) dt,
+.menu_footer dl:nth-child(2) dt,
+.menu_footer dl:nth-child(3) dt{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+.menu_footer dl:nth-child(1) dt{ background-image: url(../images/competition@3x.png) !important; }
+.menu_footer dl:nth-child(2) dt{ background-image: url(../images/gold@3x.png) !important;}
+.menu_footer dl:nth-child(3) dt{ background-image: url(../images/list@3x.png) !important;}
+.menu_footer .bule_dl:nth-child(1) dt{ background-image: url(../images/competition_press@3x.png) !important; }
+.menu_footer .bule_dl:nth-child(2) dt{ background-image: url(../images/gold_press@3x.png) !important; }
+.menu_footer .bule_dl:nth-child(3) dt{ background-image: url(../images/list_press@3x.png) !important; }
+
+.menu_footer dl dd{ height:12px; font: 12px/1 'Microsoft YaHei'; color: #666666;}
+.menu_footer .bule_dl dd{color: #0fade4;}
+
+
+/***************共用的头部**************/
+.public_title{ z-index: 1000;position: fixed; top: 0; overflow: hidden; width: 16rem; height:44px; background: #004B88; text-align: center;line-height:44px;}
+.public_title a{ position: absolute; left: .75rem; top: .65rem;  float: left; display: block;
+width: 2.8rem;
+height: .9rem;
+background: url(../images/icon02.png) left top no-repeat;
+background-size: .5rem .9rem;
+font: .85rem/.9rem 'Microsoft YaHei'; color: #fff;
+text-indent: .8rem;
+}
+
+.public_title img{
+    display: inline-block;
+    height: 18px !important;
+    margin-right: 10px !important;
+    vertical-align: middle;
+}
+.public_title span{
+    display: inline-block;
+    font: 17px/44px 'Microsoft YaHei';
+    color: #fff;
+    vertical-align: middle;
+}
+
+.public_title02 img{
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: .55rem .65rem 0 0;
+}
+.public_title_t span{
+    font: .75rem/2.15rem 'Microsoft YaHei'; color: #fff;
+}
+.public_title_t img{
+    display: inline-block;
+    width: 1.1rem;
+    height: 1rem;
+    margin: .575rem .8rem 0 0;
+}
+@media (min-width: 640px){
+    .public_title img {
+        margin:0;
+        vertical-align: bottom;
+    }
+    .public_title span{
+        font-size: 26px;
+        line-height:26px;
+    }
+}
+/***************底部共用NBA模块********************/
+
+.archer_data_nba{
+    width: 16rem;
+    margin: 6rem auto 0 auto;
+    padding: .4rem 0;
+    border: 2px solid #00a1ec;
+    border-left: none;
+    border-right: none;
+}
+.archer_data_nba a{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: .9rem;
+    background: url(../images/icon03.png) .2rem .35rem no-repeat;
+    font: .5rem/.9rem 'Microsoft YaHei'; color: #333333;
+    text-indent: .75rem;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+/*****************男子、女子选项模块***********************/
+.archer_boy{ overflow: hidden; width: 16rem; margin: 0 auto;}
+.archer_boy span{
+    display: block;
+    width: 4.3rem;
+    height: 1.25rem;
+    margin: .65rem auto 0.7rem auto;
+    background: url(../images/boy.png) center bottom no-repeat;
+    background-size: 100% 100%;
+    font: .6rem/1.25rem 'Microsoft YaHei'; color: #00a1ec;
+    text-indent: .6rem;
+    cursor: pointer;
+}
+.archer_boy a{
+    display: block;
+    width: 4.2rem;
+    height: 1.15rem;
+    margin: -0.05rem auto 0 auto;
+    border: .05rem solid #00a1ec;
+    border-radius: .2rem;
+    border-top: none;
+    font: .6rem/1.25rem 'Microsoft YaHei'; color: #ff6d00;
+    text-indent: .6rem;
+}
+
+/********************banner部分********************/
+.banner{ width: 16rem; margin: 0 auto;}
+.banner img{ width: 16rem; height: auto;}
+
+/*********************场地介绍部分************************/
+.archer_rank{ width: 14.8rem; height: 1.5rem; padding: 0 .6rem; margin: 0 auto; background: #00a1ec; border-top: 2px solid #0082be;}
+.archer_rank p{ float: left; max-width: 8.5rem; max-height: 1.5rem;  font: .6rem/1.5rem 'Microsoft YaHei';}
+.archer_rank p .ifChang{ display: inline-block; width: 1.35rem; height: 1.2rem; margin: .2rem 0 0 0;}
+.archer_rank p img{ display: inline-block; width: .85rem; height: .9rem; margin: .3rem .35rem 0 0;}
+.archer_rank p span{
+    font: .5rem/1.5rem 'Microsoft YaHei'; color: #fff;
+
+}
+.archer_rank div{ float: right; max-width: 7.4rem; max-height: 1.5rem; font: .6rem/1.5rem 'Microsoft YaHei';}
+.archer_rank div span{
+    font: .45rem/1.5rem 'Microsoft YaHei'; color: #fff;
+}
+.archer_rank div img{
+    display: inline-block;
+    width: .65rem;
+    height: .65rem;
+    margin: .45rem 0.05rem 0 .15rem;
+}
+.archer_rank .ath_rank{
+    float: right; max-width: 7.6rem; height: 1.5rem;
+    margin-right: .15rem;
+}
+.archer_rank .ath_rank span{
+    display: block;
+    height: .85rem;
+    float: left;
+    font: .45rem/1rem 'Microsoft YaHei'; color: #fff;
+}
+.archer_rank .ath_rank img{
+    float: left;
+    width: .65rem;
+    height: .65rem;
+    margin: .15rem 0.05rem 0 .15rem;
+}
+.ath_rank em{
+    clear: both;
+    display: block;
+    float: right;
+    font: .45rem/.6rem 'Microsoft YaHei'; color: #fff;
+}
+
+/****************战报部分***************/
+.zhanbao{
+    clear: both;
+    height: 1.3rem;
+    margin-bottom:.8rem;
+}
+.zhanbao02{
+    margin: .6rem 0 1.15rem 0;
+}
+.zhanbao a{
+    float: left;
+    display: block;
+    width: 3.1rem;
+    height: 1.2rem;
+    margin-right: .75rem;
+    border: 0.05rem solid #19b6ff;
+    border-radius: .2rem;
+    text-align: center;
+    font: .7rem/1.2rem 'Microsoft YaHei'; color: #19b6ff;
+}
+.zhanbao a:nth-child(1){
+    margin-left: 1.7rem;
+}
+.zhanbao .zhanbao_hover{
+    background: #19b6ff;
+    color: #fff;
+}
+.zhanbao .zhanbao_no{
+    background: #959595;
+    border: 0.05rem solid #959595;
+    color: #fff;
+}
+
+/****************即将开始模块*******************/
+.kai_or_over03{
+    clear: both;
+    width: 16rem;
+    margin: 0 auto;
+    margin-top:-1px;
+    background: #f4f5f6;
+    border-bottom: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+}
+.kai_or_over03 span{
+    margin:0 2rem;
+    display: block;
+    float: left;
+    width: 3rem;
+    font: .9rem/2.05rem 'Microsoft YaHei';
+    color: #19b6ff;
+    text-align: center;
+    margin: 0 2.5rem;
+    font-size: 16px;
+    font-family: monospace;
+}
+.kai_or_over03 .kai_or_over03_span{
+    border-bottom: .15rem solid #ff6d00;
+}
+
+/***********比赛进行中************/
+.march{
+    position: relative;
+    padding: .3rem 0 .425rem 0;
+    font: .7rem/1.2rem 'Microsoft YaHei'; color: #f26b1a;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.march span{
+    position: absolute;
+    top: .4rem;
+    right: .75rem;
+    display: block;
+    float: right;
+    height: 1rem;
+    padding: 0 .25rem;
+    background: #19b6ff;
+    font: .6rem/1rem 'Microsoft YaHei'; color: #fff;
+    border-radius: .4rem;
+}
+.march .march_span02{
+    position: absolute;
+    top: .3rem;
+    right: .75rem;
+    display: block;
+    float: right;
+    height: 1.2rem;
+    padding: 0 .25rem;
+    background: #19b6ff;
+    font: .6rem/1.2rem 'Microsoft YaHei'; color: #fff;
+    border-radius: 0.05rem;
+}
+
+/******************共用的赛程信息部分********************/
+.ath_section{
+    width: 16rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    /*border-top: 2px solid #0082be;*/
+    background-color: #004b88;
+}
+.ath_section a{
+    display: block;
+    float: left;
+    width: 7.25rem;
+    height: 1.5rem;
+    background: #19b6ff;
+    font: .6rem/1.5rem 'monospace';
+    color: #fd0 !important;
+    text-align: center;
+    border-bottom: none!important;
+}
+.ath_section .ath_section_hover{
+    background: #e5e5e5;
+    color: #fff !important;
+}
+.ath_section a:nth-child(1)
+{
+    margin: 0 .125rem 0 .7rem;
+}
+.ath_section02 a{
+    width: 4.75rem;
+}
+.ath_section02 a:nth-child(2)
+{
+   margin-right: .125rem;
+}
+/**************足球赛程部分****************/
+.ath_foot{
+    width: 15.7rem;
+    height: 1.5rem;
+    padding-left: .3rem;
+    margin: 0 auto;
+    border-top: 2px solid #0082be;
+}
+.ath_foot a{
+    display: block;
+    float: left;
+    width: 3.75rem;
+    height: 1.5rem;
+    margin-right: .15rem;
+    background: #19b6ff;
+    font: .75rem/1.5rem 'Microsoft YaHei'; color: #fff;
+    text-align: center;
+}
+.ath_foot .ath_section_hover{
+    background: #e5e5e5;
+    color: #19b6ff;
+}
+
+.ath_boy {
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto .7rem auto;
+}
+.ath_boy span {
+    display: block;
+    width: 4.2rem;
+    box-sizing: border-box;
+    height: 1.25rem;
+    padding-right: .9rem;
+    margin: .65rem auto 0 auto;
+    background:url(../images/cilick.png) 3.4rem .475rem no-repeat;
+    background-size: .5rem .3rem;
+    font: .6rem/1.25rem 'Microsoft YaHei';
+    color: #00a1ec;
+    cursor: pointer;
+    text-align: center;
+    border: .075rem solid #00a1ec;
+    border-radius: 0.2rem;
+}
+.ath_boy a{
+    display: none;
+    width: 4.2rem;
+    height: 1.25rem;
+    box-sizing: border-box;
+    padding-top: .1rem;
+    margin: -0.2rem auto 0 auto;
+    border: .075rem solid #00a1ec;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    border-top: none;
+    font: .6rem/1.25rem 'Microsoft YaHei'; color: #ff6d00;
+    text-indent: .6rem;
+}
+.ath_taking{
+    overflow: hidden;
+    width: 16rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    background: #fff;
+}
+.ath_taking a{
+    display: block;
+    float: left;
+    height: 1.35rem;
+    padding: 0 .5rem;
+    font: .5rem/1.5rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.ath_taking .ath_taking_hover{
+    border-bottom: .15rem solid #ff7003;
+}
+.ath_taking a:nth-child(1){
+    margin-left: .3rem;
+    margin-right: 1.3rem;
+}
+.ath_taking a:nth-child(2){
+    margin-right: 1.45rem;
+}
+.ath_taking a:nth-child(4){
+    margin-left: 1.45rem;
+    margin-right: .3rem;
+}
+
+/***************世界记录部分******************/
+.world_rank{
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+.world_rank p{
+    height: .7rem;
+    float: left;
+    margin-top: .65rem;
+    font: .55rem/.7rem 'Microsoft YaHei'; color: #333;
+}
+.world_rank p:nth-child(1)
+{
+    margin-left: .8rem;
+}
+.world_rank p:nth-child(2) {
+    float: right;
+    margin-right: .8rem;
+}
+.world_rank span{
+    font: .6rem/.7rem 'Microsoft YaHei'; color: #333;
+}
+.world_rank em{
+    font: .6rem/.7rem 'Microsoft YaHei'; color: #19b6ff;
+}
+
+/*************篮球二级标题**************/
+.march_bll{
+    position: relative;
+    padding: .3rem 0 .2rem 0;
+    font: .7rem/1.2rem 'Microsoft YaHei';
+    color: #f26b1a;
+    text-align: center;
+    line-height: 1.2rem;
+}
+.ball_title{
+    overflow: hidden;
+    width: 16rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    background: #00a1ec;
+}
+.ball_title img{
+    float: left;
+    width: .9rem;
+    height: .875rem;
+    margin: .3rem 0 0 .75rem;
+}
+.ball_title span{
+    display: block;
+    float: left;
+    font: .7rem/1.5rem 'Microsoft YaHei';
+    color: #fff;
+}
+.ball_title span:nth-child(2){
+   margin-left: .75rem;
+}
+.ball_title span:nth-child(3){
+    margin-left: 1.1rem;
+}
+
+
+/***********2016.06.04新加新闻模块*************/
+.news_data{
+    overflow: hidden;
+    width: 13rem;
+    margin: 6rem auto 0 auto;
+    padding: .2rem 0;
+    box-sizing: border-box;
+    border: 0.075rem solid #00a1ec;
+    border-radius: .3rem;
+}
+.news_data li{
+    position: relative;
+    width: 100rem;
+    height: .95rem;
+    overflow: hidden;
+    padding-left: 1.95rem;
+    background-size: 1.95rem .3rem;
+}
+.news_data span{
+	position:absolute;
+	left:0;
+	top:0;
+	display:block;
+	width:1.95rem;
+	height:.95rem;
+	background: url(../images/news_dian.png) left .35rem no-repeat #f0f9ff;
+    background-size: 1.95rem .3rem;
+	z-index:10
+	}
+.news_data a{
+    position: absolute;
+	left:1.95rem;
+	top:0;
+    display: block;
+    height: .95rem;
+    font: .5rem/.95rem 'Microsoft YaHei'; color: #333333;
+    white-space: normal;
+    text-overflow: clip;
+    z-index: 9;
+}
+
+
+
+/****************2016.06.04新加select效果********************/
+.ath_boy{
+    position: relative;
+    overflow: visible;
+    height: 1.25rem;
+}
+.ath_boy span{
+    position: relative;
+    z-index: 1000;
+}
+.ath_boy div{
+    position: relative;
+    width: 4.2rem;
+    display: none;
+    margin: 0 auto;
+    z-index: 999;
+    background: #fff;
+}
+.ath_boy a{
+    display: block;
+}
+/*************************2016.06.04新加导航滑动效果*********************************/
+.ath_taking_gai{
+    width: 15.4rem;
+    padding: 0 .3rem;
+    margin: 0 auto;
+    background: #fff;
+}
+.ath_taking_gai ul {
+    height: 1.5rem;
+    position: relative;
+}
+.ath_taking_gai li{
+    float: left;
+   padding-right: 1.4rem;
+}
+.ath_taking_gai li a{
+    float: none;
+    margin: 0;
+}
+.ath_taking_gai .ath_taking_hover a{
+    border-bottom: .15rem solid #ff7003;
+}
+.ath_taking_gai a{
+    display: block;
+    float: left;
+    height: 1.35rem;
+    padding: 0 .5rem;
+    font: .5rem/1.5rem 'Microsoft YaHei'; color: #00a1ec;
+}
+/*******************新闻模块滚动新加2016.06.06********************/
+.archer_data_nba{
+	position:fixed;
+	bottom:2.6rem;
+    overflow: hidden;
+    width: 16rem;
+	height:3.5rem;
+    margin: 6rem auto 0 auto;
+    padding: .4rem 0;
+    box-sizing: border-box;
+    border: 2px solid #00a1ec;
+    border-left: none;
+    border-right: none;
+	background:#f0f9ff;
+}
+.archer_data_nba li{
+    position: relative;
+    width: 100rem;
+    height: .9rem;
+    overflow: hidden;
+    padding-left: .75rem;
+}
+.archer_data_nba span{
+	position:absolute;
+	left:0;
+	top:0;
+	display:block;
+	width:.75rem;
+	height:.9rem;
+	background: url(../images/icon03.png) center .35rem no-repeat #f0f9ff;
+    background-size: .2rem .2rem;
+	z-index:10
+	}
+.archer_data_nba a{
+    position: absolute;
+	left:.75rem;
+	top:0;
+    display: block;
+	width:auto;
+    height: .9rem;
+    font: .5rem/.9rem 'Microsoft YaHei'; color: #333333;
+    white-space: normal;
+    text-overflow: clip;
+	background:none;
+	text-indent:0;
+    z-index: 9;
+}

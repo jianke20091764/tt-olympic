@@ -1,0 +1,1435 @@
+@charset "utf-8";
+/******************************/
+/**************乒乓球******************/
+.ping{
+    overflow: hidden;
+    width: 16rem;
+    margin: 1.1rem auto 0 auto;
+}
+.ping dl{
+    overflow: hidden;
+}
+.ping dt{
+    float: left;
+    width: 8.7rem;
+    margin-left: .25rem;
+}
+.ping dt ul{
+    margin-bottom: .75rem;
+    width: 8.7rem;
+    height: 3.5rem;
+    border: 1px solid #cacaca;
+}
+.ping dt img{
+    float: left;
+    width: .85rem;
+    height: .85rem;
+    margin: .425rem .1rem 0 .1rem;
+}
+.ping dt li{
+    clear: both;
+}
+.ping dt span{
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 1.7rem;
+    font: .5rem/1.7rem 'Microsoft YaHei';
+    color: #333;
+    width: 5.2rem;
+    text-align: center;
+}
+.ping dt .ping_span02{
+    width: 3.6rem;
+    text-align: left;
+}
+.ping dt .ping_span01{
+   color: #ff7003;
+}
+
+.ping dt em{
+    font: .5rem/1.7rem 'Microsoft YaHei';
+    color: #19b6ff;
+}
+.ping_line{
+    width: 8.6rem;
+    height: 1px;
+    background: #e5e5e5;
+    margin-left: .2rem;
+}
+.ping dd{
+    float: right;
+    width: 7rem;
+    height: 7.75rem;
+    background: url(../images/ping_line.png) left top no-repeat;
+    background-size: .75rem 7.75rem;
+}
+.ping p{
+    overflow: hidden;
+    width: 6.15rem;
+    height: 1.7rem;
+    font: .5rem/.6rem 'Microsoft YaHei';
+    color: #333;
+    text-indent: .8rem;
+}
+.ping p span{
+	overflow: hidden;
+    display: block;
+    height: 1.7rem;
+}
+.ping p:nth-child(1){
+  margin-top: 1.25rem;
+}
+.ping p:nth-child(2){
+    margin-top: 2.5rem;
+}
+
+/********乒乓球8进4***********/
+.ping_rank{
+    overflow: hidden;
+    width: 16rem;
+    margin: .75rem auto 0 auto;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+    background: #fff;
+}
+.Boxing_dl01{
+    float: left;
+    width: 4.2rem;
+}
+.Boxing_dl01 dt{
+    width: 100%;
+    height: 1.1rem;
+    margin-top: 2rem;
+}
+.Boxing_dl01 dt img{
+    float: right;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: .05rem;
+}
+.Boxing_dl01 dd{
+    font: .6rem/1.25rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: right;
+}
+.Boxing_dl03{
+    float: right;
+    width: 4.2rem;
+}
+.Boxing_dl03 dt{
+    width: 100%;
+    height: 1.1rem;
+    margin-top: 2rem;
+}
+
+.Boxing_dl03 dt img{
+    float: left;
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.Boxing_dl03 dd {
+    font: .6rem/1.25rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: left;
+}
+.Boxing_dl02{
+    overflow: hidden;
+    float: left;
+    width: 4.6rem;
+    margin:  0 1.5rem;
+}
+.Boxing_dl02 dt{
+    font: .75rem/1.8rem 'Microsoft YaHei';
+    color: #ff6d00;
+    text-align: center;
+}
+.scores_boxing{
+    width: 3.5rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    background: url(../images/scores.png) center top no-repeat;
+    background-size: 3.5rem 1.3rem;
+    text-align: center;
+}
+.scores_boxing span{
+    font: .9rem/1.3rem 'Microsoft YaHei'; color: #19b6ff;
+    text-align: center;
+    color: #fff;
+}
+.Boxing_dl02_dd{ text-align: center;}
+.Boxing_dl02_dd span{
+    font: .6rem/1.8rem 'Microsoft YaHei';
+    color: #19b6ff;
+}
+.Boxing_dl02_dd span:nth-child(1){
+    margin-right: .6rem;
+    font: .6rem/1.8rem 'Microsoft YaHei';
+    color: #19b6ff;
+}
+.Boxing_dl04_dd{
+    text-align: center;
+    line-height: 1rem;
+}
+.Boxing_dl04_dd span{
+    font: .6rem/1rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+
+.ping_fen{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.ping_fen ul{
+    padding-bottom: .75rem;
+}
+.ping_fen li{
+    float: left;
+    clear: both;
+}
+.ping_fen li span{
+    float: left;
+    display: block;
+}
+.ping_li01{
+    padding-left: 1rem;
+}
+.ping_li01 span{
+    overflow: hidden;
+    width: 2.3rem;
+    height: 1.65rem;
+    font: .75rem/1.65rem 'Microsoft YaHei';
+    color: #333;
+    text-align: center;
+}
+.ping_li01 .ping_li_span{
+    width: 3rem;
+}
+.ping_li02{
+    padding-left: .75rem;
+}
+.ping_li02 img{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin-top: .05rem;
+    border-radius: 50%;
+}
+.ping_li02 span{
+    width: 2.3rem;
+    font: .75rem/1rem 'Microsoft YaHei';
+    color: #666666;
+    text-align: center;
+}
+.ping_li02 span:nth-child(2)
+{
+   width: 1rem;
+    margin-right: .65rem;
+}
+.ping_li02 .ping_li_span{
+    width: 3rem;
+    color: #ff6d00;
+}
+.ping_li02 .ping_li_span02{
+    width: 3rem;
+    color: #19b6ff;
+}
+.ping_li03{
+    width: 14.3rem;
+    height: 1px;
+    background: #e5e5e5;
+    margin: .275rem 0 .4rem .85rem;
+}
+.ping_fen p{
+    clear: both;
+    width: 100%;
+    height: 1.5rem;
+    background: #fff;
+    font: .7rem/1.5rem 'Microsoft YaHei';
+    color: #19b6ff;
+    border-bottom: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+    text-align: center;
+}
+
+/**********现代5项跑射*************/
+.runShot{
+    overflow: hidden;
+    width: 16rem;
+    margin: .325rem auto 0 auto;
+}
+.runShot dl{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.runShot dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.runShot .runShot_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.runShot dt{
+    width: 100%;
+    float: left;
+}
+.runShot dt span{
+    overflow: hidden;
+    height: 1.5rem;
+    display: block;
+    float: left;
+}
+.runShot dt span:nth-child(1)
+{
+    width: .95rem;
+    font: .9rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .85rem;
+}
+.runShot .runShot_dl dt span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.runShot dt img:nth-child(2)
+{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .3rem .6rem 0 0;
+}
+.runShot dt span:nth-child(3)
+{
+    width: 8.5rem;
+    font: .45rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+}
+.runShot dt span:nth-child(4)
+{
+    width: 4.05rem;
+    font: .55rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+}
+.runShot dd{
+    clear: both;
+    float: left;
+    margin-top: -0.2rem;
+    padding-left: 2.7rem;
+}
+.runShot div{
+    float: left;
+    margin-right: .8rem;
+    text-align: center;
+}
+.runShot div span{
+    display: block;
+    width: 100%;
+    font: .55rem/ .75rem 'Microsoft YaHei';
+    color: #666;
+}
+.runShot div span:nth-child(2){
+    display: block;
+    width: 100%;
+    font: .55rem/ .75rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: center;
+}
+
+/*************举重***************/
+.Weightlifting{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.Weightlifting dl{
+    width: 100%;
+    margin-bottom: 1px;
+    padding-bottom: .45rem;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.Weightlifting dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.Weightlifting .Weightlifting_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.Weightlifting dt{
+    width: 100%;
+    float: left;
+}
+.Weightlifting dt span{
+    overflow: hidden;
+    height: 1.4rem;
+    display: block;
+    float: left;
+}
+.Weightlifting dt span:nth-child(1)
+{
+    width: .95rem;
+    font: .9rem/ 1.4rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .3rem;
+}
+.Weightlifting .Weightlifting_dl dt span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.Weightlifting dt img:nth-child(2)
+{
+    float: left;
+    width: .85rem;
+    height: .85rem;
+    margin: .275rem .4rem 0 0;
+}
+.Weightlifting dt span:nth-child(3)
+{
+    width: 5rem;
+    font: .55rem/ 1.4rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.Weightlifting dt span:nth-child(4)
+{
+    width: 4.5rem;
+    font: .55rem/ 1.5rem 'Microsoft YaHei';
+    color: #666;
+}
+.Weightlifting dt span:nth-child(5)
+{
+    width: 3.75rem;
+    font: .55rem/ 1.5rem 'Microsoft YaHei';
+    color: #666;
+}
+.Weightlifting dt em
+{
+    font: .55rem/ 1.5rem 'Microsoft YaHei';
+    color: #00a1ec;
+    margin-left: .25rem;
+}
+
+.Weightlifting dd{
+    clear: both;
+    float: left;
+}
+
+.Weightlifting_l{
+    overflow: hidden;
+    float: left;
+    width: 12.65rem;
+    padding-left: .85rem;
+}
+.Weightlifting_l p{
+    float: left;
+    font: .6rem/ 2.3rem 'Microsoft YaHei';
+    color: #333;
+}
+.Weightlifting_l div{
+    float: left;
+    width: 2.25rem;
+    height: 2.3rem;
+    margin:0  .575rem;
+    text-align: center;
+}
+.Weightlifting_l .Weightlifting_l_hover{
+    border-radius: .25rem;
+    border: 1px solid #00a1ec;
+    border-bottom: none;
+}
+.Weightlifting_l .Weightlifting_l_hover02{
+    border-radius: .25rem;
+    border: 1px solid #00a1ec;
+    border-top: none;
+}
+.Weightlifting_l .Weightlifting_l_down{
+    padding-top: .25rem;
+    height: 2.05rem;
+}
+.Weightlifting_l .Weightlifting_line{
+    clear: both;
+    width: 12.65rem;
+    height: 2px;
+    background: #e5e5e5;
+    margin:0;
+}
+.Weightlifting_l div span{
+    display: block;
+    font: .6rem/ 1.05rem 'Microsoft YaHei';
+    color: #333;
+}
+.Weightlifting_l div span:nth-child(2){
+    color: #00a1ec;
+}
+
+.Weightlifting_r{
+    float: right;
+    width: 2.5rem;
+}
+.Weightlifting_r p{
+    float: left;
+    width: 100%;
+    font: .6rem/ 1.05rem 'Microsoft YaHei';
+    color: #f26b1a;
+    text-align: center;
+}
+.Weightlifting_r p:nth-child(1){
+    margin-top: -0.2rem;
+}
+.Weightlifting_r p:nth-child(2){
+    margin-top: .95rem;
+}
+.Weightlifting_r p:nth-child(3){
+    margin-top: .6rem;
+    font: .45rem/ 1.05rem 'Microsoft YaHei';
+}
+
+/******************柔道比赛进行中********************/
+.Judo{
+    overflow: hidden;
+    width: 16rem;
+    margin: .5rem auto 0 auto;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+    border-top: 1px solid #cacaca;
+}
+.Judo_dl01{
+    float: left;
+    width: 4.5rem;
+    margin-left: .75rem;
+}
+.Judo_dl01 dt{
+    font: .6rem/ 1.1rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_l{
+    width: .8rem;
+    height: .75rem;
+}
+.Judo_l img{
+    width: .8rem;
+    height: .75rem;
+}
+.Judo_r{
+    float: left;
+    width: 3.3rem;
+    padding-right: 1.2rem;
+    margin-top: -0.6rem;
+}
+.Judo_r img{
+    float: right;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+}
+.Judo_r span{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    height: 1.3rem;
+    font: .6rem/ 1.3rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: right;
+}
+.Judo_r p{
+    font: .75rem/ .85rem 'Microsoft YaHei';
+    color: #ff6d00;
+    text-align: right;
+    padding-right: .25rem;
+}
+.Judo_dl02{
+    overflow: hidden;
+    float: left;
+    width: 4.6rem;
+    margin:  0 .45rem;
+}
+.Judo_dl02 dt{
+    font: .75rem/1.8rem 'Microsoft YaHei';
+    color: #ff6d00;
+    text-align: center;
+}
+.scores_boxing_judo{
+    width: 3.5rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    background: url(../images/scores.png) center top no-repeat;
+    background-size: 3.5rem 1.3rem;
+    text-align: center;
+}
+.scores_boxing_judo span{
+    font: .9rem/1.3rem 'Microsoft YaHei';
+    text-align: center;
+    color: #fff;
+}
+.Judo_dl04_dd{
+    text-align: center;
+    line-height: 1rem;
+    margin-top: .2rem;
+}
+.Judo_dl04_dd span{
+    font: .6rem/1.6rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.Judo_dl03{
+    float: right;
+    width: 4.5rem;
+    margin-right: .75rem;
+}
+.Judo_dl03 dt{
+    font: .6rem/ 1.1rem 'Microsoft YaHei';
+    color: #333;
+    text-align: right;
+}
+.Judo_l02{
+    width: .8rem;
+    height: .75rem;
+    float: right;
+}
+.Judo_l02 img{
+    width: .8rem;
+    height: .75rem;
+}
+.Judo_r02{
+    float: right;
+    width: 3.2rem;
+    padding-left: 1.3rem;
+    margin-top: -0.6rem;
+}
+.Judo_r02 img{
+    float: left;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+}
+.Judo_r02 span{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    height: 1.3rem;
+    font: .6rem/ 1.3rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: left;
+}
+.Judo_r02 p{
+    font: .75rem/ .85rem 'Microsoft YaHei';
+    color: #ff6d00;
+    text-align: left;
+    padding-left: .25rem;
+}
+.succ_type{
+    clear: both;
+    width: 16rem;
+    height: 1.6rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #cacaca;
+}
+.succ_type span{
+    font: .75rem/ 1.6rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.succ_type span:nth-child(1){
+    margin: 0 2rem 0 4rem;
+}
+.Judo_data{
+    overflow: hidden;
+    width: 14.4rem;
+    padding: 0 .8rem;
+    margin: 0 auto;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+.Judo_data li{
+    width: 100%;
+    float: left;
+    border-bottom: 1px dashed #cacaca;
+}
+.Judo_data .Judo_data_li01{
+    margin-top: .5rem;
+    border-bottom: none;
+}
+.Judo_data .Judo_data_li03{
+    border-bottom: none;
+}
+.Judo_data_li01 img{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.Judo_data_li01 img:nth-child(1){
+    float: left;
+    margin-left: 2.2rem;
+    border-radius: 50%;
+}
+.Judo_data_li01 img:nth-child(2){
+    float: right;
+    margin-right: 2.2rem;
+    border-radius: 50%;
+}
+
+.Judo_data li span{
+    float: left;
+    display: block;
+    font: .75rem/ 1.8rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_data li span:nth-child(1){
+    width: 4rem;
+    display: block;
+    text-align: center;
+}
+.Judo_data li span:nth-child(2){
+    width: 6.4rem;
+    display: block;
+    text-align: center;
+    font: .7rem/ 1.8rem 'Microsoft YaHei';
+    color: #00a1ec;
+
+}
+.Judo_data li span:nth-child(3){
+    width: 4rem;
+    display: block;
+    text-align: center;
+}
+.Judo_data .Judo_data_li02 span:nth-child(1){
+    width: 3.3rem;
+    font: .6rem/ 1.8rem 'Microsoft YaHei';
+    color: #333;
+    text-align: right;
+}
+.Judo_data .Judo_data_li02 span:nth-child(2){
+    width: 7.8rem;
+}
+.Judo_data .Judo_data_li02 span:nth-child(3){
+    width: 3.3rem;
+    font: .6rem/ 1.8rem 'Microsoft YaHei';
+    color: #333;
+    text-align: left;
+}
+.Judo_ju{
+    overflow: hidden;
+    width: 14.4rem;
+    padding: 0 .8rem;
+    margin: 0 auto;
+    background: #fff;
+    padding: .3rem 0 .4rem 0;
+}
+.Judo_ju div{
+    float: left;
+    width: 7.2rem;
+    height: 1.5rem;
+    margin: 0 auto;
+}
+.Judo_ju div span{
+    float: left;
+    height: 2.15rem;
+    max-width: 5.85rem;
+    font: .7rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_ju div img{
+    float: left;
+    width: .85rem;
+    height: .85rem;
+    margin-left: .5rem;
+    margin-top: .325rem;
+}
+.Judo_ju .Judo_ju_div span{
+    float: right;
+    height: 2.15rem;
+    max-width: 5.85rem;
+    font: .7rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_ju .Judo_ju_div img{
+    float: right;
+    width: .85rem;
+    height: .85rem;
+    margin-left: .5rem;
+    margin-top: .325rem;
+}
+
+/**************柔道复活赛****************/
+.Judo_rank{
+    overflow: hidden;
+    width: 16rem;
+    margin: .75rem auto 0 auto;
+    border-top: 1px solid #cacaca;
+}
+.Judo_rank li{
+	position:relative;
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.Judo_rank li em{
+    display: block;
+    float: left;
+    width: 1.75rem;
+    text-align: right;
+    font: .75rem/ 2rem 'Microsoft YaHei';
+    color: #ff7003;
+}
+.Judo_rank li span:nth-child(2){
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 3.4rem;
+    height: 2rem;
+    text-align: left;
+    font: .45rem/ 2rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_rank li div{
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 1.8rem;
+    height: 2rem;
+    text-align: center;
+}
+.Judo_rank li div img{
+   width: .9rem;
+    height: .9rem;
+    margin: .5rem auto 0 auto;
+}
+.Judo_rank li div font{
+    display: block;
+    font: .45rem/.55rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.Judo_rank li span:nth-child(4){
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 1.3rem;
+    height: 2rem;
+    text-align: left;
+    font: .75rem/ 1.9rem 'Microsoft YaHei';
+    /* color: #00a1ec; */
+    text-align:center;
+}
+.Judo_rank li span:nth-child(5){
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: .8rem;
+    height: 2rem;
+    text-align: center;
+    font: .6em/ 2rem 'Microsoft YaHei';
+    color: #333;
+    margin-right: .2rem;
+}
+.Judo_rank li span:nth-child(6){
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 1.3rem;
+    height: 2rem;
+    text-align: left;
+    font: .75rem/ 1.9rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_rank li img:nth-child(7){
+    float: left;
+   width: .9rem;
+    height: .9rem;
+    margin: .5rem .3rem 0 0;
+}
+.Judo_rank li span:nth-child(8){
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 3.5rem;
+    height: 2rem;
+    text-align: left;
+    font: .45em/2rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_rank li span:nth-child(9){
+    overflow: hidden;
+    display: block;
+    width:100%;
+    text-align: left;
+    font: .4em/ .5rem 'Microsoft YaHei';
+    color: #ff7003;
+    position:absolute;
+    left:0;
+    top:.1rem;
+    text-indent:8.1rem;
+}
+/*2016-6-12，跆拳道结果显示不同*/
+.Judo_rankd{
+    overflow: hidden;
+    width: 16rem;
+    margin: .75rem auto 0 auto;
+    border-top: 1px solid #cacaca;
+}
+.Judo_rankd li{
+	position:relative;
+    width: 100%;
+    height: 2rem;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.Judo_rankd li em{
+    display: block;
+    float: left;
+    width: .025rem;
+    text-align: right;
+    font: .75rem/ 2rem 'Microsoft YaHei';
+    color: #ff7003;
+}
+.Judo_rankd li span:nth-child(2) a{
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 3.4rem;
+    height: 2rem;
+    text-align: left;
+    font: .45rem/ 2rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_rankd li div{
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 1.2rem;
+    height: 2rem;
+    text-align: center;
+}
+.Judo_rankd li div a img{
+   width: .9rem;
+    height: .9rem;
+    margin: .5rem 0 0 .3rem;
+}
+.Judo_rankd li div font{
+    display: block;
+    font: .45rem/.55rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.Judo_rankd li span:nth-child(4){
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 6.65rem;
+    height: 2rem;
+    text-align: center;
+    font: .45rem/ 1.9rem 'Microsoft YaHei';
+    /* color: #00a1ec; */
+}
+.Judo_rankd li a:nth-child(5) img{
+    float: left;
+   width: .9rem;
+    height: .9rem;
+    margin: .5rem .3rem 0 0;
+}
+.Judo_rankd li span:nth-child(6) a{
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 3.5rem;
+    height: 2rem;
+    text-align: left;
+    font: .45em/2rem 'Microsoft YaHei';
+    color: #333;
+}
+.Judo_rankd li span:nth-child(7){
+    overflow: hidden;
+    display: block;
+    width:100%;
+    text-align: left;
+    font: .4em/ .5rem 'Microsoft YaHei';
+    color: #ff7003;
+    position:absolute;
+    left:0;
+    top:.1rem;
+    text-align:center;
+}
+/***********射击个人赛*************/
+.cheng{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.world_ranking_shot {
+    display: inline-block;
+    height: 1.2rem;
+    padding: 0 .5rem;
+    margin: .5rem auto .2rem auto;
+    border-radius: .2rem;
+    border: .05rem solid #00a1ec;
+    font: .6rem/1.2rem 'Microsoft YaHei';
+    color: #00a1ec;
+    text-align: center;
+}
+.shot{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+    clear: both;
+}
+.shot p{
+    float: left;
+    width: 15.5rem;
+    padding-right: .5rem;
+    height: .7rem;
+    font: .6rem/.7rem 'Microsoft YaHei';
+    margin: -0.1rem 0 .3rem 0;
+    text-align: right;
+}
+.shot p span{
+    display: inline-block;
+    height: .7rem;
+    margin-left: 1rem;
+    font: .6rem/.7rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+.shot p span:nth-child(2){
+    margin-left: 1.1rem;
+}
+.shot p span:nth-child(3){
+    margin-left: 1.05rem;
+}
+.shot p span:nth-child(4){
+    margin-left: .8rem;
+}
+
+.shot dl{
+    width: 100%;
+    float: left;
+    height: 2rem;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.shot dl:nth-child(4){
+    border-bottom: 1px solid #cacaca;
+}
+.shot .shot_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.shot dt{
+    width: 3.3rem;
+    float: left;
+}
+.shot dt span{
+    overflow: hidden;
+    height: 1.5rem;
+    display: block;
+    float: left;
+}
+.shot dt span
+{
+    width: .85rem;
+    font: .9rem/ 2rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .75rem;
+}
+.shot .shot_dl dt span
+{
+    color: #00a1ec;
+}
+.shot dt img
+{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .55rem  0 0;
+}
+.shot dd {
+    float: left;
+    width: 2.3rem;
+}
+.shot dd span:nth-child(1){
+   display: block;
+    font: .6rem/ 1.2rem 'Microsoft YaHei';
+    color: #333;
+}
+.shot .shot_dd01 span:nth-child(1){
+    display: block;
+    height: 1.2rem;
+    font: .45rem/ 1.2rem 'Microsoft YaHei';
+    color: #333;
+}
+
+.shot dd span:nth-child(2){
+    display: block;
+    height: .8rem;
+    font: .45rem/ .8rem 'Microsoft YaHei';
+    color: #666;
+}
+.shot dl dd:nth-child(2) {
+    float: left;
+    width: 3.85rem;
+}
+.shot dl dd:last-child {
+    float: left;
+    width: 1.9rem;
+    text-align: center;
+}
+
+/************十米男子气步枪决赛***************/
+.Arigun{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.Arigun dl{
+    width: 100%;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.Arigun dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.Arigun .Arigun_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.Arigun dt{
+    width: 100%;
+    float: left;
+}
+.Arigun dt span{
+    overflow: hidden;
+    height: 1.35rem;
+    display: block;
+    float: left;
+}
+.Arigun dt span:nth-child(1)
+{
+    width: .95rem;
+    font: .9rem/ 1.35rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .85rem;
+}
+.Arigun .Arigun_dl dt span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.Arigun dt img:nth-child(2)
+{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .225rem .4rem 0 0;
+    border-radius: 50%;
+}
+.Arigun dt span:nth-child(3)
+{
+    width: 4.35rem;
+    font: .6rem/ 1.35rem 'Microsoft YaHei';
+    color: #333;
+}
+.Arigun dt span:nth-child(4)
+{
+    width: 3rem;
+    font: .45rem/ 1.35rem 'Microsoft YaHei';
+    color: #666;
+}
+
+.Arigun_dd01{
+    float: left;
+    width: 12rem;
+    margin-left: 1.6rem;
+}
+.Arigun_dd01 div{
+    float: left;
+    width: 2rem;
+    margin-right: .5rem;
+}
+.Arigun_dd01 .Arigun_div01{
+    margin-right: 0;
+}
+.Arigun_dd01 div span:nth-child(1){
+    width: 100%;
+    display: block;
+    font: .6rem/ 1.2rem 'Microsoft YaHei';
+    color: #333;
+    text-align: center;
+}
+.Arigun_dd01 div span:nth-child(2){
+    width: 100%;
+    display: block;
+    font: .6rem/ 1.2rem 'Microsoft YaHei';
+    text-align: center;
+    color: #00a1ec;
+}
+.Arigun_dd02{
+    float: right;
+    width: 2.4rem;
+}
+.Arigun_dd02 span{
+    display: block;
+    width: 100%;
+    font: .6rem/ 1.2rem 'Microsoft YaHei';
+    text-align: center;
+    color: #f26b1a;
+}
+.Arigun_dd02 span:nth-child(2){
+   margin-top: .75rem;
+}
+.Arigun_dd03{
+    clear: both;
+    float: left;
+    margin: -0.2rem 0 0 1.6rem;
+}
+.Arigun_dd03 span{
+    font: .7rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+}
+.Arigun_dd03 em{
+    font: .7rem/ 1.5rem 'Microsoft YaHei';
+    color: #00a1ec;
+}
+
+/*************射击女子飞蝶***************/
+.Eleva{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.Eleva dl{
+    width: 100%;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.Eleva dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.Eleva .Eleva_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.Eleva dt{
+    width: 100%;
+    float: left;
+}
+.Eleva dt span{
+    overflow: hidden;
+    height: 1.35rem;
+    display: block;
+    float: left;
+}
+.Eleva dt span:nth-child(1)
+{
+    width: .95rem;
+    font: .9rem/ 1.35rem 'Microsoft YaHei';
+    color: #333;
+    margin-left: .85rem;
+}
+.Eleva .Eleva_dl dt span:nth-child(1)
+{
+    color: #00a1ec;
+}
+
+.Eleva dt img:nth-child(2)
+{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin: .225rem .4rem 0 0;
+}
+.Eleva dt span:nth-child(3)
+{
+    width: 4.35rem;
+    font: .6rem/ 1.35rem 'Microsoft YaHei';
+    color: #333;
+}
+
+.Eleva_dd01{
+    float: left;
+    width: 12.5rem;
+    margin-left: 1rem;
+}
+.Eleva_dd01 div{
+    float: left;
+    width: 1.55rem;
+}
+.Eleva_dd01 .Eleva_fenge{
+    clear: both;
+    width: 100%;
+    height: 1px;
+    background: none;
+    margin-bottom: .3rem;
+}
+.Eleva_dd01 .Arigun_div01{
+    margin-right: 0;
+}
+.Eleva_dd01 div span{
+    width: 100%;
+    display: block;
+    font: .6rem/ 1.2rem 'Microsoft YaHei';
+    color: #333;
+    text-align: center;
+}
+.Eleva_dd01 div em{
+    width: .65rem;
+    display: block;
+    height: .65rem;
+    margin: .25rem auto 0 auto;
+    border-radius: 50%;
+    border: 1px solid #489ecc;
+}
+.Eleva_dd01 div .Eleva_em{
+    background: #00a1ec;
+}
+.Eleva_dd02{
+    float: right;
+    width: 2.4rem;
+    height: 5rem;
+    border-left: 1px solid #cacaca;
+}
+.Eleva_dd02 span{
+    display: block;
+    width: 100%;
+    font: .6rem/ 1.2rem 'Microsoft YaHei';
+    text-align: center;
+    color: #f26b1a;
+}
+.Eleva_dd02 span:nth-child(2){
+    margin-top: .75rem;
+}
+.Eleva_dd03{
+    clear: both;
+    float: left;
+    overflow: hidden;
+    margin: -0.2rem 0 0 1.4rem;
+}
+.Eleva_dd03 span{
+    font: .7rem/ 1.5rem 'Microsoft YaHei';
+    color: #333;
+}
+.Eleva_dd03 em{
+    width: .65rem;
+    display: inline-block;
+    height: .65rem;
+    border-radius: 50%;
+    margin: .1rem .4rem 0 .4rem;
+    border: 1px solid #489ecc;
+    vertical-align: middle;
+}
+.Eleva_dd03  .Eleva_em{
+    background: #00a1ec;
+}
+
+/*************高尔夫比赛进行中****************/
+.gold_rank{
+    overflow: hidden;
+    width: 16rem;
+    margin: 0 auto;
+}
+.gold_rank dl{
+    width: 100%;
+    height: 3.2rem;
+    margin-bottom: 1px;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+}
+.gold_rank dl:nth-child(3){
+    border-bottom: 1px solid #cacaca;
+}
+.gold_rank .gold_rank_dl{
+    background: #b6dfff;
+    border-bottom: none;
+}
+.gold_rank .gold_rank_dl dt{
+    color: #00a1ec;
+}
+.gold_rank dt{
+    float: left;
+    width: 1.3rem;
+    height: 3.2rem;
+    font: .9rem/ 1.6rem 'Microsoft YaHei';
+    color: #333;
+    text-align: right;
+}
+.gold_rank dd{
+    float: left;
+    width: 14.2rem;
+    margin-left: .5rem;
+}
+.gold_rank01{
+    width: 100%;
+    height: 1.3rem;
+}
+.gold_rank01 img{
+    float: left;
+    width: .9rem;
+    height: .9rem;
+    margin-top: .225rem;
+}
+.gold_rank01 span:nth-child(2){
+    float: left;
+    overflow: hidden;
+    width: 7.7rem;
+    height: 1.3rem;
+    margin-left: .6rem;
+    font: .45rem/ 1.3rem 'Microsoft YaHei';
+    color: #333;
+}
+.gold_rank01 a{
+    display: block;
+    float: left;
+    width: 2.6rem;
+    height: 1.3rem;
+    padding-right: .9rem;
+    background: url(../images/xx.png) right .35rem no-repeat;
+    background-size: .9rem .65rem;
+    font: .6rem/ 1.3rem 'Microsoft YaHei';
+    color: #333;
+}
+.gold_rank01 span:nth-child(4){
+    float: left;
+    margin-left: .25rem;
+    font: .7rem/ 1.3rem 'Microsoft YaHei';
+    color: #ff7003;
+}
+.gold_rank02{
+    clear: both;
+    width: 13.8rem;
+    padding-left: .4rem;
+}
+.gold_rank02 p{
+    float: left;
+    margin-right: 1.1rem;
+}
+.gold_rank02 p:last-child{
+    float: left;
+    margin-right: 0;
+}
+
+.gold_rank02 span{
+    display: block;
+    text-align: center;
+}
+.gold_rank02 span:nth-child(1) {
+    display: block;
+    text-align: center;
+    font: .5rem/ .8rem 'Microsoft YaHei';
+    color: #666666;
+}
+.gold_rank02 span:nth-child(2) {
+    display: block;
+    text-align: center;
+    font: .6rem/ 1.1rem 'Microsoft YaHei';
+    color: #333;
+}
+.gold_rank02 .gold_rank_p01 span:nth-child(2)
+{
+    color: #00a1ec;
+}
+.gold_rank02 .gold_rank_p02 span:nth-child(2)
+{
+    color: #ff7003;
+}
+

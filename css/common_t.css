@@ -1,0 +1,2856 @@
+@charset "UTF-8";
+
+/***********足球页*************/
+.banner{ width: 16rem; margin: 0 auto;}
+.banner img{ width: 16rem; height: auto;}
+.all_return{ width: 16rem; height: 1.5rem; background: url(../images/go_bg.jpg) center top no-repeat;}
+.all_return a{
+   display: block;
+   float: left;
+   width: 2.3rem;
+   height: 1.5rem;
+   padding-left: .95rem;
+   margin-left: .75rem;
+   background: url(../images/icon01.png) left 0.4rem no-repeat;
+   background-size: .5rem .7rem;
+   font: .7rem/1.5rem 'Microsoft YaHei';
+   color: #ffffff;
+}
+.all_return02{ width: 16rem; height: 1.5rem; background: url(../images/go_bg.jpg) center top no-repeat;}
+.all_return02 a{
+   display: block;
+   float: left;
+   width: 5.25rem;
+   height: 1.5rem;
+   padding-left: .95rem;
+   margin-left: .75rem;
+   background: url(../images/icon01.png) left 0.4rem no-repeat;
+   background-size: .5rem .7rem;
+   font: .7rem/1.5rem 'Microsoft YaHei';
+   color: #ffffff;
+}
+.all_return02 span{
+   display: block;
+   float: right;
+   height: .85rem;
+   padding: 0 .45rem;
+   margin: .3rem .75rem 0 0;
+   font: .45rem/.85rem 'Microsoft YaHei';
+   color: #ffffff;
+   border: 0.05rem solid #fff;
+   border-radius: .3rem;
+}
+main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
+.title_foot{ position: relative; width: 100%; height: 1.85rem; padding-top:.3rem; }
+.title_bg{ width: 10.4rem; height: 1.3rem; margin-left: 1.1rem; padding-left: 1.25rem; background: url(../images/title_bg.png) center top no-repeat;
+   font: .75rem/1.3rem 'Microsoft YaHei';
+   color: #00a1ec;
+   background-size: 100% 100%;
+}
+.title_bg02{
+   margin-left: 1.5rem;
+}
+.title_foot img{ position: absolute; left: 0; top: 0; width: 2.35rem; height: 2.15rem;}
+.nav{ width: 16rem; margin: 0 auto; height: 1.35rem;}
+.nav ul{ width: 16rem; height: 1.2rem; background: #19b6ff;}
+.nav ul li{ float: left;}
+.nav ul li:nth-child(1){ width: 3.2rem; margin-left: .35rem;}
+.nav ul li:nth-child(2){ width: 4.1rem;}
+.nav ul li:nth-child(3){ width: 3.55rem;}
+.nav ul li:nth-child(4){ width: 3.55rem;}
+.nav ul li a{ overflow: hidden; display: block; font: .55rem/1.2rem 'Microsoft YaHei'; color: #fff; text-align: center;}
+.nav ul .nav_hover a{ display: block; width: 3.2rem; height: 1.325rem;
+   background: url(../images/nav_hover.png) center top no-repeat;
+   background-size: 100% 100%;
+   font: .55rem/1.2rem 'Microsoft YaHei'; color: #fb6900; text-align: center;
+}
+
+.choice_time{ overflow:hidden; position: relative; width: 14rem; padding: .45rem 1rem; margin: 0 auto;}
+.choice_time ul{ overflow: hidden; position:relative; height:.85rem;}
+.choice_time li{ float: left; padding: 0 .25rem;}
+.choice_time li a{ overflow:hidden; display: block; width: 2.3rem; height: .85rem;
+   font: .4rem/.85rem 'Microsoft YaHei'; color: #00a1ec; text-align: center;
+   border-radius: 0.075rem;
+   border: 1px solid #38b6f0;
+   text-align: center;
+   box-sizing:border-box;
+}
+.choice_time .choce_time_hover a{
+   background: #4bc6ff;
+   color: #fff;
+}
+.choice_pre{
+    position: absolute;
+    left: 0rem;
+    top: .45rem;
+    width: 1rem;
+    height: .85rem;
+    background: url(../images/left.png) center .15rem no-repeat #f0f9ff;
+    background-size: .35rem .55rem;
+    cursor: pointer;
+}
+.choice_next{
+    position: absolute;
+    right: 0rem;
+    top: .45rem;
+    width: 1rem;
+    height: .85rem;
+    background: url(../images/right.png) center .15rem no-repeat #f0f9ff;
+    background-size: .35rem .55rem;
+    cursor: pointer;
+}
+
+.medal{
+   width: 14.5rem;
+   margin: 0 auto;
+   overflow: hidden;
+   padding:0.6rem 0;
+}
+.medal p:nth-child(1){
+   float: left;
+   height: 2rem;
+   padding-left: 20px;
+   background: url(../images/icon07@3x.png) left center no-repeat;
+   background-size: 18px 20px;
+   background-position: 0 13px;
+   font: .7rem/2rem 'sans-serif'; 
+   font-size: 14px;
+   font-family: monospace !important;	
+   color: #333333;
+}
+.medal p:nth-child(2){
+   float: right;
+   height: 2rem;
+   font: .7rem/2rem 'Microsoft YaHei';
+   color: #333333;
+   font-size: 14px;
+   font-family: monospace !important;
+}
+.medal p em{
+   margin: 0 0.05rem;
+   font: .75rem/2rem 'Microsoft YaHei';
+   color: #f26d1d;
+   font-style: normal;
+}
+
+.doing{ width: 14.5rem; margin: 0 auto;}
+.statue{ width: 14.5rem; margin-bottom: .2rem;}
+.statue img{ width: 14.5rem; height: .75rem;}
+.doing_content{ width: 14.4rem;
+   height: 7rem;
+   margin: 0 auto;
+   border-radius: .4rem;
+   border: 0.05rem solid #00a1ec;
+}
+.doing_content p{
+   font: .6rem/1.6rem 'Microsoft YaHei'; color: #ff6d00;
+   text-align: center;
+}
+
+.country{ position: relative; width: 100%; height: 1.5rem;}
+.country dl{
+   float: left;
+   width: 4rem;
+}
+.country dt{
+   float: left;
+   width: 2rem;
+   height: 2rem;
+   margin-left: .05rem;
+   border-radius: 50%;
+}
+.country dt img{
+   width: 2rem;
+   height: 2rem;
+   border-radius: 50%;
+   box-shadow: .05rem .05rem .1rem #0d3653;
+}
+.country dd{
+   float: left;
+   margin-left: .15rem;
+   font: .6rem/1.4rem 'Microsoft YaHei'; color: #19b6ff;
+}
+
+.country .you{
+ float: right;
+}
+.country .you dt {
+   float: right;
+   margin: 0 .2rem 0 0;
+}
+.country .you dd {
+   float: right;
+   text-align: right;
+   margin: 0 0.15rem 0 0;
+}
+
+.scores{
+   float: left;
+   width: 4.5rem;
+   height: 1.3rem;
+   margin-top: .15rem;
+   margin-left: 1rem;
+   background: url(../images/scores.png) center top no-repeat;
+   background-size: 3.5rem 1.3rem;
+   text-align: center;
+}
+.scores span{
+   font: .9rem/1.3rem 'Microsoft YaHei';
+   text-align: center;
+   color: #fff;
+}
+
+.sectio{
+   clear: both;
+   text-align: center;
+}
+.sectio02{
+   margin-top: -0.2rem;
+}
+.sectio span{
+   font: .6rem/2.1rem 'Microsoft YaHei'; color: #19b6ff;
+}
+
+/* .girlFour a{
+   float: left;
+   display: block;
+   width: 3.1rem;
+   height: 1.2rem;
+   margin-right: .75rem;
+   border: 0.05rem solid #19b6ff;
+   border-radius: .2rem;
+   text-align: center;
+   font: .7rem/1.2rem 'Microsoft YaHei'; color: #19b6ff;
+} */
+.zhanbao a:nth-child(1){
+   margin-left: 1.7rem;
+}
+.zhanbao .zhanbao_hover{
+   background: #19b6ff;
+   color: #fff;
+}
+.zhanbao .zhanbao_no{
+   background: #959595;
+   border: 0.05rem solid #959595;
+   color: #fff;
+}
+.more{ width: 14.5rem; margin: 0 auto; clear: both;}
+.statue02{
+   width: 14.5rem;
+   height: .8rem;
+   margin: .5rem auto;
+}
+.more .doing_content{
+   margin-top: .75rem;
+}
+.kai_or_over{
+   width: 14.5rem;
+   margin: 0 auto;
+}
+.kai_or_over_ath{
+   margin-bottom: .65rem;
+}
+.kai_or_over span{
+   float: left;
+   display: block;
+   height: 1.05rem;
+   font: .6rem/1.05rem 'simHei';
+   text-align: center;
+}
+.kai_or_over span:nth-child(1){
+   width: 3.25rem;
+   height: 1.05rem;
+   background: url(../images/kaishi.png) left top no-repeat;
+   background-size: 100% 100%;
+   color: #fff;
+}
+.kai_or_over img{
+   float: left;
+   width: 8rem;
+   height: 1.05rem;
+}
+.kai_or_over span:nth-child(3)
+{
+   width: 3.25rem;
+   height: 1.05rem;
+   background: url(../images/over.png) left top no-repeat;
+   background-size: 100% 100%;
+   color: #4bae3f;
+}
+
+.doing_content .p_black{
+   color: #333333;
+}
+
+.over_content .country dd{
+   margin-top: -.3rem;
+   font: .6rem/1.4rem 'Black Jane'; color: #333333;
+}
+
+
+.time_go{ float: left; margin-left: .5rem; width: 6.4rem;}
+.time_go span:nth-child(1){
+   font: 1.1rem/1.2rem 'Microsoft YaHei'; color: #00a1ec;
+   margin-left: 1rem;
+   vertical-align: text-bottom;
+   color: #505050!important;
+}
+.time_go span:nth-child(2){
+   font: .7rem/1.1rem 'Microsoft YaHei'; color: #00a1ec;
+   vertical-align: text-bottom;
+   /*margin-left: -.5rem;*/
+   color: #505050!important;
+}
+.sectio .sec_over{
+   color: #666666;
+}
+.scores02{
+   background: url(../images/scores02.png) left top no-repeat;
+   background-size: 100% 100%;
+   text-align: center;
+}
+
+.sectio .sec_teshu{
+   display: block;
+   text-align: center;
+}
+
+/********************射箭淘汰赛******************/
+.archer_nav{
+   width: 14.5rem;
+   height: 1.2rem;
+   padding: 0 .75rem;
+   background: #19b6ff;
+   margin: 0 auto;
+   border-top: .05rem solid #0082be;
+}
+.ath_nav{
+   border: none;
+}
+.archer_nav div{
+   display: block;
+   float: left;
+   width: 7.25rem;
+   height: 1.3rem;
+}
+.archer_nav a{
+   display: block;
+   float: left;
+   width: 7.25rem;
+   height: 1.3rem;
+   font: .7rem/1.25rem 'Microsoft YaHei'; color: #fff;
+   text-align: center;
+}
+.archer_nav .archer_nav_a{
+   /* background: url(../images/nav_hover02.png) center bottom no-repeat; */
+   background-size: 100% 100%;
+   color: #ff7003;
+}
+.archer_boy{ overflow: hidden; width: 16rem; margin: 0 auto;}
+.archer_boy span{
+   display: block;
+   width: 4.3rem;
+   height: 1.25rem;
+   margin: .65rem auto 0.7rem auto;
+   background: url(../images/boy.png) center bottom no-repeat;
+   background-size: 100% 100%;
+   font: .6rem/1.25rem 'Microsoft YaHei'; color: #00a1ec;
+  text-indent: .6rem;
+   cursor: pointer;
+}
+.archer_boy a{
+   display: block;
+   width: 4.2rem;
+   height: 1.15rem;
+   margin: -0.05rem auto 0 auto;
+   border: .05rem solid #00a1ec;
+   border-radius: .2rem;
+   border-top: none;
+   font: .6rem/1.25rem 'Microsoft YaHei'; color: #ff6d00;
+   text-indent: .6rem;
+}
+.archer_data{
+   width: 16rem;
+   margin: 0 auto;
+}
+.archer_data li{
+   width: 100%;
+   height: 2rem;
+   overflow: hidden;
+   margin-top: 1px;
+   border-bottom: 1px solid #cacaca;
+}
+
+.archer_data li:nth-child(4){
+   margin-top: 0px;
+   border-bottom: 1px solid #cacaca;
+   border-top: 1px solid #cacaca;
+}
+
+.archer_data li span:nth-child(1){
+   display: block;
+   float: left;
+   width: 1.1rem;
+   margin-left: 1.1rem;
+   font: .9rem/2rem 'Microsoft YaHei'; color: #333333;
+}
+.archer_data li img:nth-child(2) {
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin-top: .45rem;
+   border-radius: 50%;
+}
+.archer_data li a:nth-child(2) img{
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin-top: .45rem;
+   border-radius: 50%;
+}
+.archer_data li span:nth-child(3){
+   display: block;
+   float: left;
+   width: 3.5rem;
+   margin-left: .3rem;
+   font: .45rem/2rem 'Microsoft YaHei'; color: #333333;
+}
+.archer_data_span{
+   display: block;
+   float: left;
+   width: 2rem;
+   font: .6rem/2rem 'Microsoft YaHei'; color: #333333;
+}
+.archer_data_span02{
+   display: block;
+   float: left;
+   width: 1.3rem;
+   font: .6rem/2rem 'Microsoft YaHei'; color: #333333;
+}
+.archer_data_em{
+   display: block;
+   float: left;
+   width: 1rem;
+   font: .6rem/2rem 'Microsoft YaHei'; color: #333333;
+}
+.archer_data li em:last-child{
+   display: block;
+   float: left;
+   width: 1rem;
+   font: .6rem/2rem 'Microsoft YaHei'; color: #ff7003;
+}
+
+.archer_data .archer_data_qian{
+   background: #b6dfff;
+   border: none;
+}
+.archer_data .archer_data_qian span:nth-child(1){
+   color: #19b6ff;
+}
+.archer_data_nba{
+ width: 16rem;
+ margin: 6rem auto 0 auto;
+   padding: .4rem 0;
+ border: 2px solid #00a1ec;
+ border-left: none;
+ border-right: none;
+}
+.archer_data_nba a{
+   overflow: hidden;
+   display: block;
+   width: 100%;
+   height: .9rem;
+   background: url(../images/icon03.png) .2rem .35rem no-repeat;
+   background-size: .2rem .2rem;
+   font: .5rem/.9rem 'Microsoft YaHei'; color: #333333;
+   text-indent: .75rem;
+   white-space: normal;
+   text-overflow: clip;
+}
+.archer_knockout{
+   background: #f0f9ff;
+}
+
+/*****************射箭团体排名赛*******************/
+.archer_rank{ width: 14.8rem; height: 1.5rem; padding: 0 .6rem; margin: 0 auto; background: #00a1ec; border-top: 2px solid #0082be;}
+.archer_rank p{ float: left; max-width: 7.4rem; max-height: 1.5rem;}
+.archer_rank p img{ display: inline-block; width: .85rem; height: .9rem; margin: .3rem .35rem 0 0;}
+.archer_rank p span{
+   font: .6rem/1.5rem 'Microsoft YaHei'; color: #fff;
+
+}
+.archer_rank div{ float: right; max-width: 7.4rem; max-height: 1.5rem;}
+.archer_rank div span{
+   font: .45rem/1.5rem 'Microsoft YaHei'; color: #fff;
+}
+.archer_rank div img{
+   display: inline-block;
+   width: .65rem;
+   height: .65rem;
+   margin: .55rem 0.05rem 0 .15rem;
+}
+.archer_rankMain{ width: 16rem; margin: 0 auto; text-align: center;}
+.world_rank{
+   display: inline-block;
+   height: 1.2rem;
+   padding: 0 .5rem;
+   margin: .75rem auto;
+   border-radius: .2rem;
+   border: .05rem solid #00a1ec;
+   font: .6rem/1.2rem 'Microsoft YaHei'; color: #00a1ec;
+   text-align: center;
+}
+.archer_rankMain p{
+   width: 16rem;
+   height: 1.5rem;
+   border: 1px solid #cacaca;
+   border-right: none;
+   border-left: none;
+   background: #fff;
+   font: .7rem/1.5rem 'Microsoft YaHei'; color: #f26b1a;
+}
+.arRank_data div{
+   text-align: right;
+}
+.arRank_data div span{
+   margin-right: 1.25rem;
+   font: .6rem/1.2rem 'Microsoft YaHei'; color: #00a1ec;
+}
+
+.arRank_data ul{
+   border-top: 1px solid #f0f9ff;
+   padding: .3rem 0;
+   background: #b6dfff;
+}
+.arRank_data .arRank_data_bg{
+   background: #fff;
+   border-top: 1px solid #cacaca;
+   border-bottom: 1px solid #cacaca;
+}
+.arRank_data .arRank_data_bg02{
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+}
+
+.arRank_data ul li{
+   height: 1.5rem;
+}
+.arRank_data ul .ar_first_li span:nth-child(1){
+   display: block;
+   float: left;
+   width: 1.25rem;
+   text-align: right;
+   font: .9rem/1.5rem 'Microsoft YaHei'; color: #00a1ec;
+
+}
+.arRank_data ul .ar_first_li img{
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: .2rem .5rem 0 .5rem;
+}
+.arRank_data ul .ar_first_li span:nth-child(3){
+   overflow: hidden;
+   display: block;
+   float: left;
+   width: 3.6rem;
+   text-align: left;
+   font: .45rem/1.5rem 'Microsoft YaHei'; color: #333;
+
+}
+.arRank_data ul .ar_first_li span{
+   float: left;
+   width: 3rem;
+   font: .6rem/1.5rem 'Microsoft YaHei'; color: #333;
+   text-align: left;
+}
+
+.arRank_data ul .ar_second_li span {
+   float: left;
+   width: 3rem;
+   text-align: left;
+   font: .45rem/1.5rem 'Microsoft YaHei'; color: #666666;
+}
+.arRank_data ul .ar_second_li span:nth-child(1){
+   width: 3.6rem;
+   margin-left: 3.35rem;
+}
+.arRank_data ul .ar_second_li span:nth-child(4) {
+   color: #00a1ec;
+}
+
+/**************射箭个人赛*******************/
+.arRank_data ul .ar_thrid_li span:nth-child(1){
+   display: block;
+   float: left;
+   width: 1.25rem;
+   text-align: right;
+   font: .9rem/2rem 'Microsoft YaHei'; color: #00a1ec;
+
+}
+.arRank_data ul .ar_thrid_li img{
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: .45rem .3rem 0 .7rem;
+   border-radius: 50%;
+}
+.arRank_data ul .ar_thrid_li div:nth-child(3){
+   display: block;
+   float: left;
+   width: 3.6rem;
+   text-align: left;
+}
+.arRank_data ul .ar_thrid_li div{
+   float: left;
+   width: 3rem;
+   text-align: left;
+}
+.arRank_data ul .ar_thrid_li div span:nth-child(2){
+   overflow: hidden;
+   clear: both;
+   display: block;
+   width: 3rem;
+   font: .45rem/1rem 'Microsoft YaHei'; color: #333;
+   text-align: left;
+   margin: 0;
+}
+.arRank_data ul .ar_thrid_li div span:nth-child(1) {
+   overflow: hidden;
+   display: block;
+   width: 3rem;
+   font: .6rem/1rem 'Microsoft YaHei'; color: #333;
+   text-align: left;
+   margin: 0;
+   height:40px;
+}
+.arRank_data ul .ar_thrid_li .lang_div {
+   width: 3.6rem;
+}
+.arRank_data ul .ar_thrid_li .color_span span:nth-child(2) {
+   color: #00a1ec;
+}
+
+/*****************8进4进行中***************/
+.eight_four{  overflow: hidden; width: 16rem; margin: 0 auto; text-align: center;}
+.four_going{
+   overflow: hidden;
+   width: 16rem;
+   padding-bottom: .65rem;
+   background: #fff;
+   border: 1px solid #cacaca;
+   border-right: none;
+   border-left: none;
+}
+.rang_going{
+   font: .7rem/1.5rem 'Microsoft YaHei'; color: #f26b1a;
+}
+.four_dl_left{
+   float: left;
+}
+.four_dl_left dt{
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: 0  .65rem 0 .9rem;
+}
+.four_dl_left dt img{
+   width: 1.1rem;
+   height: 1.1rem;
+}
+.four_dl_left dd{
+   float: left;
+   width: 3.5rem;
+}
+.four_dl_left p:nth-child(1){
+   font: .45rem/1.1rem 'Microsoft YaHei'; color: #333;
+
+}
+.four_dl_left p{
+   font: .45rem/.8rem 'Microsoft YaHei'; color: #fb6900;
+   text-align: left;
+}
+.scores03{
+   margin: 0;
+}
+.scores03{
+   margin: .5rem .1rem 0 .1rem;
+}
+.scores dd{
+   font: .6rem/2.25rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.scores03 dd span{
+   font: .6rem/2.25rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.scores03 dd span:nth-child(1){
+   margin-right: .6rem;
+   font: .6rem/2.25rem 'Microsoft YaHei'; color: #00a1ec;
+}
+
+
+.four_dl_right{
+   float: right;
+}
+.four_dl_right dt{
+   float: right;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: 0  .9rem 0 .65rem;
+}
+.four_dl_right dt img{
+   width: 1.1rem;
+   height: 1.1rem;
+}
+.four_dl_right dd{
+   float: right;
+   width: 3.5rem;
+}
+.four_dl_right p:nth-child(1){
+   font: .45rem/1.1rem 'Microsoft YaHei'; color: #333;
+   text-align: right;
+}
+.four_dl_right p{
+   font: .45rem/.8rem 'Microsoft YaHei'; color: #fb6900;
+   text-align: right;
+}
+.witch_section_first{
+   padding: .25rem 0;
+   background: #f0f9ff;
+  border-bottom: 1px solid #cacaca;
+}
+.witch_section_first p{
+   font: .6rem/.9rem 'Microsoft YaHei'; color: #00a1ec;
+  text-align: center;
+}
+.witch_section_first div{
+   clear: both;
+   height: .8rem;
+}
+.witch_section_first span{
+   display: block;
+   float: left;
+   font: .6rem/.9rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.witch_section_first span:nth-child(1){
+   margin-left: 6.5rem;
+   width: 1.7rem;
+}
+.witch_section_first span:nth-child(2) {
+   margin-left: 1.5rem;
+   width: 1.7rem;
+}
+.witch_section_first span:nth-child(3) {
+   margin-left: 1.5rem;
+   width: 1.5rem;
+}
+.witch_section_second{
+   padding: .15rem 0;
+   background: #fff;
+}
+.witch_section_second img{
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: .75rem .9rem 0 .9rem;
+}
+.witch_section_second div{
+   float: left;
+}
+.witch_section_second div:nth-child(2){
+   width: 3.6rem;
+   text-align: left;
+}
+.witch_section_second div:nth-child(3){
+   width: 1.7rem;
+   text-align: center;
+}
+.witch_section_second div:nth-child(4){
+   width: 1.7rem;
+   margin-left: 1.5rem;
+   text-align: center;
+}
+
+.witch_section_second div span{
+   display: block;
+   font: .45rem/.8rem 'Microsoft YaHei'; color: #333;
+}
+.witch_section_second_all{
+   float: left;
+   display: block;
+   width: 1.5rem;
+   margin-left: 1.5rem;
+   font: .6rem/2.4rem 'Microsoft YaHei'; color: #333;
+   text-align: center;
+}
+.witch_section li{
+   border-bottom: 1px solid #cacaca;
+}
+
+/***************射箭个人页面*******************/
+.archer_person{ overflow: hidden; width: 16rem; margin: 0 auto; border-top: 2px solid #00a1ec}
+.archer_person_l{ float: left; overflow: hidden; width: 6rem; height: 5.75rem; margin: .8rem 0 0 1.15rem; border-radius: .25rem;}
+.archer_person_l img{  width: 6rem; height: 5.75rem; border-radius: .25rem}
+
+.archer_person_r{
+   float: left;
+   margin-left: .25rem;
+   margin-top: .7rem;
+}
+.archer_person_r dt{
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+}
+.archer_person_r dd{
+   width: 6.9rem;
+   float: left;
+   margin-left: .55rem;
+}
+.archer_person_r dd p{
+   overflow: hidden;
+   width: 6.9rem;
+   height: .6rem;
+   font: .45rem/.6rem 'Microsoft YaHei'; color: #000;
+}
+
+.archer_person_r li{
+   overflow: hidden;
+   width: 8.2rem;
+   height: 1.2rem;
+   margin-left: .4rem;
+   font: .45rem/1.2rem 'Microsoft YaHei'; color: #000;
+}
+.archer_person_r li span:nth-child(1){
+   overflow: hidden;
+   float: left;
+   display: block;
+   width: 4rem;
+   height: 1.2rem;
+   font: .45rem/1.2rem 'Microsoft YaHei'; color: #000;
+}
+.archer_person_r li span:nth-child(2){
+   overflow: hidden;
+   float: left;
+   display: block;
+   width: 4.2rem;
+   height: 1.2rem;
+   font: .45rem/1.2rem 'Microsoft YaHei'; color: #000;
+}
+.archer_person_article{
+   width: 14.1rem;
+   padding: .8rem .75rem 0 1.15rem ;
+   font: .45rem/.6rem 'Microsoft YaHei'; color: #666;
+}
+.person_scores{
+   overflow: hidden;
+   clear: both;
+   width: 16rem;
+}
+.person_scores p{
+   padding-top: .5rem;
+   font: .6rem/1.5rem 'Microsoft YaHei'; color: #ff6d00;
+   text-align: center;
+   border-bottom: 1px solid #cacaca;
+}
+.person_scores div{
+   width: 100%;
+   height: 1.5rem;
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+}
+.person_scores div span{
+   font: .7rem/1.5rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.person_scores div span:nth-child(1){
+  margin: 0 5.5rem 0 1rem;
+}
+
+/****************射箭8进四个人页*************/
+.four_dl_left02{ margin-left: 2rem;}
+.four_dl_left02 dt{ float: none;}
+.four_dl_left02 dd{ float: none; text-align: center;}
+.four_dl_left02 dd p{ text-align: center;}
+
+.four_dl_right{ float: left; position: relative;}
+.four_dl_right02 dt{ float: none;}
+.four_dl_right02 dd{ float: none;}
+.four_dl_right02 dd p{ text-align: center;}
+.four_dl_right02 dd p:nth-child(1){ text-align: center;}
+.four_dl_right_span{  width: 1rem; height: .8rem; position: absolute; right: -1rem; top: -.5rem;
+   font: .6rem/.8rem 'Microsoft YaHei'; color: #00a1ec;
+
+}
+.scores04{ float: left; margin-top: 1.3rem;}
+.scores04 .scores{
+   float: none;
+   margin: 0 .9rem;
+}
+.scores04 dd{
+   font: .6rem/2.25rem 'Microsoft YaHei'; color: #00a1ec;
+}
+.scores04 dd span:nth-child(1){
+   margin-right: .65rem;
+   font: .6rem/2.25rem 'Microsoft YaHei'; color: #00a1ec;
+}
+
+.rang_going02{
+   padding-top: .4rem;
+   font: .7rem/.8rem 'Microsoft YaHei';
+   color: #f26b1a;
+}
+.four_going02{
+   padding-bottom: 0;
+}
+
+.witch_section_thrid{
+ padding: .25rem 0;
+}
+.witch_section_thrid p{
+   font: .6rem/1.2rem 'Microsoft YaHei';
+   color: #00a1ec;
+}
+.witch_section_thrid span {
+   width: 1.3rem;
+   display: block;
+   float: left;
+   font: .6rem/.9rem 'Microsoft YaHei';
+   color: #00a1ec;
+   text-align: center;
+}
+.witch_section_thrid span:nth-child(1) {
+ margin-left: 2.25rem;
+}
+.witch_section_thrid .big_span{
+   width: 2.25rem;
+   margin-left: .4rem;
+}
+.witch_section_four{
+   background: #fff;
+}
+.witch_section_four img {
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: .45rem .9rem 0 .25rem;
+}
+.witch_section_four span {
+   width: 1.3rem;
+   height: 2rem;
+   display: block;
+   float: left;
+   font: .6rem/2rem 'Microsoft YaHei';
+   color: #333;
+   text-align: center;
+}
+.witch_section_four .big_span{
+   width: 2.25rem;
+   margin-left: .4rem;
+}
+
+/*********************女子团体射箭********************/
+.choice_time02{
+   overflow: hidden;
+   position: relative;
+   /*width: 11.5rem;*/
+   width: 13.3rem;
+   height: 1.2rem;
+   padding: .6rem .75rem 0 .75rem;
+   margin: 0 auto;
+}
+.choice_time02 ul{
+   height: 1.2rem;
+   position: relative;
+}
+.choice_time02 li {
+   float: left;
+   padding: 0 .36rem;
+}
+.choice_time02 li a {
+   overflow: hidden;
+   display: block;
+   /*width: 3.2rem;*/
+   width: 3.7rem;
+   height: 1.2rem;
+   font: .5rem/1.2rem 'Microsoft YaHei';
+   color: #00a1ec;
+   text-align: center;
+   /*border-radius: 0.1rem;*/
+   border-radius: 0.3rem;
+   border: 1px solid #38b6f0;
+   text-align: center;
+   box-sizing: border-box;
+}
+.choice_time02 .choce_time_hover a {
+   background: #4bc6ff;
+   color: #fff;
+}
+.choice_pre02,.choice_next02{
+   background-position: center center!important;
+   background-repeat: no-repeat !important;
+   background-size: contain !important;
+}
+.choice_pre02{
+   background-image: url(../images/left@3x.png)!important;
+   position: absolute;
+   left: 0;
+   top: .6rem;
+   width: .75rem;
+   height: 1.2rem;
+   /*background: url(../images/left.png) center .3rem no-repeat #fff;*/
+   background-size: .35rem .55rem;
+   cursor: pointer;
+}
+.choice_next02{
+   position: absolute;
+   right: 0;
+   top: .6rem;
+   width: .75rem;
+   height: 1.2rem;
+   background-image: url(../images/right@3x.png)!important;
+   /*background: url(../images/right.png) center .3rem no-repeat #fff;*/
+   background-size: .35rem .55rem;
+   cursor: pointer;
+}
+.statue_girl{
+   clear: both;
+   font: .7rem/1.5rem 'Microsoft YaHei';
+   color: #f26b1a;
+   border: 1px solid #cacaca;
+   border-right: none;
+   border-left: none;
+   text-align: center;
+   background:rgb(244,245,246);
+}
+.doing02{
+   width: 16rem;
+   margin: 0 auto 1.2rem;
+}
+.doing_content02{
+   width: 14.4rem;
+   height: auto;
+   padding: .2rem .8rem .2rem .8rem;
+   border: none;
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+   border-radius: 0;
+}
+.country02{
+   position: relative;
+   width: 100%;
+   height:  auto;
+}
+.doing_content02 p {
+   font: .6rem/1.6rem 'Microsoft YaHei';
+   color: #00a1ec;
+   text-align: center;
+}
+.doing_content02 .country dt {
+   float: none;
+   width: 2rem;
+   height: 2rem;
+   border-radius: 50%;
+   margin: 0 auto;
+}
+.doing_content02 .country02 dt img{
+   box-shadow: none;
+}
+.doing_content02 .country dd {
+   float: none;
+   margin: .35rem 0 0 0;
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #19b6ff;
+   text-align: center;
+}
+.doing_content02 .country .you dd {
+   float: none;
+   text-align: center;
+   margin: .35rem 0 0 0;
+}
+.sectio03{
+   width: 100%;
+   overflow: hidden;
+   clear: both;
+   margin-top: -.2rem;
+   text-align: center;
+}
+.sectio03 span {
+   font: .6rem/.8rem 'Microsoft YaHei';
+   color: #19b6ff;
+}
+.statue02_girl{
+   width: 100%;
+   float: left;
+   font: .6rem/2rem 'Microsoft YaHei';
+   color: #666666;
+   border-bottom: 1px solid #cacaca;
+   text-align: center;
+   background: #fff;
+}
+.more02{
+   width: 16rem;
+}
+.kai_or_over02{
+   clear: both;
+   width: 100%;
+   display: flex;
+   background: #f4f5f6;
+   border-bottom: 1px solid #e8e8e8;
+   border-top: 1px solid #e8e8e8;
+}
+.kai_or_over02 span{
+   /*display: block;*/
+   /*float: left;*/
+   /*width: 3rem;*/
+   /*font: .9rem/2.05rem 'Microsoft YaHei';*/
+   flex:1;
+   font-size: 16px;
+   line-height:50px;
+   color: #19b6ff;
+   text-align: center;
+   /*margin:0 2.5rem;*/
+   /*font-size: 16px;*/
+   font-family: monospace;
+}
+.kai_or_over02 .kai_or_over02_span{
+   border-bottom: .15rem solid #ff6d00;
+   font-size: 16px;
+   font-family: monospace;
+}
+
+.doing_content .p_gray
+{
+   padding-top: 1.05rem;
+   font: .6rem/.8rem 'Microsoft YaHei';
+   color: #666666;
+   margin-bottom: 0.5rem;
+}
+.doing_content .p_black{
+   padding-top: 1.05rem;
+   font: .6rem/.8rem 'Microsoft YaHei';
+   color: #333;
+   margin-bottom: 0.5rem
+}
+.doing_content02 .time_go {
+   float: left;
+   margin:.5rem 0 0 0;
+}
+.time_go p{
+   font: .6rem/2.3rem 'Microsoft YaHei';
+   color: #19b6ff;
+   text-align: center;
+}
+.doing_content02 .country .doing_content02_dd{
+   margin-top: .3rem;
+   color: #333;
+}
+.doing_content02 .country .you .doing_content02_dd{
+   margin-top: .3rem;
+   color: #333;
+}
+.scores p{
+   font: .6rem/2.5rem 'Microsoft YaHei';
+   color: #666666;
+}
+.scores05{
+   margin-top: .8rem;
+}
+.sectio_girl{
+   width: 100%;
+   /*float: left;*/
+   margin-top: -1.75rem;
+   font: .6rem/2.5rem 'Microsoft YaHei';
+   color: #666666;
+   text-align: center;
+}
+.sectio_girl span{
+   padding:0.15rem 0.9rem;
+   border-radius: .45rem!important;
+}
+
+/**********************田径详细赛程表********************/
+.choice_juti{
+   width: 4.25rem;
+   height: 1.15rem;
+   margin: 10px auto 10px auto;
+   font: .6rem/1.15rem 'Microsoft YaHei';
+   color: #19b6ff;
+   border: 0.05rem solid #19b6ff;
+   text-align: center;
+   border-radius:0.2rem;
+}
+.choice_doing{
+   overflow: hidden;
+   width: 16rem;
+   margin: 8px auto;
+}
+.choice_doing img{
+   width: 14.5rem;
+   height: 1.05rem;
+   margin: 0 auto;
+}
+
+/*.ath_girl{
+   overflow: hidden;
+   width: 14.5rem;
+   height: 7.5rem;
+   margin: 0 auto;
+   border-left: 0.05rem solid #cacaca;
+   border-radius: .4rem;
+   background: #fff;
+   box-shadow: .05rem .05rem .1rem #7b8083;
+}*/
+.ath_girl{
+   overflow: hidden;
+   width: 14.5rem;
+   padding: 0 .1rem 0 .05rem;
+   height: 7.6rem;
+   margin: 0 auto;
+   background: url(../images/ath_bg.png) center top no-repeat;
+   background-size: 100% 100%;
+}
+.ath_girl_p{
+   font: .6rem/1.5rem 'Microsoft YaHei';
+   color: #fb6900;
+   text-align: center;
+}
+.ath_girl dl{
+   overflow: hidden;
+   float: left;
+   margin: .1rem 0 0 .6rem;
+}
+.ath_girl dt span{
+   display: block;
+   float: left;
+   width: 1rem;
+   font: 1.2rem/1.4rem 'Microsoft YaHei';
+   color: #f26d1d;
+}
+.ath_girl .replace_color dt span{
+   color: #333333;
+}
+.ath_girl dt img{
+   float: left;
+   width: 1.25rem;
+   height: .9rem;
+   margin: .25rem .25rem 0 0;
+}
+.ath_girl dt div{
+   float: left;
+   width: 1.5rem;
+   margin-top: .35rem;
+}
+.ath_girl dt em{
+   overflow: hidden;
+   display: block;
+   width: 1.5rem;
+   height: .6rem;
+   font: .45rem/.6rem 'Microsoft YaHei';
+   color: #fb6900;
+   text-align: center;
+   margin-top: .25rem;
+}
+.ath_girl .replace_color dt em{
+   color: #666666;
+}
+.ath_girl dt .girlFour_em{
+   margin-top: .45rem;
+}
+.ath_girl dd{
+   clear: both;
+   line-height: 1rem;
+   padding-left: .55rem;
+}
+.ath_girl dd span:nth-child(1){
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #333333;
+}
+.ath_girl dd span:nth-child(2){
+   margin-left: .3rem;
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #333333;
+}
+.ath_girl .ath_blue{
+   width: 100%;
+   height: 3.5rem;
+   background: #b6dfff;
+}
+.ath_girl div p{
+   font: .55rem/.75rem 'Microsoft YaHei';
+   color: #0678b8;
+  text-align: center;
+}
+.ath_girl .ath_girl_div{
+   overflow: hidden;
+   width: 13.4rem;
+   height: 1.3rem;
+   padding: 0 .55rem;
+   margin: .7rem auto 0 auto;
+   background: url(../images/ath_zhan.png) center top no-repeat;
+   background-size: 100% 100%;
+}
+.ath_girl .ath_girl_div a{
+   display: block;
+   float: left;
+   margin: 0 1.1rem;
+   font: .7rem/1.1rem 'Microsoft YaHei';
+   color: #19b6ff;
+}
+.ath_girl .ath_girl_div .ath_girl_div_hover{
+   color: #fb6900;
+}
+.ath_girl .ath_girl_div a:nth-child(1){
+  margin-right: 1.7rem;
+}
+.ath_girl .ath_girl_div a:nth-child(2){
+   margin-right: 1.7rem;
+}
+.ath_blue02{
+   width: 100%;
+   height: 3.5rem;
+   margin-top: 1.5rem;
+   background: #b6dfff;
+}
+.ath_blue02 p span:nth-child(1){
+   font: 1.2rem/3.5rem 'Microsoft YaHei';
+   color: #19b6ff;
+   margin-right: 1rem;
+}
+.ath_blue02 p span:nth-child(2){
+   font: .75rem/3.5rem 'Microsoft YaHei';
+   color: #19b6ff;
+   margin-right: 1.8rem;
+}
+.ath_blue02 p span:nth-child(3){
+   font: .6rem/3.5rem 'Microsoft YaHei';
+   color: #19b6ff;
+}
+
+/*************田径弹窗***************/
+.opacity{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,.6);
+}
+.opacity_c{
+	overflow:auto;
+   width: 14.5rem;
+  position: absolute;
+   left: 50%;
+   top: 50%;
+   max-height:14.5rem;
+   margin: -9.1rem 0 0 -7.25rem;
+   background: #fff;
+   border-radius: .5rem;
+}
+.opacity_c p{
+	margin-top:.9rem;
+   font: .75rem/.8rem 'Microsoft YaHei';
+   color: #19b6ff;
+   margin-bottom: .4rem;
+   text-align: center;
+}
+.opacity_c li{
+   float: left;
+   padding: 0 .4rem;
+   margin: .5rem 0 0 .25rem;
+   font: .5rem/1.15rem 'Microsoft YaHei';
+   color: #19b6ff;
+   height: 1.15rem;
+   border-radius: .3rem;
+   border: 0.05rem solid #19b6ff;
+}
+.opacity_c .over_li{
+   background: #19b6ff;
+   color: #fff;
+}
+.opacity_c dl{
+   float: left;
+}
+.opacity_c dl:nth-child(1){
+   float: left;
+   margin: 0 1.5rem 0  4rem;
+}
+.opacity_c dt{
+   float: left;
+}
+.opacity_c dt img{
+   width: .6rem;
+   height: .6rem;
+   margin: 1.45rem .35rem 0 0;
+}
+.opacity_c dd {
+   float: left;
+   font: .5rem/3.5rem 'Microsoft YaHei';
+   color: #333;
+}
+.sure{
+   display: block;
+   width: 2.9rem;
+   height: 1.3rem;
+   border-radius: .3rem;
+   margin: 1rem auto 1rem auto;
+   font: .6rem/1.3rem 'Microsoft YaHei';
+   color: #fff;
+   border: 0.05rem solid #19b6ff;
+   text-align: center;
+   background:#19b6ff;
+}
+
+/******************篮球个人页面******************/
+.archer_person2{
+   overflow: hidden;
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+   border-top: 1px solid #cacaca;
+   padding-bottom: 1.7rem;
+   margin-top: .2rem;
+}
+.Basketball_Person{
+   overflow: hidden;
+   width: 16rem;
+   margin: 0 auto;
+}
+.Basketball_Person dt{
+   float: left;
+   width: 100%;
+   height: 1.45rem;
+   border-bottom: 1px solid #cacaca;
+}
+.Basketball_Person dt span{
+   float: left;
+   display: block;
+   font: .6rem/1.45rem 'Microsoft YaHei';
+   color: #19b6ff;
+}
+.Basketball_Person dt span{
+   width: 1.85rem;
+}
+.Basketball_Person dt em{
+   float: left;
+   width: .25rem;
+   height: .4rem;
+   background: url(../images/icon09.png) center top no-repeat;
+   background-size: 100% 100%;
+   margin: .525rem 0 0 -0.2rem;
+   cursor: pointer;
+}
+
+.Basketball_Person dt span:nth-child(1){
+    width: 2.6rem;
+ }
+.Basketball_Person dt span:nth-child(2){
+   width: 5.2rem;
+   text-indent: 1.5rem;
+   font-weight: bold;
+}
+.Basketball_Person dd{
+   width: 100%;
+   float: left;
+   clear: both;
+   border-bottom: 1px solid #cacaca;
+}
+.Basketball_Person_dd01 span{
+  display: block;
+   float: left;
+   width: 1.85rem;
+   height: 2rem;
+   font: .6rem/2rem 'Microsoft YaHei';
+   color: #333;
+   text-align: center;
+}
+.Basketball_Person_dd01 :nth-child(1){
+   width: 1.4rem;
+   text-align: center;
+}
+
+.Basketball_Person_dd01 img{
+   float: left;
+   width: 1rem;
+   height: 1rem;
+   margin: .5rem -.2rem 0 .3rem;
+   border-radius: 50%;
+}
+.Basketball_Person_dd01 img:nth-child(4){
+   margin: .5rem .2rem 0 0rem;
+}
+.Basketball_Person_dd01 div{
+   float: left;
+   width: 3.65rem;
+   height:2rem;
+   overflow: hidden;
+   text-align: center;
+}
+.Basketball_Person_dd01 div font:nth-child(1){
+   font: .6rem/2rem 'Microsoft YaHei';
+   color: #0075ab;
+}
+.Basketball_Person_dd01 div font:nth-child(2){
+   font: .6rem/2rem 'Microsoft YaHei';
+   color: #333;
+}
+.Basketball_Person_dd01 div font:nth-child(3){
+   font: .6rem/2rem 'Microsoft YaHei';
+   color: #333;
+}
+.Basketball_Person_dd02 span{
+   display: block;
+   float: left;
+   width: 1.85rem;
+   height: 2rem;
+   font: .6rem/2rem 'Microsoft YaHei';
+   color: #00a1ec;
+   text-align: left;
+}
+.Basketball_Person_dd02 span:nth-child(1){
+   width: 7.9rem;
+   text-indent: .9rem;
+}
+
+/**************篮球国家队****************/
+.basketball_line{width: 16rem;height: 2px; background: #0082be;}
+.basketball_country{
+   overflow: hidden;
+   background: #fff;
+   width: 16rem;
+   height: 4.9rem;
+   border-bottom: 1px solid #cacaca;
+   border-top: 1px solid #cacaca;
+   padding-bottom: 1.7rem;
+   margin-top: .2rem;
+}
+.basketball_country dt{
+   float: left;
+   margin: 1.8rem 1.8rem 0 2.8rem;
+}
+.basketball_country dt img{
+   width: 2.15rem;
+   height: 2.15rem;
+}
+.basketball_country dd{
+   float: left;
+   padding-top: .95rem;
+}
+.basketball_country dd p{
+   overflow: hidden;
+   width: 100%;
+   height: 1.1rem;
+   font: .6rem/1.1rem 'Microsoft YaHei';
+   color: #333;
+}
+.Basketball_Person_dd03{
+   background: none;
+}
+.Basketball_Person_dd03 span{
+   display: block;
+   float: left;
+   width: 2rem;
+   height: 2rem;
+   font: .55rem/2rem 'Microsoft YaHei';
+   color: #00a1ec;
+}
+.Basketball_Person_dd03 img{
+   float: left;
+   width: .9rem;
+   height: .9rem;
+   margin: .55rem .45rem 0 1.1rem;
+}
+.Basketball_Person_dd03 span:nth-child(2){
+   width: 2.5rem;
+}
+.Basketball_Person_dd03 span:last-child{
+   width: 2.8rem;
+  text-indent: .3rem;
+}
+.Basketball_Person_dd04 span{
+   overflow: hidden;
+   display: block;
+   float: left;
+   height: 2rem;
+   font: .45rem/2rem 'Microsoft YaHei';
+   color: #333;
+   width: 1.5rem;
+   text-align: center;
+   margin-right: .5rem;
+}
+.Basketball_Person_dd04 span:nth-child(1){
+   width: 4.35rem;
+  padding-left: .5rem;
+   margin-right: 0;
+}
+.Basketball_Person_dd04 span:nth-child(4){
+   margin-right: 0;
+}
+.Basketball_Person_dd04 span:nth-child(5){
+   width: 2.8rem;
+   margin-right: 0;
+}
+.Basketball_Person_dd04 span:nth-child(6){
+   float: right;
+   width: 2.8rem;
+   text-align: center;
+   margin-right: 0;
+}
+
+/**************篮球男子赛程**************/
+.ath_taking_basket a:nth-child(1){
+   margin: 0 5rem 0 3.5rem;
+}
+.basketball_rank_title{
+   width: 16rem;
+   margin: 0 auto;
+   height: 1.1rem;
+   line-height: 1rem;
+   padding-top: .5rem;
+}
+.basketball_rank_title span{
+   width: 1.6rem;
+   display: inline-block;
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #00a1ec;
+   text-align: center;
+   vertical-align: middle;
+}
+.basketball_rank_title em{
+   display: inline-block;
+   width: .25rem;
+   height: .4rem;
+   background: url(../images/icon09.png) center top no-repeat;
+   background-size: 100% 100%;
+   margin: .525rem 0 0 0rem;
+}
+.basketball_rank_title .basketball_rank_title_span{
+   border-bottom: .1rem solid #00a1ec;
+}
+.basketball_rank_title span:nth-child(1){
+  margin: 0 1.6rem 0 .9rem;
+}
+.basketball_rank_title span:nth-child(2){
+   margin: 0 2.7rem 0 0;
+}
+.basketball_rank_title span:nth-child(3){
+   margin: 0 .4rem 0 0;
+}
+.basketball_rank_title span:nth-child(4){
+   margin: 0 .4rem 0 0;
+}
+.basketball_rank{
+   overflow: hidden;
+   width: 16rem;
+   margin: 0 auto;
+}
+.basketball_rank ul{
+   width: 100%;
+   overflow: hidden;
+   margin-top: .1rem;
+}
+.basketball_rank li{
+   width: 16rem;
+   height: 2.5rem;
+   background: #fff;
+   margin-bottom: 1px;
+   border-bottom: 1px solid #cacaca;
+}
+.basketball_rank li:nth-child(3){
+   border-bottom: 1px solid #cacaca;
+}
+.basketball_rank .basketball_rank_li{
+   background: #b6dfff;
+  border-bottom: none;
+}
+
+.basketball_rank li span{
+   overflow: hidden;
+   display: block;
+   float: left;
+   width: 1.9rem;
+   height: 2.5rem;
+   font: .6rem/2.5rem 'Microsoft YaHei';
+   color: #333;
+   text-align: center;
+   margin-right: .35rem;
+}
+.basketball_rank li .basketball_rank_span{
+   color: #ff7003;
+}
+.basketball_rank_title .basketball_rank_title_first{
+	margin-right:.4rem;
+}
+.basketball_rank li span:nth-child(1){
+   width: 1.6rem;
+   font: .9rem/2.5rem 'Microsoft YaHei';
+   color: #19b6ff;
+   margin-right: 0;
+}
+.basketball_rank li img:nth-child(2){
+   float: left;
+   width: 1.85rem;
+   height: 1.85rem;
+   margin: .275rem .95rem 0 .1rem;
+}
+.basketball_rank li a:nth-child(2){
+   float: left;
+   width: 1.85rem;
+   height: 1.85rem;
+   margin: .375rem .95rem 0 .1rem;
+}
+.basketball_rank li div{
+   width: 4.3rem;
+   float: left;
+   padding-top: .7rem;
+}
+.basketball_rank li .bkp{
+   width: 4.3rem;
+   float: left;
+   padding-top: .1rem;
+}
+.basketball_rank li div font{
+   overflow: hidden;
+   display: block;
+   width: 100%;
+   height: .6rem;
+   font: .45rem/.6rem 'Microsoft YaHei';
+   color: #333;
+}
+.basketball_rank li div img{
+   width: .85rem;
+   height: .85rem;
+   margin-top: .1rem;
+}
+
+/**********篮球比赛进行中***********/
+.basketball_going{
+   overflow: hidden;
+   width: 14.5rem;
+   padding:  0 .75rem;
+   margin: .45rem auto 0 auto;
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+   border-top: 1px solid #cacaca;
+}
+.basketball_going_01{
+   float: left;
+   width: 4.75rem;
+}
+.basketball_going_01 dt{
+   width: 100%;
+   margin-top: 1.4rem;
+}
+.basketball_going_01 dt img{
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: 0 auto;
+   border-radius: 50%;
+}
+.basketball_going_01 dd{
+   overflow: hidden;
+   width: 100%;
+   height: .9rem;
+   font: .6rem/.9rem 'Microsoft YaHei';
+   color: #00a1ec;
+   text-align: center;
+}
+
+.Judo_dl02{
+   overflow: hidden;
+   float: left;
+   width: 4.6rem;
+   margin:  0 .2rem;
+}
+.Judo_dl02 dt{
+   font: .75rem/1.8rem 'Microsoft YaHei';
+   color: #ff6d00;
+   text-align: center;
+}
+.scores_boxing_judo{
+   width: 3.5rem;
+   height: 1.3rem;
+   margin: 0 auto;
+   background: url(../images/scores.png) center top no-repeat;
+   background-size: 3.5rem 1.3rem;
+   text-align: center;
+}
+.scores_boxing_judo span{
+   font: .9rem/1.3rem 'Microsoft YaHei';
+   text-align: center;
+   color: #fff;
+}
+.Judo_dl04_dd{
+   text-align: center;
+   line-height: 1rem;
+   margin-top: .2rem;
+}
+.Judo_dl04_dd span{
+   font: .6rem/1.6rem 'Microsoft YaHei';
+   color: #00a1ec;
+}
+
+.basket_going{
+   overflow: hidden;
+   width: 16rem;
+   margin: 0 auto;
+}
+.basket_going dt{
+   width: 14.4rem;
+   padding:.8rem 0 0 1.6rem;
+   height: .8rem;
+}
+.basket_going dt span{
+   display: block;
+   float: left;
+   height: .8rem;
+   width: .9rem;
+   font: .7rem/.8rem 'Microsoft YaHei';
+   color: #333;
+   margin-right: .55rem;
+   text-align: center;
+}
+.basket_going dt .basket_going_span01{
+   width: 2.25rem;
+}
+.basket_going dd{
+   clear: both;
+}
+.basket_going dd div{
+   width: 100%;
+   height: 1.8rem;
+}
+.basket_going dd .basket_going_line{
+   margin: 0 auto;
+   width: 14.4rem;
+   height: 1px;
+   background: #cacaca;
+}
+.basket_going dd div img{
+   float: left;
+   width: .9rem;
+   height: .9rem;
+   margin: .45rem .1rem 0 .65rem;
+   border-radius: 50%;
+}
+.basket_going dd div span{
+   display: block;
+   float: left;
+   height: 1.8rem;
+   width: .9rem;
+   font: .6rem/1.8rem 'Microsoft YaHei';
+   color: #666;
+   margin-right: .55rem;
+   text-align: center;
+}
+.basket_going dd .basket_going_span01 {
+   width: 2.25rem;
+}
+.ath_section_basket{
+   border-top: none;
+   margin: .7rem 0;
+}
+.ath_section_basket a{
+   width: 4.75rem;
+}
+.ath_section_basket a:nth-child(2){
+  margin-right: .125rem;
+}
+.basket_jie{
+   overflow: hidden;
+   width: 16rem;
+   margin: 0 auto;
+}
+.basket_jie dt{
+   height: 1.3rem;
+   padding-left: 1.2rem;
+   border-bottom: 1px solid #cacaca;
+}
+.basket_jie dt span {
+  display: block;
+   float: left;
+   height: 1.3rem;
+   width: 2.15rem;
+   font: .7rem/1.3rem 'Microsoft YaHei';
+   color: #00a1ec;
+}
+
+.basket_jie dt em {
+   float: left;
+   width: .25rem;
+   height: .4rem;
+   background: url(../images/icon09.png) center top no-repeat;
+   background-size: 100% 100%;
+   margin: .525rem 0 0 -0.2rem;
+   cursor: pointer;
+}
+
+.basket_jie dd{
+   height: 3rem;
+   padding-left: 1.2rem;
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+}
+.basket_jie dd span{
+   overflow: hidden;
+   float: left;
+   display: block;
+   width: 2.15rem;
+   height: 3rem;
+   font: .55rem/3rem 'Microsoft YaHei';
+   color: #333;
+}
+.basket_jie dd span:nth-child(1) {
+   text-indent: .5rem;
+}
+/* .basket_jie dd span:nth-child(4) {
+   width: 7.15rem;
+   padding: .45rem 0;
+   height: 2.1rem;
+   font: .45rem/.7rem 'Microsoft YaHei';
+   color: #333;
+} */
+
+a{
+  color: #00a1ec;
+  text-decoration: none;
+}
+
+/****************淘汰对阵******************/
+.fuzaPic{
+   overflow: hidden;
+   width: 16rem;
+   margin: 0 auto;
+   position: relative;
+   padding-top: .45rem;
+}
+.fuzaPic div{
+   float: left;
+}
+.fuzaPic dl{
+   width: 3.3rem;
+   height: 1.75rem;
+   border: 1px solid #cacaca;
+   background: #fff;
+   margin-bottom: 2.45rem;
+}
+.fuzaPic_div01 dl dt{
+   width: 100%;
+   height: 1rem;
+   padding-top: .1rem;
+}
+.fuzaPic_div01 dl dt span:nth-child(1){
+   display: block;
+   float: left;
+  width: .9rem;
+   height: .9rem;
+   font: .45rem/1rem 'Microsoft YaHei';
+   color: #333;
+   text-indent: .15rem;
+}
+.fuzaPic_div01 dl dt img{
+   float: left;
+   width: .9rem;
+   height: .9rem;
+   margin-top: .05rem;
+}
+.fuzaPic_div01 dl dt span:nth-child(3){
+   display: block;
+   float: left;
+   width: 1.3rem;
+   height: .9rem;
+   font: .7rem/1rem 'Microsoft YaHei';
+   color: #00a1ec;
+  text-align: center;
+}
+.fuzaPic_div01 dd{
+   overflow: hidden;
+   width: 3rem;
+   padding: 0 .15rem;
+   height: .65rem;
+   font: .45rem/.65rem 'Microsoft YaHei';
+   color: #333;
+   text-align: center;
+}
+.fuzaPic_div01{
+   margin-left: .25rem;
+}
+.fuzaPic_div02 {
+   margin-left: -0.9rem;
+}
+.fuzaPic_div02 dl:nth-child(2)
+{
+   margin: .15rem 0 0 0;
+}
+.fuzaPic_div02 dl:nth-child(3)
+{
+   margin: 6.675rem 0 0 0;
+}
+.fuzaPic_div03{
+   float: left;
+   margin: 0 .15rem;
+}
+.fuzaPic_div03 dl{
+   width: 2.9rem;
+   height: 2.55rem;
+   padding: 0 .2rem;
+   border: 1px solid #cacaca;
+   background: #fff;
+   margin-bottom: 2.35rem;
+}
+.fuzaPic_div03 dl:nth-child(2){
+  border: 1px solid #ff6d00;
+   margin-top: .1rem;
+}
+.fuzaPic_div03 dl:nth-child(4){
+   border: 1px solid #00a1ec;
+   margin-top: .1rem;
+}
+
+.fuzaPic_div03 dt{
+   height: 1.75rem;
+}
+.fuzaPic .fuzaPic_div03 dt img {
+   float: left;
+   width: .9rem;
+   height: .9rem;
+   margin-top: .425rem;
+}
+.fuzaPic_div03 dt span {
+   display: block;
+   float: left;
+   width: 3.05rem;
+   font: .45rem/1.75rem 'Microsoft YaHei';
+   color: #333;
+   text-align: center;
+}
+
+.fuzaPic_div05{
+  position: absolute;
+   right: .25rem;
+   top: .4rem;
+}
+.fuzaPic_div04 {
+   margin-left: 0rem;
+}
+.fuzaPic_div04 dl:nth-child(2)
+{
+   margin: .15rem 0 0 0;
+}
+.fuzaPic_div04 dl:nth-child(3)
+{
+   margin: 6.675rem 0 0 0;
+}
+
+.fuzaPic_div01 p{
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #333;
+   text-indent: .3rem;
+}
+.fuzaPic_div02 p{
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #333;
+   text-align: right;
+   margin-top: 2rem;
+}
+.fuzaPic_div03 p:nth-child(1){
+   margin-top: 4.4rem;
+   font: .6rem/1.05rem 'Microsoft YaHei';
+   color: #ff7003;
+   text-align: center;
+}
+.fuzaPic_div03 p:nth-child(3){
+   font: .6rem/1.05rem 'Microsoft YaHei';
+   color: #00a1ec;
+   text-align: center;
+}
+.fuzaPic_div04 p{
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #333;
+   text-align: left;
+   margin-top: 2rem;
+}
+.fuzaPic_div05 p{
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #333;
+   text-align: right;
+}
+
+.fuzaPic ul{
+   position: absolute;
+   left: 0;
+   top: 0;width: 100%;
+   height: 100%;
+}
+.line_bas01{
+   position: absolute;
+   left: 3.6rem;
+   top: 2.375rem;
+   width: .6rem;
+   height: 1.2rem;
+}
+.fuzaPic ul li span{ background: #cacaca;}
+.fuzaPic ul .line_hover span{ background: #00a1ec;}
+.line_bas01 span:nth-child(1){
+   float: right;
+   width: .6rem;
+   height: 0.05rem;
+}
+.line_bas01 span:nth-child(2) {
+   float: right;
+   width: 0.05rem;
+   height: 1.2rem;
+   margin-top: -0.05rem;
+}
+.line_bas02{
+   position: absolute;
+   left: 3.6rem;
+   top: 5.425rem;
+   width: .6rem;
+   height: 1.2rem;
+}
+.line_bas02 span:nth-child(1){
+   float: right;
+  width: 0.05rem;
+   height: 1.2rem;
+}
+.line_bas02 span:nth-child(2) {
+   float: right;
+   width: .6rem;
+   height: 0.05rem;
+   margin-top: -0.05rem;
+}
+.line_bas03{
+   top: 10.85rem;
+}
+.line_bas04{
+   top: 13.9rem;
+}
+.line_bas05{
+   position: absolute;
+   left: 5.575rem;
+   top: 5.425rem;
+   width: .6rem;
+   height: 1.55rem;
+}
+.line_bas05 span:nth-child(1){
+   float: left;
+   width: 0.05rem;
+   height: 1.55rem;
+}
+.line_bas06{
+   position: absolute;
+   left: 5.575rem;
+   top: 6.95rem;
+   width: .05rem;
+   height: 4.35rem;
+}
+.line_bas06 span:nth-child(1){
+   float: left;
+   width: 0.05rem;
+   height: 5.1rem;
+}
+.line_bas07{
+   position: absolute;
+   left: 5.575rem;
+   top: 6.95rem;
+   width: .6rem;
+   height: 0.05rem;
+}
+.line_bas07 span:nth-child(1){
+   float: left;
+   width: 0.6rem;
+   height: 0.05rem;
+}
+.line_bas08{
+   left: 10.15rem;
+}
+.line_bas09{
+   left: 9.6rem;
+}
+
+.line_bas10{
+   position: absolute;
+   left: 11.8rem;
+   top: 2.375rem;
+   width: .6rem;
+   height: 1.2rem;
+}
+.line_bas10 span:nth-child(1){
+   float: left;
+   width: .6rem;
+   height: 0.05rem;
+}
+.line_bas10 span:nth-child(2) {
+   float: left;
+   width: 0.05rem;
+   height: 1.2rem;
+   margin-top: -0.05rem;
+}
+.line_bas11{
+   position: absolute;
+   left: 11.8rem;
+   top: 5.425rem;
+   width: .6rem;
+   height: 1.2rem;
+}
+.line_bas11 span:nth-child(1){
+   float: left;
+   width: 0.05rem;
+   height: 1.2rem;
+}
+.line_bas11 span:nth-child(2) {
+   float: left;
+   width: 0.6rem;
+   height: 0.05rem;
+   margin-top: -0.05rem;
+}
+
+.line_bas12{
+   top: 10.85rem;
+}
+.line_bas13{
+   top: 13.9rem;
+}
+
+/****************高尔夫个人页***************/
+.golf_person{
+   overflow: hidden;
+   width: 16rem;
+   height: 4rem;
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+   border-top: 1px solid #cacaca;
+}
+.golf_person dt{
+   overflow: hidden;
+   float: left;
+   width: 1.85rem;
+   height: 1.85rem;
+   margin:.55rem 0 0 .15rem;
+   border-radius: 50%;
+}
+.golf_person dt img{
+   width: 1.85rem;
+   height: 1.85rem;
+}
+.golf_person dd{
+   float: left;
+   width: 14rem;
+}
+.golf_person_span{
+   overflow: hidden;
+   display: block;
+   width: 13.3rem;
+   height: 1.4rem;
+   margin-left: .7rem;
+   font: .6rem/1.4rem 'Microsoft YaHei';
+   color: #00a1ec;
+   border-bottom: 1px solid #cacaca;
+}
+.golf_person dd div p{
+   float: left;
+   display: block;
+   margin-right: .7rem;
+}
+.golf_person dd div p:last-child{
+   margin-right: 0;
+}
+
+.golf_person dd div p span:nth-child(1){
+   width: 100%;
+   display: block;
+   font: .45rem/1.2rem 'Microsoft YaHei';
+   color: #333333;
+   text-align: center;
+}
+.golf_person dd div p span:nth-child(2) {
+   width: 100%;
+   height: 1rem;
+   overflow: hidden;
+   display: block;
+   font: .6rem/1rem 'Microsoft YaHei';
+   color: #333333;
+   text-align: center;
+}
+.golf_person dd div .golf_p_blue span:nth-child(2)
+{
+   color: #00a1ec;
+}
+.golf_person dd div .golf_p_red span:nth-child(2) {
+   color: #fb6900;
+}
+.golf_color{
+   overflow: hidden;
+   width: 14.9rem;
+   height: 3.525rem;
+   padding-top: .475rem;   margin-top: .2rem;
+   padding-left: 1.1rem;
+   background: #fff;
+   border-bottom: 1px solid #cacaca;
+   border-top: 1px solid #cacaca;
+}
+.golf_color dl{
+   float: left;
+   margin-bottom: .5rem;
+}
+.golf_color dt{
+   float: left;
+   width: .45rem;
+   height: .45rem;
+   float: left;
+   margin: .275rem 0.7rem 0 0;
+}
+.golf_color dd{
+   float: left;
+   height: 1rem;
+   float: left;
+   font: .5rem/1rem 'Microsoft YaHei';
+   color: #333333;
+}
+.golf_color_blue{
+   width: 5.5rem;
+}
+.golf_color_blue dt{
+   background: #3399fe;
+   border: 1px solid #9fcfff;
+}
+.golf_color_qian{
+   width: 4.45rem;
+}
+.golf_color_qian dt{
+   background: #95d1f6;
+   border: 1px solid #cde9fb;
+}
+.golf_color_white{
+   width: 4rem;
+}
+.golf_color_white dt{
+   background: #ffffff;
+   border: 1px solid #e6e6e6;
+}
+.golf_color_yellow{
+   width: 5.5rem;
+}
+.golf_color_yellow dt{
+   background: #ffba43;
+   border: 1px solid #ffdfa7;
+}
+.golf_color_red{
+   width: 8.5rem;
+}
+.golf_color_red dt{
+   background: #fe5e20;
+   border: 1px solid #ffb497;
+}
+.ath_taking_golf{
+   overflow: hidden;
+   margin-top: .2rem;
+}
+.ath_taking_golf a:nth-child(1){
+   margin-right: 1.6rem;
+}
+.ath_taking_golf a:nth-child(4){
+   margin-left: 1.6rem;
+}
+.golf_score{
+   overflow: hidden;
+   width: 16rem;
+   border-bottom: 1px solid #cacaca;
+   border-top: 1px solid #cacaca;
+   background: #fff;
+}
+.golf_score div{
+   width: 15.7rem;
+   padding-right: .3rem;
+   height: 1.5rem;
+   background: #e0e0e0;
+   text-align: right;
+   font: bold .55rem/1.5rem 'Microsoft YaHei';
+   color: #333333;
+}
+.golf_score li{
+   float: left;
+   width: 1.375rem;
+   border-left: 1px solid #cacaca;
+   background: #ffffff;
+   font: .55rem/1.5rem 'Microsoft YaHei';
+   color: #333333;
+}
+.golf_score li:nth-child(1){
+   float: left;
+   width: 1.75rem;
+   border-left: none;
+   font: bold .55rem/1.5rem 'Microsoft YaHei';
+   color: #333333;
+}
+.golf_score li:last-child{
+   font: bold .55rem/1.5rem 'Microsoft YaHei';
+   color: #333333;
+}
+
+.golf_score li span{
+   width: 100%;
+   overflow: hidden;
+   display: block;
+   height: 1.35rem;
+   text-align: center;
+}
+.golf_score li span:nth-child(2){
+ background: #f0f9ff;
+}
+.golf_score li span:nth-child(4){
+   background: #f0f9ff;
+}
+.golf_score li span:nth-child(6){
+   background: #f0f9ff;
+}
+.golf_score .golf_score_span{
+
+}
+.golf_score font{
+   display: block;
+   width: .9rem;
+   height: .9rem;
+   margin: .225rem 0 0 .225rem;
+   background: none;
+   font: .55rem/.9rem 'Microsoft YaHei';
+}
+.golf_score .golf_score_span font{
+   background: #19b6ff;
+}
+
+/*************足球比赛进行中***************/
+.foot_ming{
+   clear: both;
+   width: 14rem;
+   margin: 0 .9rem .875rem 1.1rem;
+}
+.foot_ming li{
+   overflow: hidden;
+   width: 7rem;
+   height: 1.25rem;
+   float: left;
+}
+.foot_ming li img{
+   float: left;
+   width: .6rem;
+   height: .6rem;
+   margin:.325rem .5rem 0 0;
+}
+.foot_ming li span{
+   display: block;
+   float: left;
+   font: .45rem/1.25rem 'Microsoft YaHei';
+   color: #333;
+}
+.foot_ming li span:nth-child(2){
+   overflow: hidden;
+   width: 3.2rem;
+   height: 1.25rem;
+}
+/**********和羽毛球共用部分******/
+.contrast{
+   overflow: hidden;
+   width: 14.5rem;
+   margin: 0 auto;
+}
+.contrast_li01{
+   height: 1.8rem;
+}
+.contrast_li01 span{
+   overflow: hidden;
+   display: block;
+   float: left;
+   width: 7.25rem;
+   font: .8rem/1.8rem 'Microsoft YaHei';
+   color: #19b6ff;
+   text-align: center;
+}
+.contrast_li02{
+   height: 1.5rem;
+}
+.contrast_li02 span{
+   display: block;
+   float: left;
+}
+.contrast_li02 span:nth-child(1){
+   width: 3rem;
+   text-align: left;
+   text-indent: .5rem;
+   font: .75rem/1.4rem 'Microsoft YaHei';
+}
+.contrast_li02 span:nth-child(2){
+   width: 8.5rem;
+   text-align: center;
+   font: .6rem/1.4rem 'Microsoft YaHei';
+}
+.contrast_li02 span:nth-child(3){
+   width: 2.5rem;
+   padding-right: .5rem;
+   text-align: right;
+   font: .75rem/1.4rem 'Microsoft YaHei';
+   color: #19b6ff;
+}
+.contrast_li04 span:nth-child(1){
+   color: #19b6ff;
+}
+.contrast_li04 span:nth-child(3){
+   color: #333;
+}
+
+.contrast_li03{
+   height: .35rem;
+}
+.contrast_dl01{
+   float: left;
+   position: relative;
+}
+.contrast_dl01 dt{
+   width: 6.5rem;
+   height: .35rem;
+   background: #d0d0d0;
+   border-radius: .2rem;
+}
+.contrast_dl01 dd{
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 55%;
+   height: .35rem;
+   background: #899398;
+   border-bottom-right-radius: .2rem;
+   border-top-right-radius: .2rem;
+}
+.contrast_dl02{
+   float: right;
+   position: relative;
+}
+
+.contrast_dl02 dt{
+   width: 6.5rem;
+   height: .35rem;
+   background: #d0d0d0;
+   border-radius: .2rem;
+}
+.contrast_dl02 dd{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 45%;
+   height: .35rem;
+   background: #0075ab;
+   border-bottom-left-radius: .2rem;
+   border-top-left-radius: .2rem;
+}
+
+.contrast_dl03 dd{
+   background: #0075ab;
+}
+.contrast_dl04 dd{
+   background: #899398;
+}
+/**************足球比赛对阵表****************/
+.foot_combat{
+   overflow: hidden;
+   width: 16rem;
+   margin: 0 auto;
+   padding-top: .5rem;
+}
+.foot_combat_nav{
+   margin: 0 auto;
+   text-align: center;
+}
+.foot_combat_nav a{
+   display: inline-block;
+   height: 1.2rem;
+   background: #fff;
+   font: .6rem/1.2rem 'Microsoft YaHei';
+   color: #19b6ff;
+}
+.foot_combat_nav .foot_combat_nav_hover{
+   background: #b6dfff;
+   color: #fb6900;
+}
+.foot_combat_nav a:nth-child(1){
+   border-bottom-left-radius: .2rem;
+   border-top-left-radius: .2rem;
+   border: 0.05rem solid #19b6ff;
+   border-right: none;
+   padding: 0 .95rem 0 .45rem;
+}
+.foot_combat_nav a:nth-child(2) {
+   padding: 0 .45rem 0 .95rem;
+   border-bottom-right-radius: .2rem;
+   border-top-right-radius: .2rem;
+   border: 0.05rem solid #19b6ff;
+   border-left: none;
+}
+.foot_combat ul{
+   width: 100%;
+   height: 10.65rem;
+   margin-top: .8rem;
+   background: url(../images/foot_bg.png) center top no-repeat;
+   background-size: 100% 100%;
+}
+.foot_combat span{
+   display: block;
+   width: .9rem;
+   height: .9rem;
+   border-radius: 50%;
+   background: #19b6ff;
+   font: .6rem/.9rem 'Microsoft YaHei';
+   color: #fff;
+   text-align: center;
+}
+.foot_combat li{
+   clear: both;
+   width: 100%;
+   float: left;
+   height: .9rem;
+}
+.foot_hangF{
+   margin-top: .9rem;
+}
+.foot_hangF span{
+   margin: 0 auto;
+}
+.foot_hangW{
+   margin-top: .7rem;
+}
+.foot_hangW span {
+   margin: 0 auto;
+}
+.foot_hangT{
+   margin-top: 0rem;
+}
+.foot_hangT span {
+    float: left;
+    margin-left:3.3rem;
+ }
+.foot_hangT span:nth-child(2) {
+   float: right;
+   margin-right:3.3rem;
+}
+.foot_hangU{
+   margin-top: 0.8rem;
+}
+.foot_hangU span {
+   float: left;
+   margin-left:5.8rem;
+}
+.foot_hangU span:nth-child(2) {
+   float: right;
+   margin-right:5.8rem;
+   margin-left: 0;
+}
+.foot_hangI{
+   margin-top: 1.1rem;
+}
+.foot_hangI span {
+   float: left;
+   margin-right:1.8rem;
+}
+.foot_hangI span:nth-child(1){
+   float: left;
+   margin-left:3.35rem;
+}
+.foot_hangS{
+   margin-top: .7rem;
+}
+.foot_hangS span{
+   margin: 0 auto;
+}
+.foot_xuan{
+   overflow: hidden;
+   width: 16rem;
+   height: 1.3rem;
+   margin: 0 auto;
+}
+.foot_xuan img{
+   float: left;
+   width: 1.1rem;
+   height: 1.1rem;
+   margin: 0 .5rem 0 .95rem;
+}
+.foot_xuan span{
+   display: block;
+   float: left;
+   margin-right: 1rem;
+   font: .55rem/1.3rem 'Microsoft YaHei';
+   color: #19b6ff;
+}
+.foot_xuan em{
+   display: block;
+   float: left;
+   width: .3rem;
+   height: .5rem;
+   background: url(../images/icon09.png) center top no-repeat;
+   background-size: 100% 100%;
+   margin: .45rem 0 0 -0.7rem;
+}
+.foot_renming{
+   overflow: hidden;
+   width: 16rem;
+   margin: .63rem auto 0 auto;
+   border-top: 1px solid #cacaca;
+}
+.foot_renming li{
+   background: #fff;
+   overflow: hidden;
+   width: 100%;
+   height: 2rem;
+   text-indent: 1.1rem;
+   font: .45rem/2rem 'Microsoft YaHei';
+   color: #333;
+   border-bottom: 1px solid #cacaca;
+}
+
+/*****************今日赛程**************/
+.today{
+   overflow: hidden;
+   width: 14.5rem;   
+   margin: .5rem auto 0 auto;
+   box-sizing: border-box;
+   border: 1px solid #ff730b;
+   border-radius: .25rem;
+}
+.today_logo{
+   width: 100%;
+   height: 1.5rem;
+   background: #ff730b;
+}
+.today_logo img{
+   float: left;
+   height: 1.2rem;
+   margin: .1rem .3rem 0 .4rem;
+}
+.today_logo span{
+   display: block;
+   float: left;
+   font: .75rem/1.5rem 'Microsoft YaHei';
+   color: #fff;
+   font-size: 15px;
+   font-family: monospace;
+}
+.today_ul{
+   width: 12.7rem;
+   height: 2.25rem;
+   margin: 0 auto .9rem auto;
+   box-sizing: border-box;
+   border-bottom: 1px solid #cacaca;
+
+}
+.today_ul li{ 
+   float: left; box-sizing: border-box;
+   display: flex;
+   align-items: center;
+}
+.today_li01{
+   overflow: hidden;
+   width: 3.6rem;
+   height: 100%;
+   border-right: 1px solid #cacaca;
+   text-align: center;
+}
+.today_li01 span{
+   font: .6rem/2.25rem 'Microsoft YaHei';
+   color: #00a1ec;
+   margin-right: .3rem;
+}
+.today_li01 em{
+   font: .9rem/2.25rem 'Microsoft YaHei';
+   color: #00a1ec;
+   margin-right: .3rem;
+}
+.today_li02{
+   overflow: hidden;
+   width: 5.5rem;
+   height: 100%;
+   border-right: 1px solid #cacaca;
+   text-align: center;
+}
+.today_li02 img{
+   display: inline-block;
+   width: .88rem;
+   height: 1rem;
+   vertical-align: middle;
+   margin-right: 0.2rem;
+}
+.today_li02 span{
+   font: .6rem/2.25rem 'Microsoft YaHei';
+   color: #00a1ec;
+   margin-right: .3rem;
+}
+.today_li02 em{
+   font: .9rem/2.25rem 'Microsoft YaHei';
+   color: #00a1ec;
+   margin-right: .3rem;
+}
+.today_not{
+   overflow: hidden;
+   width: 14.5rem;
+   margin: .5rem auto 0 auto;
+   box-sizing: border-box;
+   border: 1px solid #19b6ff;
+   border-radius: .25rem;
+}
+.tody_logo_no{
+   background: #19b6ff;
+}
+.today_wei{
+   overflow: hidden;
+   width: 14.5rem;
+   margin: .5rem auto 0 auto;
+   box-sizing: border-box;
+   border: 1px solid #c9c9c9;
+   border-radius: .25rem;
+}
+.tody_logo_wei{
+   background: #c9c9c9;
+}
+
+/*******************新闻模块滚动新加2016.06.05********************/
+.archer_data_nba{
+	position:fixed;
+	bottom:2.6rem;
+    overflow: hidden;
+    width: 16rem;
+	height:3.5rem;
+    margin: 6rem auto 0 auto;
+    padding: .4rem 0;
+    box-sizing: border-box;
+    border: 2px solid #00a1ec;
+    border-left: none;
+    border-right: none;
+	background:#f0f9ff;
+}
+.archer_data_nba li{
+    position: relative;
+    width: 100rem;
+    height: .9rem;
+    overflow: hidden;
+    padding-left: .75rem;
+}
+.archer_data_nba span{
+	position:absolute;
+	left:0;
+	top:0;
+	display:block;
+	width:.75rem;
+	height:.9rem;
+	background: url(../images/icon03.png) center .35rem no-repeat #f0f9ff;
+    background-size: .2rem .2rem;
+	z-index:10
+	}
+.archer_data_nba a{
+    position: absolute;
+	left:.75rem;
+	top:0;
+    display: block;
+	width:auto;
+    height: .9rem;
+    font: .5rem/.9rem 'Microsoft YaHei'; color: #333333;
+    white-space: normal;
+    text-overflow: clip;
+	background:none;
+	text-indent:0;
+    z-index: 9;
+}
