@@ -1063,22 +1063,33 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
 .more02{
    width: 16rem;
 }
+
 .kai_or_over02{
    clear: both;
    width: 100%;
-   background:#f0f9ff;
-   border-bottom: 1px solid #cacaca;
+   display: flex;
+   background: #f4f5f6;
+   border-bottom: 1px solid #e8e8e8;
+   border-top: 1px solid #e8e8e8;
 }
 .kai_or_over02 span{
-   display: block;
-   float: left;
-   width: 8rem;
-   font: .9rem/2.05rem 'Microsoft YaHei';
+   /*display: block;*/
+   /*float: left;*/
+   /*width: 3rem;*/
+   /*font: .9rem/2.05rem 'Microsoft YaHei';*/
+   flex:1;
+   font-size: 16px;
+   line-height:50px;
    color: #19b6ff;
    text-align: center;
+   /*margin:0 2.5rem;*/
+   /*font-size: 16px;*/
+   font-family: monospace;
 }
 .kai_or_over02 .kai_or_over02_span{
    border-bottom: .15rem solid #ff6d00;
+   font-size: 16px;
+   font-family: monospace;
 }
 
 .doing_content .p_gray

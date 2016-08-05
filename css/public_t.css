@@ -247,28 +247,33 @@ text-indent: .8rem;
 /****************即将开始模块*******************/
 .kai_or_over03{
     clear: both;
-    width: 16rem;
-    margin: 0 auto;
-    margin-top:-1px;
+    width: 100%;
+    display: flex;
     background: #f4f5f6;
     border-bottom: 1px solid #e8e8e8;
     border-top: 1px solid #e8e8e8;
 }
+
 .kai_or_over03 span{
-    margin:0 2rem;
-    display: block;
-    float: left;
-    width: 3rem;
-    font: .9rem/2.05rem 'Microsoft YaHei';
+    /*display: block;*/
+    /*float: left;*/
+    /*width: 3rem;*/
+    /*font: .9rem/2.05rem 'Microsoft YaHei';*/
+    flex:1;
+    font-size: 16px;
+    line-height:50px;
     color: #19b6ff;
     text-align: center;
-    margin: 0 2.5rem;
-    font-size: 16px;
+    /*margin:0 2.5rem;*/
+    /*font-size: 16px;*/
     font-family: monospace;
 }
 .kai_or_over03 .kai_or_over03_span{
     border-bottom: .15rem solid #ff6d00;
+    font-size: 16px;
+    font-family: monospace;
 }
+
 
 /***********比赛进行中************/
 .march{
