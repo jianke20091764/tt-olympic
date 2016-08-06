@@ -214,6 +214,7 @@
     overflow: hidden;
     width: 16rem;
     margin: 0 auto;
+    min-height:450px;
 }
 
 
