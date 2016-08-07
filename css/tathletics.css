@@ -39,9 +39,9 @@ a{
    width: 16rem;
    height: 1.5rem;
    margin: .75rem auto 0 auto;
-   background: #008FD4;
-   border-bottom: 1px solid #cacaca;
-   border-top: 1px solid #cacaca;
+   /*background: #008FD4;*/
+   /*border-bottom: 1px solid #cacaca;*/
+   /*border-top: 1px solid #cacaca;*/
 }
 .ath_group1{
    width: 16rem;
@@ -62,11 +62,12 @@ a{
    display: block;
    float: left;
    height: 1.35rem;
-   font: .7rem/1.5rem 'Microsoft YaHei'; color: #fff;
+   font: .7rem/1.5rem 'Microsoft YaHei';
+   color: #999;
    text-align:center;
 }
 .ath_group .ath_group_hover{
-   border-bottom: .15rem solid #fff;
+   border-bottom: .15rem solid #008fde;
 }
 /*.ath_group a:nth-child(1){
    margin-left: 2.4rem;
@@ -84,12 +85,12 @@ a{
 .ath_data li{
    clear: both;
    height: 2rem;
-   border-bottom: 1px solid #cacaca;
+   border-bottom: 1px solid #e8e8e8;
 }
 .ath_data li:nth-child(3){
    clear: both;
    height: 2rem;
-   border-bottom: 1px solid #cacaca;
+   border-bottom: 1px solid #e8e8e8;
 }
 
 .ath_data .ath_data_hover{
@@ -101,7 +102,7 @@ a{
 }
 .ath_data .ath_data_hover span:nth-child(1)
 {
-   color: #19b6ff;
+   color: #222;
 }
 .ath_data .ath_data_hover span:nth-child(4)
 {
@@ -112,7 +113,7 @@ a{
 {
    width: 1rem;
    margin-left: 1rem;
-   font: .75rem/2rem 'Microsoft YaHei'; color: #333;
+   font: .6rem/2rem 'Microsoft YaHei'; color: #333;
 }
 .ath_data li img:nth-child(2){
    float: left;
@@ -124,7 +125,7 @@ a{
 {
    overflow: hidden;
    width: 4.8rem;
-   font: .45rem/2rem 'Microsoft YaHei'; color: #333333;
+   font: .6rem/2rem 'Microsoft YaHei'; color: #333333;
 }
 .ath_data li span a
 {
@@ -1433,18 +1434,19 @@ a{
    width: 16rem;
    height: 1.4rem;
    margin: 0 auto;
+   border-bottom:1px solid #e8e8e8;
 }
 .foot_paiming span{
    display: block;
    float: left;
    font: .45rem/1.4rem 'Microsoft YaHei';
-   color: #9E9E9E;
+   color: #999;
 }
 .foot_paiming span:nth-child(1){
-   margin: 0 1.2rem 0 .5rem;
+   margin: 0 0.4rem 0 .5rem;
 }
 .foot_paiming span:nth-child(2){
-   margin: 0 1.85rem 0 0;
+   margin: 0 2.75rem 0 0;
 }
 .foot_paiming span:nth-child(3){
    margin: 0 .65rem 0 0;
@@ -1466,7 +1468,7 @@ a{
 .footdata li span:nth-child(1){
    width: .8rem;
    text-align: right;
-   margin: 0;
+   margin-left: 0.3rem;
 }
 .footdata li a:nth-child(2){
    width: .8rem;
@@ -1475,9 +1477,9 @@ a{
 }
 .footdata li a:nth-child(2) img{
    float: left;
-   width: 1.2rem;
+   width: 0.8rem;
    text-align: right;
-   margin: .4rem .3rem 0 .4rem;
+   margin: .55rem .3rem 0 .6rem;
 }
 .footdata li span:nth-child(3){
    overflow: hidden;
@@ -1485,7 +1487,7 @@ a{
    height: 2rem;
 }
 .footdata .ath_data_hover span:nth-child(4) {
-   color: #333;
+   color: #222;
 }
 .footdata li span:nth-child(4){
    overflow: hidden;
@@ -1501,7 +1503,7 @@ a{
    height: 2rem;
    margin: 0 0 0 .65rem;
    text-align: center;
-   color: #333;
+   color: #222;
 }
 .footdata li span:nth-child(6){
    float: left;
@@ -1511,7 +1513,7 @@ a{
    margin: 0 0 0 .45rem;
    text-align: center;
    font: .6rem/2rem 'Microsoft YaHei';
-   color: #333333;
+   color: #222;
 }
 .footdata li span:nth-child(7){
    float: left;
@@ -1521,7 +1523,7 @@ a{
    margin: 0 0 0 .45rem;
    text-align: center;
    font: .6rem/2rem 'Microsoft YaHei';
-   color: #333333;
+   color: #222;
 }
 .footdata li span:nth-child(8){
    float: left;
@@ -1531,7 +1533,7 @@ a{
    margin: 0 0 0 .3rem;
    text-align: center;
    font: .6rem/2rem 'Microsoft YaHei';
-   color: #333333;
+   color: #222;
 }
 
 
