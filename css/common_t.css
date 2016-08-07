@@ -2738,6 +2738,9 @@ a{
    /*border-bottom: 1px solid #cacaca;*/
 
 }
+.today_ul li:nth-child(3){
+   width:3.6rem;
+}
 .today_ul li{ 
    float: left; box-sizing: border-box;
    display: flex;
