@@ -2790,7 +2790,7 @@ a{
    margin: .5rem auto 0 auto;
    box-sizing: border-box;
    border: 1px solid #19b6ff;
-   border-radius: .25rem;
+   /*border-radius: .25rem;*/
 }
 .tody_logo_no{
    background: #19b6ff;
