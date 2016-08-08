@@ -2258,7 +2258,7 @@ __p+='\n        <p class="line">\n            <span class="country">'+
  if(item.Result1 && item.Result2){
 __p+='\n                <em class="num">'+
 ((__t=(item.Result1))==null?'':__t)+
-'</em>\n                <em class="dou">:</em>\n                <em class="num">'+
+':'+
 ((__t=(item.Result2))==null?'':__t)+
 '</em>\n            ';
  }else{ 
