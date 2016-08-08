@@ -2245,13 +2245,48 @@ __p+='\n    </div>\n    <div class="l-time">'+
 ((__t=( item.DisciplineCn))==null?'':__t)+
 '</p>\n        <p class="item-name">'+
 ((__t=( item.ItemName))==null?'':__t)+
-'</p>\n    </div>\n    <div class="r-status">\n        ';
+'</p>\n        ';
+ if(item.CompetitorCode1 && item.CompetitorCode2
+            && item.Organisation1 && item.Organisation2
+            && item.CompetitorName1 && item.CompetitorName2){
+        
+__p+='\n        <p class="line">\n            <span class="country">'+
+((__t=(item.CompetitorName1))==null?'':__t)+
+'</span>\n            <img class="logo" src="http://aoyun2016.toutiao.com/Olympic2016/flags/big/'+
+((__t=( item.Organisation1))==null?'':__t)+
+'.gif" alt=""/>\n            ';
+ if(item.Result1 && item.Result2){
+__p+='\n                <em class="num">'+
+((__t=(item.Result1))==null?'':__t)+
+'</em>\n                <em class="dou">:</em>\n                <em class="num">'+
+((__t=(item.Result2))==null?'':__t)+
+'</em>\n            ';
+ }else{ 
+__p+='\n            <span class="vs">VS</span>\n            ';
+ } 
+__p+='\n            <img class="logo" src="http://aoyun2016.toutiao.com/Olympic2016/flags/big/'+
+((__t=( item.Organisation2))==null?'':__t)+
+'.gif" alt=""/>\n            <span class="country">'+
+((__t=(item.CompetitorName1))==null?'':__t)+
+'</span>\n        </p>\n        ';
+ } 
+__p+='\n        ';
+ if(item.ChinaPlayers && item.ChinaPlayers.length > 0 && item.medal === '1') {
+__p+='\n            <p class="line">\n                <img class="logo" src="http://aoyun2016.toutiao.com/Olympic2016/flags/big/CHN.gif" alt=""/>\n                ';
+ for (var j = 0 ; j < item.ChinaPlayers.length ; j ++) { 
+__p+='\n                <span class="name">'+
+((__t=( item.ChinaPlayers[j] ))==null?'':__t)+
+'</span>\n                ';
+ } 
+__p+='\n                <span class="desc">有望冲金</span>\n            </p>\n        ';
+ } 
+__p+='\n    </div>\n    <div class="r-status">\n        ';
  if(item.ScheduleStatus === 'FINISHED') {
 __p+='\n        <p class="over">已结束</p>\n        ';
  } else if(item.ScheduleStatus === 'RUNNING'){
 __p+='\n        <p class="ing">进行中</p>\n        ';
  } else{
-__p+='\n        <p class="ing">未开始</p>\n        ';
+__p+='\n        <p class="over">未开始</p>\n        ';
  }
 __p+='\n    </div>\n</div>\n';
  if(item.ScheduleStatus === 'POSTPONED'){
@@ -2328,7 +2363,7 @@ return __p;
             $allgame = $contentWrapper.find('[item="allgame"]');
 
         var barSwiper = new Swiper ('#barContainer',{
-            width : 56
+            width : 52
         });
 
         //var contentSwiper = new Swiper ('#contentContainer',{
@@ -2353,7 +2388,7 @@ return __p;
                     chinaCachePool[date].push(item);
                 }
 
-                if(item.UnitCode && item.UnitCode.length > 3 && item.UnitCode[item.UnitCode.length-3] === '1') {
+                if(item.Medal === '1') {
                     medalCachePool[date].push(item);
 
                     if (item.IsChina) {

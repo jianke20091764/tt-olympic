@@ -707,7 +707,7 @@ button.swiper-pagination-bullet {
   }
 }
 body {
-  padding: 124px 0 45px;
+  padding: 130px 0 45px;
 }
 .border-bottom {
   border-bottom: 1px solid #e8e8e8;
@@ -734,6 +734,16 @@ body {
     background-position: bottom;
   }
 }
+.public_bar {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 130px;
+  background: url(../img/olympic/title_bg.png) center top no-repeat;
+  background-size: cover;
+}
 .public_title {
   z-index: 1000;
   position: fixed;
@@ -741,7 +751,6 @@ body {
   overflow: hidden;
   width: 100%;
   height: 44px;
-  background: #004a88;
   line-height: 44px;
 }
 .public_title h1 {
@@ -839,9 +848,8 @@ body {
   top: 44px;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 45px;
   z-index: 1000;
-  background: #004a88;
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -861,7 +869,7 @@ body {
   flex: 1;
 }
 .date-bar .swiper-calendar .swiper-wrapper .swiper-slide {
-  width: 56px;
+  width: 50px;
   line-height: 40px;
   vertical-align: middle;
   text-align: center;
@@ -882,30 +890,45 @@ body {
   color: #fff;
 }
 .date-bar .r-btn {
-  width: 39px;
-  background: url(../img/olympic/more@3x.png) center center no-repeat;
-  background-size: 39px 30px;
+  width: 16px;
 }
-.date-bar .r-btn .button {
-  margin: 15px 10px 15px 20px;
-  border: 5.5px transparent solid;
-  border-left: 6px solid #fff;
-  border-right: none;
-  display: block;
-  width: 11px;
-  height: 6px;
-  box-sizing: border-box;
+.border-top {
+  border-top: 1px solid #2a90d7;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .border-top {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a90d7), color-stop(50%, #2a90d7), color-stop(50%, transparent));
+    background-image: -webkit-linear-gradient(top, #2a90d7 0, #2a90d7 50%, transparent 50%);
+    background-image: linear-gradient(to bottom, #2a90d7 0, #2a90d7 50%, transparent 50%);
+    background-size: 100% 0.66666667px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  .border-top {
+    border: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a90d7), color-stop(50%, #2a90d7), color-stop(50%, transparent));
+    background-image: -webkit-linear-gradient(top, #2a90d7 0, #2a90d7 50%, transparent 50%);
+    background-image: linear-gradient(to bottom, #2a90d7 0, #2a90d7 50%, transparent 50%);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
 }
 .filter-bar {
   position: fixed;
-  top: 84px;
+  top: 89px;
   left: 0;
   width: 100%;
-  height: 40px;
+  height: 41px;
   z-index: 1000;
   text-align: center;
-  background: #f4f5f6;
-  color: #222;
+  color: #fff;
+}
+.filter-bar .filter-line {
+  margin: 0 15px;
 }
 .filter-bar .filter-panel {
   display: inline-block;
@@ -920,16 +943,17 @@ body {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   flex: 1;
-  margin: 0 10px;
+  margin: 0 30px;
   padding-left: 20px;
-  line-height: 40px;
+  height: 40px;
+  line-height: 41px;
   font-size: 15px;
-  color: #222;
+  color: #fff;
   background: url(../img/olympic/select@3x.png) center left no-repeat;
   background-size: 15px 15px;
 }
 .filter-bar .filter-panel ul li.active {
-  background: url(../img/olympic/selected@3x.png) center left no-repeat;
+  background: url(../img/olympic/selected.v2.png) center left no-repeat;
   background-size: 15px 15px;
 }
 .swiper-content .swiper-slide {
@@ -968,7 +992,6 @@ body {
   font-size: 12px;
   line-height: 19px;
   color: #f85959;
-  margin-bottom: 6px;
 }
 .slider-list .game-item .l-china .china:after {
   content: '';
@@ -987,7 +1010,6 @@ body {
   font-size: 12px;
   line-height: 19px;
   color: #2a90d7;
-  margin-bottom: 6px;
 }
 .slider-list .game-item .l-china .last:after {
   content: '';
@@ -1015,7 +1037,8 @@ body {
 .slider-list .game-item .c-panel .type {
   display: inline-block;
   padding: 0 11px;
-  line-height: 19px;
+  height: 19px;
+  line-height: 20px;
   font-size: 12px;
   color: #fff;
   background: #2a90d7;
@@ -1024,52 +1047,67 @@ body {
 .slider-list .game-item .c-panel .item-name {
   font-size: 14px;
   color: #222;
-  line-height: 14px;
-  margin-top: 14px;
+  line-height: 1.3;
+  margin-top: 7px;
 }
 .slider-list .game-item .c-panel .line {
   margin-top: 9px;
 }
 .slider-list .game-item .c-panel .line .country {
+  display: inline-block;
+  max-width: 48px;
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
   font-size: 12px;
   color: #505050;
-  margin-right: 10px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 .slider-list .game-item .c-panel .line .logo {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
+  margin-right: 5px;
   border: 1px solid #e8e8e8;
   border-radius: 50%;
   background: #f60;
   vertical-align: middle;
 }
 .slider-list .game-item .c-panel .line .vs {
+  vertical-align: middle;
+  display: inline-block;
   font-size: 12px;
   color: #f85959;
-  padding: 0 10px;
-  margin-right: 10px;
-}
-.slider-list .game-item .c-panel .line .num {
-  font-size: 12px;
-  color: #505050;
+  padding: 0 3px;
   margin-right: 5px;
 }
+.slider-list .game-item .c-panel .line .num {
+  display: inline-block;
+  font-size: 12px;
+  color: #505050;
+  margin-right: 2px;
+  vertical-align: middle;
+}
 .slider-list .game-item .c-panel .line .num:nth-child(2) {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .slider-list .game-item .c-panel .line .dou {
+  vertical-align: middle;
+  display: inline-block;
   font-size: 5px;
   color: #505050;
   margin-right: 2px;
 }
 .slider-list .game-item .c-panel .line .name {
-  margin-right: 10px;
+  display: inline-block;
+  margin-right: 5px;
   font-size: 12px;
   color: #2a90d7;
   vertical-align: middle;
 }
 .slider-list .game-item .c-panel .line .desc {
+  display: inline-block;
   font-size: 12px;
   color: #999;
   vertical-align: middle;
