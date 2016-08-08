@@ -2224,7 +2224,7 @@ __p+='';
         url = 'http://aoyun2016.toutiao.com/Olympic2016/' + item.Discipline + 'M/result?UnitCode=' + item.UnitCode ;
 
 __p+='\n<div class="game-item border-bottom">\n    ';
- if(item.ScheduleStatus === 'POSTPONED'){
+ if(item.ScheduleStatus !== 'POSTPONED'){
 __p+='\n    <a href="'+
 ((__t=(url ))==null?'':__t)+
 '">\n    ';
