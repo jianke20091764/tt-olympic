@@ -953,6 +953,11 @@ body {
   background: url(../img/olympic/item_bg.png) center top no-repeat;
   background-size: contain;
 }
+.slider-list .game-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .slider-list .game-item .l-china {
   width: 33px;
   margin-right: 15px;
