@@ -2275,8 +2275,8 @@ return __p;
         isLoading = 1 ;
         $.ajax($.extend({},options || listApi || {},{
             success : function(data){
-                if(data && data.data){
-                    callback && callback(data.data);
+                if(data && data.length){
+                    callback && callback(data);
                 }else{
                     callback && callback(false);
                 }
