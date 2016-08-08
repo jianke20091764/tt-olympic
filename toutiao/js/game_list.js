@@ -2223,13 +2223,13 @@ __p+='';
         item = lists[i];
         url = 'http://aoyun2016.toutiao.com/Olympic2016/' + item.Discipline + 'M/result?UnitCode=' + item.UnitCode ;
 
-__p+='\n<div class="game-item border-bottom">\n    ';
+__p+='\n';
  if(item.ScheduleStatus !== 'POSTPONED'){
-__p+='\n    <a href="'+
+__p+='\n<a href="'+
 ((__t=(url ))==null?'':__t)+
-'">\n    ';
+'">\n';
  }
-__p+='\n    <div class="l-china" data-code="'+
+__p+='\n<div class="game-item border-bottom">\n    <div class="l-china" data-code="'+
 ((__t=(item.UnitCode))==null?'':__t)+
 '">\n        ';
  if(item.IsChina){
@@ -2253,11 +2253,11 @@ __p+='\n        <p class="ing">进行中</p>\n        ';
  } else{
 __p+='\n        <p class="ing">未开始</p>\n        ';
  }
-__p+='\n    </div>\n    ';
+__p+='\n    </div>\n</div>\n';
  if(item.ScheduleStatus === 'POSTPONED'){
-__p+='\n    </a>\n    ';
+__p+='\n</a>\n';
  }
-__p+='\n</div>\n';
+__p+='\n';
   } 
 __p+='';
 }
