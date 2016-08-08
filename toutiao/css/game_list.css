@@ -959,6 +959,12 @@ body {
 .swiper-content .swiper-slide {
   min-height: 400px;
 }
+.slider-list .empty {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 14px;
+  color: #222;
+}
 .slider-list a {
   display: block;
   width: 100%;
@@ -1065,7 +1071,7 @@ body {
 }
 .slider-list .game-item .c-panel .line .country {
   display: inline-block;
-  max-width: 54px;
+  max-width: 58px;
   overflow: hidden;
   white-space: nowrap;
   -ms-text-overflow: ellipsis;
@@ -1080,6 +1086,11 @@ body {
     max-width: 42px;
   }
 }
+@media only screen and (min-device-width: 360px) and (max-device-width: 374px) {
+  .slider-list .game-item .c-panel .line .country {
+    max-width: 50px;
+  }
+}
 @media only screen and (min-device-width: 401px) {
   .slider-list .game-item .c-panel .line .country {
     max-width: 70px;
@@ -1089,7 +1100,6 @@ body {
   width: 18px;
   height: 18px;
   margin-right: 5px;
-  border: 1px solid #e8e8e8;
   border-radius: 50%;
   background: #f60;
   vertical-align: middle;

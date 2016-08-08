@@ -2294,6 +2294,10 @@ __p+='\n</a>\n';
  }
 __p+='\n';
   } 
+__p+='\n';
+ if(!lists || !lists.length){ 
+__p+='\n    <p class="empty">暂无数据</p>\n';
+ } 
 __p+='';
 }
 return __p;
