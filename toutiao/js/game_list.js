@@ -2251,7 +2251,7 @@ __p+='\n    </div>\n    <div class="l-time">'+
             && ((item.CompetitorName1 && item.CompetitorName2)|| (item.OrganisationName1 && item.OrganisationName2))){
         
 __p+='\n        <p class="line">\n            <span class="country">'+
-((__t=(item.CompetitorType==='T' ? item.CompetitorName1 : item.OrganisationName1))==null?'':__t)+
+((__t=(item.CompetitorType ==='A' ? item.CompetitorName1 : item.OrganisationName1 ))==null?'':__t)+
 '</span>\n            <img class="logo" src="http://aoyun2016.toutiao.com/Olympic2016/flags/big/'+
 ((__t=( item.Organisation1))==null?'':__t)+
 '.gif" alt=""/>\n            ';
@@ -2267,7 +2267,7 @@ __p+='\n            <span class="vs">VS</span>\n            ';
 __p+='\n            <img class="logo" src="http://aoyun2016.toutiao.com/Olympic2016/flags/big/'+
 ((__t=( item.Organisation2))==null?'':__t)+
 '.gif" alt=""/>\n            <span class="country">'+
-((__t=(item.CompetitorType==='T' ? item.CompetitorName2 : item.OrganisationName2))==null?'':__t)+
+((__t=(item.CompetitorType==='A' ? item.CompetitorName2 : item.OrganisationName2 ))==null?'':__t)+
 '</span>\n        </p>\n        ';
  } 
 __p+='\n        ';
