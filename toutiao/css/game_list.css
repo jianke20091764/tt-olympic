@@ -738,6 +738,7 @@ body {
   z-index: 1000;
   position: fixed;
   top: 0;
+  left: 0;
   overflow: hidden;
   width: 100%;
   height: 130px;
@@ -745,9 +746,6 @@ body {
   background-size: cover;
 }
 .public_title {
-  z-index: 1000;
-  position: fixed;
-  top: 0;
   overflow: hidden;
   width: 100%;
   height: 44px;
@@ -772,6 +770,7 @@ body {
   display: flex;
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   height: 45px;
   margin: 0 auto;
@@ -844,12 +843,8 @@ body {
   background-image: url(../img/olympic/list_press@3x.png);
 }
 .date-bar {
-  position: fixed;
-  top: 44px;
-  left: 0;
   width: 100%;
   height: 45px;
-  z-index: 1000;
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -918,12 +913,8 @@ body {
   }
 }
 .filter-bar {
-  position: fixed;
-  top: 89px;
-  left: 0;
   width: 100%;
   height: 41px;
-  z-index: 1000;
   text-align: center;
   color: #fff;
 }
