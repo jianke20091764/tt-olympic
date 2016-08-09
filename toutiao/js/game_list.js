@@ -2349,14 +2349,28 @@ return __p;
             medalCachePool = {},
             chinaMedalCachePool = {},
             cacheIndex = {},offsetList = 20,
-            today = dateUtils.format(new Date());
+            todayTime = new Date();
+
 
         var lastIndex = -1,
             currentIndex = -1,
             currentDate,
             isSwitchChange = false,
             isChina = false,
-            isMedal = false;
+            isMedal = false,
+            today = dateUtils.format(todayTime),
+            currentTime,
+            todayIndex = 0;
+        var hour = todayTime.getHours(),minute = todayTime.getMinutes();
+        if(hour < 10){
+            hour = '0' + hour ;
+        }
+
+        if(minute < 10){
+            minute = '0' + minute ;
+        }
+
+        currentTime = hour + ':' + minute ;
 
         $contentWrapper.html(itemLoadTpl({len : $dates.length}));
 
@@ -2385,8 +2399,13 @@ return __p;
             medalCachePool[date] = [];
             chinaMedalCachePool[date] = [];
 
-            $.each(data || [], function(){
+            $.each(data || [], function(index){
                 var item = this ;
+
+                if(!todayIndex && date === today && currentTime <= item.StartTime.substr(0,5)){
+                    todayIndex = index ;
+                    console.log(todayIndex);
+                }
 
                 if(item.IsChina){
                     chinaCachePool[date].push(item);
@@ -2441,16 +2460,43 @@ return __p;
                 },function(data){
                     if(data && data.length > 0){
                         setCache(data,date);
+
+                        var next = cacheIndex[date];
+                        if(date === today){
+                            next = todayIndex ;
+                        }
                         render($allgame.eq(currentIndex),
-                            cachePool[date].slice(cacheIndex[date],
-                                cacheIndex[date] + offsetList),date);
+                            cachePool[date].slice(next,
+                                next + offsetList),date);
+                        if(date === today){
+                            render($allgame.eq(currentIndex),
+                                cachePool[date].slice(0,
+                                    todayIndex),date,false,'before');
+
+                            scrollTop($allgame.eq(currentIndex),todayIndex);
+                        }
                     }
                 });
             }
         };
 
+
+        var scrollTop = function($panel,index){
+            var $items = $panel.find('a'),height = $panel.offset().top - 130;
+
+            $.each($items,function(i){
+                if(i < index){
+                    height += $(this).height();
+                }else{
+                    return false ;
+                }
+            });
+
+            $win.scrollTop(height);
+        };
+
         var $currentItem,mylock = false;
-        var render = function($item,data,date,isClear){
+        var render = function($item,data,date,isClear,pos){
             var method = 'append';
 
             $currentItem = $item ;
@@ -2458,9 +2504,18 @@ return __p;
                 method = 'html' ;
             }
 
-            $item[method](gameListTpl({
-                lists : data
-            }));
+            if(data.length > 0 && pos === 'before'){
+                var $placeholder =  $item.children().eq(0);
+                var $node = $(gameListTpl({
+                    lists : data
+                }));
+
+                $node.insertBefore($placeholder);
+            }else{
+                $item[method](gameListTpl({
+                    lists : data
+                }));
+            }
 
             if(isClear || isSwitchChange){
                 $win.scrollTop(0);
