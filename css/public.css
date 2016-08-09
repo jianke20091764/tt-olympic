@@ -34,7 +34,7 @@ body{min-width:320px; font-family:"Microsoft YaHei", "Arial Black"; background-c
 main{ width: 16rem; margin: 0 auto; background: #fff;}
 .ath{ background: #fff;}
 /*----奥运会整站页底菜单----*/
-.menu_footer{ position:fixed; bottom: 0; width: 16rem; height: 45px; margin: 0 auto; box-sizing:border-box; background-color: #ffffff;border-top: 1px solid #d8d8d8;}
+.menu_footer{ position:fixed; bottom: 0; width: 16rem; height: 45px; margin: 0 auto; box-sizing:border-box; background-color: #ffffff;}
 .menu_footer:after{
     position: absolute;
     content: '';
