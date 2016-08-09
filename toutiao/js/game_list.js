@@ -2404,7 +2404,6 @@ return __p;
 
                 if(!todayIndex && date === today && currentTime <= item.StartTime.substr(0,5)){
                     todayIndex = index ;
-                    console.log(todayIndex);
                 }
 
                 if(item.IsChina){
@@ -2565,11 +2564,27 @@ return __p;
             }else if(isMedal && !isChina){
                 data = medalCachePool[currentDate];
             }else{
-                isClear = false ;
                 cacheIndex[currentDate] = 0 ;
-                data = cachePool[currentDate].slice(cacheIndex[currentDate],
-                    cacheIndex[currentDate] + offsetList);
-                render($currentItem,data,currentDate);
+
+                var date = currentDate ;
+                var next = cacheIndex[date];
+                if(date === today){
+                    next = todayIndex ;
+                }
+
+                render($currentItem,
+                    cachePool[date].slice(next,
+                        next + offsetList),date,isClear);
+
+                if(date === today){
+                    render($currentItem,
+                        cachePool[date].slice(0,
+                            todayIndex),date,false,'before');
+
+                    scrollTop($allgame.eq(currentIndex),todayIndex);
+                }
+
+                return ;
             }
 
             render($currentItem,data,currentDate,isClear);
