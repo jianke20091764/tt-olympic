@@ -777,6 +777,7 @@ body {
   box-sizing: border-box;
   background: #fff;
   z-index: 1000;
+  display: none;
 }
 .menu_footer:after {
   position: absolute;
