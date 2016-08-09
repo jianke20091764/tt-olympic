@@ -192,7 +192,7 @@
     font: .7rem/1.5rem 'Microsoft YaHei'; color: #00a1ec;
 }
 .country_title span:nth-child(1){
-   margin: 0 0.8rem 0 .75rem;
+   margin: 0 1.5rem 0 .75rem;
 }
 .country_title span:nth-child(2){
     margin: 0 2.55rem 0 0;

@@ -770,18 +770,20 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
 
 /***************射箭个人页面*******************/
 .archer_person{ overflow: hidden; width: 16rem; margin: 0 auto; border-top: 2px solid #00a1ec}
-.archer_person_l{ float: left; overflow: hidden; width: 6rem; height: 5.75rem; margin: .8rem 0 0 1.15rem; border-radius: .25rem;}
-.archer_person_l img{  width: 6rem; height: 5.75rem; border-radius: .25rem}
+.archer_person_l{ float: left; overflow: hidden; width: 6rem; height: 5.75rem; margin: 24px 0 0 15px; border-radius: 0rem;}
+.archer_person_l img{  width: 6rem; height: 5.75rem; border-radius: 0rem}
 
 .archer_person_r{
    float: left;
-   margin-left: .25rem;
-   margin-top: .7rem;
+   /*margin-left: .25rem;*/
+   margin-top: 24px;
 }
 .archer_person_r dt{
    float: left;
-   width: 1.1rem;
-   height: 1.1rem;
+   /*width: 1.1rem;*/
+   /*height: 1.1rem;*/
+   width:1.5rem;
+   height:1.5rem;
 }
 .archer_person_r dd{
    width: 6.9rem;
@@ -791,16 +793,21 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
 .archer_person_r dd p{
    overflow: hidden;
    width: 6.9rem;
-   height: .6rem;
-   font: .45rem/.6rem 'Microsoft YaHei'; color: #000;
+   height: .8rem;
+   font: .55rem/.8rem 'Microsoft YaHei'; color: #222;
+   /*font-size: 11px;*/
+   /*line-height: 17px;*/
+}
+.archer_person_r dd p:nth-child(1){
+   font-size: 0.7rem;
 }
 
 .archer_person_r li{
    overflow: hidden;
    width: 8.2rem;
    height: 1.2rem;
-   margin-left: .4rem;
-   font: .45rem/1.2rem 'Microsoft YaHei'; color: #000;
+   margin-left: .1rem;
+   font: .55rem/1.2rem 'Microsoft YaHei'; color: #222;
 }
 .archer_person_r li span:nth-child(1){
    overflow: hidden;
@@ -808,7 +815,7 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
    display: block;
    width: 4rem;
    height: 1.2rem;
-   font: .45rem/1.2rem 'Microsoft YaHei'; color: #000;
+   font: .55rem/1.2rem 'Microsoft YaHei'; color: #222;
 }
 .archer_person_r li span:nth-child(2){
    overflow: hidden;
@@ -816,12 +823,12 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
    display: block;
    width: 4.2rem;
    height: 1.2rem;
-   font: .45rem/1.2rem 'Microsoft YaHei'; color: #000;
+   font: .55rem/1.2rem 'Microsoft YaHei'; color: #222;
 }
 .archer_person_article{
    width: 14.1rem;
    padding: .8rem .75rem 0 1.15rem ;
-   font: .45rem/.6rem 'Microsoft YaHei'; color: #666;
+   font: .55rem/.6rem 'Microsoft YaHei'; color: #666;
 }
 .person_scores{
    overflow: hidden;
@@ -1371,10 +1378,11 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
 .archer_person2{
    overflow: hidden;
    background: #fff;
-   border-bottom: 1px solid #cacaca;
-   border-top: 1px solid #cacaca;
+   border-bottom: 1px solid #e8e8e8;
+   /*border-top: 1px solid #cacaca;*/
+   border-top: none;
    padding-bottom: 1.7rem;
-   margin-top: .2rem;
+   /*margin-top: .2rem;*/
 }
 .Basketball_Person{
    overflow: hidden;
@@ -1478,7 +1486,7 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
 }
 
 /**************篮球国家队****************/
-.basketball_line{width: 16rem;height: 2px; background: #0082be;}
+.basketball_line{width: 16rem;height: 0px; background: #0082be;}
 .basketball_country{
    overflow: hidden;
    background: #fff;
@@ -1728,8 +1736,8 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
    margin-top: 1.4rem;
 }
 .basketball_going_01 dt img{
-   width: 1.1rem;
-   height: 1.1rem;
+   width: 2rem;
+   height: 2rem;
    margin: 0 auto;
    border-radius: 50%;
 }
@@ -1772,7 +1780,8 @@ main{ width: 16rem; margin: 0 auto; background: #f0f9ff;}
    margin-top: .2rem;
 }
 .Judo_dl04_dd span{
-   font: .6rem/1.6rem 'Microsoft YaHei';
+   font: .6rem/1rem 'Microsoft YaHei'!important;
+   vertical-align: middle;
    color: #00a1ec;
 }
 
@@ -1916,7 +1925,7 @@ a{
 .fuzaPic dl{
    width: 3.3rem;
    height: 1.75rem;
-   border: 1px solid #e8e8e8;
+   border: 1px solid #d8d8d8;
    background: #fff;
    margin-bottom: 2.45rem;
 }
@@ -2086,15 +2095,15 @@ a{
 .line_bas01 span:nth-child(1){
    float: right;
    width: .55rem;
-   height: 0.05rem;
-   margin-left:0.05rem;
+   height: 1px;
+   margin-left:2px;
 }
 .line_bas01 span:nth-child(2) {
    float: right;
-   width: 0.05rem;
+   width: 1px;
    height: 1.19rem;
-   margin-top: -0.05rem;
-   margin-bottom: 0.05rem;
+   /*margin-top: -2px;*/
+   /*margin-bottom: 2px;*/
 }
 .line_bas02{
    position: absolute;
@@ -2105,15 +2114,15 @@ a{
 }
 .line_bas02 span:nth-child(1){
    float: right;
-  width: 0.05rem;
+  width: 1px;
    height: 1.19rem;
    margin-top: 0.01rem;
 }
 .line_bas02 span:nth-child(2) {
    float: right;
    width: .55rem;
-   height: 0.05rem;
-   margin-top: -0.05rem;
+   height: 1px;
+   /*margin-top: -0.05rem;*/
    margin-left: 0.05rem;
 }
 .line_bas03{
@@ -2131,7 +2140,7 @@ a{
 }
 .line_bas05 span:nth-child(1){
    float: left;
-   width: 0.05rem;
+   width: 1px;
    height: 1.55rem;
 }
 .line_bas06{
@@ -2143,7 +2152,7 @@ a{
 }
 .line_bas06 span:nth-child(1){
    float: left;
-   width: 0.05rem;
+   width: 1px;
    height: 5.1rem;
 }
 .line_bas07{
@@ -2155,8 +2164,8 @@ a{
 }
 .line_bas07 span:nth-child(1){
    float: left;
-   width: 0.6rem;
-   height: 0.05rem;
+   width: 0.55rem;
+   height: 1px;
 }
 .line_bas08{
    left: 10.15rem;
@@ -2175,12 +2184,12 @@ a{
 .line_bas10 span:nth-child(1){
    float: left;
    width: .55rem;
-   height: 0.05rem;
+   height: 1px;
    margin-right: 0.05rem;
 }
 .line_bas10 span:nth-child(2) {
    float: left;
-   width: 0.05rem;
+   width: 1px;
    height: 1.15rem;
    /*margin-top: -0.05rem;*/
 }
@@ -2193,15 +2202,15 @@ a{
 }
 .line_bas11 span:nth-child(1){
    float: left;
-   width: 0.05rem;
+   width: 1px;
    height: 1.2rem;
 }
 .line_bas11 span:nth-child(2) {
    float: left;
    width: 0.55rem;
    margin-right:0.05rem;
-   height: 0.05rem;
-   margin-top: -0.05rem;
+   height: 1px;
+   /*margin-top: -0.05rem;*/
 }
 
 .line_bas12{

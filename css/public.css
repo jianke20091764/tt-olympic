@@ -70,7 +70,7 @@ main{ width: 16rem; margin: 0 auto; background: #fff;}
 
 
 /***************共用的头部**************/
-.public_title{ z-index: 2000;position: fixed; top: 0; overflow: hidden; width: 16rem; height:44px; background: #004B88;text-align: center;line-height:44px;}
+.public_title{ z-index: 2000;position: fixed; top: 0; overflow: hidden; width: 16rem; height:44px; background: #004B88;text-align: center;}
 .public_title a{ position: absolute; left: .75rem; top: .65rem;  float: left; display: block;
     width: 2.8rem;
     height: .9rem;
@@ -322,7 +322,7 @@ main{ width: 16rem; margin: 0 auto; background: #fff;}
     height: 1.5rem;
     background: #19b6ff;
     color: #fd0 !important;
-    font: .6rem/1.5rem 'monospace';
+    font: .6rem/1.5rem 'monospace'!important;
     text-align: center;
 }
 .ath_section .ath_section_hover{
@@ -461,9 +461,10 @@ main{ width: 16rem; margin: 0 auto; background: #fff;}
     position: relative;
     padding: .3rem 0 .2rem 0;
     font: .7rem/1.2rem 'Microsoft YaHei';
-    color: #f26b1a;
+    color: #505050!important;
     text-align: center;
     line-height: 1.2rem;
+    background-color: #f4f5f6;
 }
 .ball_title{
     overflow: hidden;

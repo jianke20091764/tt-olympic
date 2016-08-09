@@ -888,7 +888,13 @@ a{
 {
    font: 1.2rem/2rem 'Microsoft YaHei';
    color: #19b6ff;
-   margin-right: .45rem;
+   /*margin-right: .45rem;*/
+}
+.boy3000 p span:nth-child(3)
+{
+   font: 0.6rem/2rem 'Microsoft YaHei'!important;
+   color: #999!important;
+   margin-right:0!important;
 }
 .boy3000 p em
 {
