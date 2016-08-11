@@ -13,6 +13,10 @@
     <script src="//s3.pstatp.com/inapp/toutiao.js"></script>
     <script>
     try{
+        var __ua__ = navigator.userAgent.toLowerCase();
+        if(/ipad/i.test(__ua__)){
+            return ;
+        }
         ToutiaoJSBridge.call("backButton",{
             icon  : "back_arrow",
             color : "white",
