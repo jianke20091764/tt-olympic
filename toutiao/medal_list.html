@@ -45,14 +45,14 @@
         <script>
     try{
         var __ua__ = navigator.userAgent.toLowerCase();
-        if(/ipad/i.test(__ua__)){
-            return ;
+        if(!/ipad/i.test(__ua__)){
+            ToutiaoJSBridge.call("backButton",{
+                icon  : "back_arrow",
+                color : "white",
+                position : "top_left"
+            });
         }
-        ToutiaoJSBridge.call("backButton",{
-            icon  : "back_arrow",
-            color : "white",
-            position : "top_left"
-        })
+
     }catch(e){
 
     }
