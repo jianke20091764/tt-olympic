@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-dns-prefetch-control" content="on" />
+    <link rel="dns-prefetch" href="http://s3.pstatp.com/" />
+    <link rel="dns-prefetch" href="http://s2.pstatp.com/" />
+    <link rel="dns-prefetch" href="http://s0.pstatp.com" />
+    <link rel="dns-prefetch" href="http://p1.pstatp.com/" />
+    <link rel="dns-prefetch" href="http://p3.pstatp.com/" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta content="" name="description"/>
+    <meta content="" name="keyword"/>
+    <title>国家奖牌榜</title>
+    <link rel="stylesheet" type="text/css" href="//s3.pstatp.com/toutiao/resource/olympics/static/css/olympic/nation_medal.css">
+</head>
+<body>
+<div class="head-content">
+    <div class="bnr"><h1 class="title"><span id="nation">-</span>奖牌榜
+    </h1><!--<div class="title-share"  id="share" style="display: none" ></div>-->
+        <div class="latest flex-box">
+            <div class="ic-flag" id="flag"></div>
+            <p class="rank flex-item">奖牌榜排名第<span id="rank-num">-</span></p>
+            <div class="cur-time">截止<span id="now">今天</span></div>
+        </div>
+        <div class="flex-box medal" id="nation-medal">
+            <div class="flex-item"><em class="ic ic-gold">-</em></div>
+            <div class="flex-item"><em class="ic ic-silver">-</em></div>
+            <div class="flex-item"><em class="ic ic-copper">-</em></div>
+            <div class="medal-total"><em class="ic ic-total">-</em></div>
+        </div>
+    </div>
+</div>
+<div class="category-container " id="event-list">
+    <div class="loading" item="loading"><span class="text">正在加载</span><i class="ic">..</i></div>
+</div>
+<script type="text/javascript" src="//s3.pstatp.com/toutiao/resource/olympics/static/js/olympic_game/nation_medal.js_v=081702"
+        crossorigin="anonymous"></script>
+<script src="//s3.pstatp.com/inapp/log/combine.js" crossorigin="anonymous"></script>
+<script src="//s3.pstatp.com/inapp/toutiao.js" crossorigin="anonymous"></script>
+<script>
+    try {
+        ToutiaoJSBridge.call("backButton", {
+            icon: "back_arrow",
+            color: "white",
+            position: "top_left"
+        })
+    } catch (e) {
+
+    }
+</script>
+</body>
+</html>
